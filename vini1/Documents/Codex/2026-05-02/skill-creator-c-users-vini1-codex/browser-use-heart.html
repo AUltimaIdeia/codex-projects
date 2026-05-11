@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coração - Browser Use</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, sans-serif;
+      background: #fff7f8;
+      color: #271014;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+
+    main {
+      text-align: center;
+    }
+
+    .heart {
+      width: 260px;
+      height: 260px;
+      position: relative;
+      margin: 0 auto 42px;
+      transform: rotate(-45deg);
+      background: linear-gradient(135deg, #ff2f5f, #c60032);
+      border-radius: 28px;
+      box-shadow: 0 30px 70px rgba(198, 0, 50, 0.28);
+      animation: pulse 1.4s ease-in-out infinite;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: inherit;
+    }
+
+    .heart::before {
+      top: -130px;
+      left: 0;
+    }
+
+    .heart::after {
+      top: 0;
+      left: 130px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 10px 0 0;
+      font-size: 18px;
+      color: #72505a;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: rotate(-45deg) scale(1);
+      }
+      50% {
+        transform: rotate(-45deg) scale(1.08);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main aria-label="Desenho de coração criado com Browser Use">
+    <div class="heart" role="img" aria-label="Coração vermelho animado"></div>
+    <h1>Coração desenhado com Browser Use</h1>
+    <p>Arquivo local aberto no navegador interno.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>B. Living - Checkpoint Visual Premium V2</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Montserrat:wght@400;500;600;700&display=swap");
+
+      :root {
+        --navy: oklch(16.5% 0.048 245);
+        --deep: oklch(10% 0.032 250);
+        --night: oklch(7.5% 0.026 248);
+        --soft: oklch(22% 0.048 240);
+        --petrol: oklch(32% 0.05 205);
+        --petrol-dark: oklch(18% 0.038 208);
+        --graphite: oklch(23% 0.014 238);
+        --paper: oklch(92% 0.015 82);
+        --paper-soft: oklch(84% 0.018 82);
+        --paper-dim: oklch(66% 0.018 82);
+        --brass: oklch(68% 0.055 78);
+        --brass-soft: oklch(76% 0.045 80);
+        --line: oklch(76% 0.045 80 / 0.34);
+        --line-paper: oklch(92% 0.015 82 / 0.16);
+        --display: "Bodoni Moda", "Bodoni 72", Didot, "Bodoni MT", Georgia, serif;
+        --sans: Montserrat, "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: 3840px;
+        height: 2160px;
+        overflow: hidden;
+        background: var(--night);
+        color: var(--paper);
+      }
+
+      body {
+        font-family: var(--sans);
+      }
+
+      .board {
+        position: relative;
+        width: 3840px;
+        height: 2160px;
+        padding: 84px 92px 76px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 18% 82%, oklch(42% 0.055 205 / 0.22), transparent 30%),
+          radial-gradient(circle at 78% 16%, oklch(68% 0.055 78 / 0.16), transparent 22%),
+          linear-gradient(128deg, var(--night), var(--deep) 42%, oklch(15% 0.048 230) 100%);
+      }
+
+      .board::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, oklch(92% 0.015 82 / 0.032) 1px, transparent 1px),
+          linear-gradient(0deg, oklch(92% 0.015 82 / 0.024) 1px, transparent 1px);
+        background-size: 192px 192px;
+        mask-image: linear-gradient(120deg, black 0%, transparent 62%);
+        pointer-events: none;
+      }
+
+      .board::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, oklch(0% 0 0 / 0.36), transparent 28%, transparent 72%, oklch(0% 0 0 / 0.26)),
+          radial-gradient(circle at 50% 50%, transparent, oklch(0% 0 0 / 0.32));
+        pointer-events: none;
+      }
+
+      .topbar {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 80px;
+        align-items: start;
+        margin-bottom: 46px;
+      }
+
+      .eyebrow {
+        color: var(--brass-soft);
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        line-height: 1.25;
+        text-transform: uppercase;
+      }
+
+      .top-title {
+        max-width: 1850px;
+        margin: 22px 0 0;
+        font-family: var(--display);
+        font-size: 98px;
+        font-weight: 400;
+        line-height: 0.96;
+        letter-spacing: 0.035em;
+        text-transform: uppercase;
+      }
+
+      .top-note {
+        max-width: 1040px;
+        margin: 26px 0 0;
+        color: var(--paper-soft);
+        font-size: 27px;
+        line-height: 1.36;
+      }
+
+      .brand {
+        width: 410px;
+        height: auto;
+        margin-top: 10px;
+      }
+
+      .stage {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1.08fr 0.9fr 1.08fr;
+        grid-template-rows: 464px 430px 448px;
+        gap: 26px;
+        height: 1394px;
+      }
+
+      .scene {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid var(--line-paper);
+        background: var(--deep);
+        box-shadow: inset 0 0 0 1px oklch(0% 0 0 / 0.24);
+        isolation: isolate;
+      }
+
+      .scene::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        background-image: var(--bg);
+        background-size: cover;
+        background-position: center;
+        filter: saturate(0.88) contrast(1.12) brightness(0.66);
+        transform: scale(1.03);
+      }
+
+      .scene::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: var(--overlay, linear-gradient(90deg, oklch(7.5% 0.026 248 / 0.86), oklch(7.5% 0.026 248 / 0.18)));
+      }
+
+      .scene-inner {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        padding: 46px 50px;
+      }
+
+      .scene .num {
+        color: var(--brass-soft);
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+      }
+
+      .scene .label {
+        margin-left: 12px;
+        color: var(--paper-soft);
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+      }
+
+      .scene h2 {
+        margin: 30px 0 0;
+        color: var(--paper);
+        font-family: var(--display);
+        font-size: var(--title-size, 78px);
+        font-weight: 400;
+        line-height: var(--title-line, 0.94);
+        letter-spacing: 0.035em;
+        text-transform: uppercase;
+      }
+
+      .scene p {
+        margin: 24px 0 0;
+        max-width: 620px;
+        color: var(--paper-soft);
+        font-size: 22px;
+        line-height: 1.36;
+      }
+
+      .rule {
+        width: 128px;
+        height: 1px;
+        margin-top: 34px;
+        background: var(--brass);
+      }
+
+      .scene-cover {
+        grid-row: 1 / span 3;
+        --bg: url("../../06-Imagens/referencias-aprovadas-chatgpt/01-aprovadas/F84E7766-D93D-4439-BC55-A94EA61259A0.png");
+        --overlay: linear-gradient(90deg, oklch(7.5% 0.026 248 / 0.82), oklch(7.5% 0.026 248 / 0.42) 54%, oklch(7.5% 0.026 248 / 0.14));
+        --title-size: 76px;
+      }
+
+      .scene-cover .scene-inner {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .scene-cover .logo-main {
+        width: 340px;
+        margin-top: auto;
+      }
+
+      .scene-manifesto {
+        background:
+          radial-gradient(circle at 78% 22%, oklch(42% 0.055 205 / 0.26), transparent 28%),
+          linear-gradient(135deg, var(--deep), var(--navy));
+      }
+
+      .scene-manifesto::before {
+        background-image:
+          linear-gradient(90deg, oklch(92% 0.015 82 / 0.05) 1px, transparent 1px),
+          linear-gradient(0deg, oklch(92% 0.015 82 / 0.035) 1px, transparent 1px);
+        background-size: 96px 96px;
+        filter: none;
+      }
+
+      .scene-manifesto::after {
+        background: linear-gradient(135deg, oklch(7.5% 0.026 248 / 0.72), transparent);
+      }
+
+      .scene-manifesto .scene-inner {
+        display: grid;
+        align-content: center;
+        padding: 58px 66px;
+      }
+
+      .scene-manifesto h2 {
+        max-width: 920px;
+        font-size: 86px;
+      }
+
+      .scene-promise {
+        --bg: url("../../06-Imagens/referencias-aprovadas-chatgpt/01-aprovadas/4BFD3AF2-2B7E-4087-9BD8-C4B9FD8B816B.png");
+        --overlay: linear-gradient(90deg, oklch(92% 0.015 82 / 0.94), oklch(92% 0.015 82 / 0.72) 52%, oklch(92% 0.015 82 / 0.1));
+        background: var(--paper);
+      }
+
+      .scene-promise .num,
+      .scene-promise .label,
+      .scene-promise p {
+        color: var(--graphite);
+      }
+
+      .scene-promise h2 {
+        max-width: 760px;
+        color: var(--navy);
+        font-size: 62px;
+      }
+
+      .scene-structure {
+        --bg: url("../../06-Imagens/referencias-aprovadas-chatgpt/01-aprovadas/93C7EE3A-DA4C-4C69-AE00-875FADF5303B.png");
+        --overlay: linear-gradient(90deg, oklch(18% 0.038 208 / 0.9), oklch(18% 0.038 208 / 0.42));
+        background: var(--petrol-dark);
+      }
+
+      .scene-thesis {
+        --bg: url("../../06-Imagens/referencias-aprovadas-chatgpt/01-aprovadas/ABA0948F-0138-462B-8540-EBA8398C62DC.png");
+        --overlay: linear-gradient(90deg, oklch(7.5% 0.026 248 / 0.92), oklch(7.5% 0.026 248 / 0.54) 48%, oklch(7.5% 0.026 248 / 0.22));
+      }
+
+      .scene-thesis h2 {
+        max-width: 760px;
+        font-size: 56px;
+      }
+
+      .scene-closing {
+        grid-column: 2 / span 2;
+        --bg: url("../../06-Imagens/referencias-aprovadas-chatgpt/01-aprovadas/1E2BE46F-9DC4-41AE-BB15-086708F9E0E9.png");
+        --overlay: linear-gradient(90deg, oklch(7.5% 0.026 248 / 0.92), oklch(7.5% 0.026 248 / 0.62), oklch(7.5% 0.026 248 / 0.28));
+      }
+
+      .scene-closing .scene-inner {
+        display: grid;
+        grid-template-columns: 0.34fr 1.1fr 0.72fr;
+        gap: 44px;
+        align-items: center;
+      }
+
+      .scene-closing .logo-compact {
+        width: 120px;
+      }
+
+      .scene-closing h2 {
+        margin: 0;
+        max-width: 930px;
+        font-size: 78px;
+      }
+
+      .scene-closing p {
+        max-width: 560px;
+        margin: 0;
+      }
+
+      .map-layer {
+        position: absolute;
+        inset: 42px;
+        border: 1px solid oklch(76% 0.045 80 / 0.22);
+        pointer-events: none;
+      }
+
+      .map-layer::before,
+      .map-layer::after {
+        content: "";
+        position: absolute;
+        background: var(--line);
+      }
+
+      .map-layer::before {
+        width: 58%;
+        height: 1px;
+        left: 12%;
+        top: 58%;
+        transform: rotate(-19deg);
+        transform-origin: left center;
+      }
+
+      .map-layer::after {
+        width: 1px;
+        height: 64%;
+        right: 18%;
+        top: 14%;
+      }
+
+      .dots {
+        position: absolute;
+        right: 52px;
+        bottom: 46px;
+        display: grid;
+        grid-template-columns: repeat(5, 8px);
+        gap: 18px;
+      }
+
+      .dots i {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--brass);
+      }
+
+      .caption-line {
+        position: absolute;
+        left: 92px;
+        right: 92px;
+        bottom: 36px;
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 40px;
+        border-top: 1px solid var(--line);
+        padding-top: 22px;
+        color: var(--paper-dim);
+        font-size: 20px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="board">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">Checkpoint visual da abertura premium</div>
+          <h1 class="top-title">Abertura como mesa de decisao.</h1>
+          <p class="top-note">Uma prancha sensorial para validar atmosfera, ritmo e presenca: materialidade, cidade em camadas, mapas abstratos, tipografia monumental e quiet authority.</p>
+        </div>
+        <img class="brand" src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" alt="B. Living Floripa" />
+      </header>
+
+      <section class="stage">
+        <article class="scene scene-cover">
+          <div class="map-layer"></div>
+          <div class="scene-inner">
+            <div><span class="num">01</span><span class="label">Origem / Capa</span></div>
+            <h2>CURADORIA PARA DECISOES IMOBILIARIAS DE ALTO PADRAO.</h2>
+            <div class="rule"></div>
+            <p>Materialidade, criterio e presenca. A marca abre como autoridade silenciosa, nao como vitrine.</p>
+            <img class="logo-main" src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" alt="B. Living Floripa" />
+          </div>
+        </article>
+
+        <article class="scene scene-manifesto">
+          <div class="map-layer"></div>
+          <div class="scene-inner">
+            <div><span class="num">02</span><span class="label">Manifesto</span></div>
+            <h2>ANTES DO IMOVEL, VEM A DECISAO.</h2>
+          </div>
+        </article>
+
+        <article class="scene scene-promise">
+          <div class="scene-inner">
+            <div><span class="num">03</span><span class="label">Promessa</span></div>
+            <h2>DA PERCEPCAO DESEJADA AO SISTEMA QUE PODE SER USADO.</h2>
+            <div class="rule"></div>
+            <p>Uma pausa off-white para leitura institucional e contraste visual.</p>
+          </div>
+        </article>
+
+        <article class="scene scene-structure">
+          <div class="map-layer"></div>
+          <div class="scene-inner">
+            <div><span class="num">04</span><span class="label">Estrutura</span></div>
+            <h2>UM BRANDBOOK PARA CONVENCER, ORIENTAR E GOVERNAR.</h2>
+            <p>O sistema aparece como mapa, nao como painel frio.</p>
+          </div>
+          <div class="dots"><i></i><i></i><i></i><i></i><i></i></div>
+        </article>
+
+        <article class="scene scene-thesis">
+          <div class="map-layer"></div>
+          <div class="scene-inner">
+            <div><span class="num">05</span><span class="label">Tese</span></div>
+            <h2>A MARCA DEVE PROVAR CRITERIO ANTES DE MOSTRAR PRODUTO.</h2>
+            <div class="rule"></div>
+            <p>Rafael e equipe abrem a confianca. Construtoras, territorio e imoveis entram como consequencia da leitura.</p>
+          </div>
+        </article>
+
+        <article class="scene scene-closing">
+          <div class="scene-inner">
+            <img class="logo-compact" src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg" alt="B. Living assinatura compacta" />
+            <h2>ESCOLHA BEM CONDUZIDA.</h2>
+            <p>A abertura fecha com a promessa central: menos ruido, mais leitura. Menos oferta isolada, mais decisao bem acompanhada.</p>
+          </div>
+        </article>
+      </section>
+
+      <div class="caption-line">
+        <span>B. Living Brandbook Completo / Abertura premium / Direcao visual v2</span>
+        <span>Quiet authority / Sensorial / Editorial / Institucional</span>
+      </div>
+    </main>
+  </body>
+</html>

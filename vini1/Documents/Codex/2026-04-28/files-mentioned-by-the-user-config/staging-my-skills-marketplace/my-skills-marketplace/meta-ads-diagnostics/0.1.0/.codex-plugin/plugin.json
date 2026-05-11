@@ -1,0 +1,45 @@
+{
+  "name": "meta-ads-diagnostics",
+  "version": "0.1.0",
+  "description": "Read-only Meta Ads diagnostics plugin for Codex with local MCP tools for account inspection, campaign reporting, and performance triage.",
+  "author": {
+    "name": "Hyren",
+    "email": "ops@hyren.ai",
+    "url": "https://hyren.ai"
+  },
+  "homepage": "https://developers.facebook.com/docs/marketing-apis/",
+  "repository": "https://developers.facebook.com/docs/marketing-apis/",
+  "license": "MIT",
+  "keywords": [
+    "meta-ads",
+    "marketing-api",
+    "diagnostics",
+    "reports",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Meta Ads Diagnostics",
+    "shortDescription": "Read-only Meta Ads reporting and diagnosis.",
+    "longDescription": "Connects Codex to Meta Ads through a local MCP server for read-only account inspection, campaign insights, and diagnostic summaries. The MVP intentionally excludes write actions such as budget updates, pausing entities, or campaign creation.",
+    "developerName": "Hyren",
+    "category": "Marketing",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://developers.facebook.com/docs/marketing-apis/",
+    "privacyPolicyURL": "https://www.facebook.com/privacy/policy/",
+    "termsOfServiceURL": "https://developers.facebook.com/terms/",
+    "defaultPrompt": [
+      "Validate my Meta Ads connection and list the ad accounts available to this token.",
+      "Analyze campaign performance for this ad account and summarize the main diagnostic signals.",
+      "Fetch account insights for the last 30 days and highlight spend, CTR, CPC, CPM, and signs of delivery issues."
+    ],
+    "brandColor": "#1877F2",
+    "composerIcon": "",
+    "logo": "",
+    "screenshots": []
+  }
+}

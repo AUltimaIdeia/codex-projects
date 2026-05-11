@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kit Visual B. Living Floripa</title>
+  <style>
+    :root {
+      --navy: oklch(20% 0.045 255);
+      --navy-2: oklch(25% 0.05 250);
+      --ink: oklch(16% 0.015 245);
+      --stone: oklch(63% 0.018 238);
+      --paper: oklch(93% 0.018 82);
+      --paper-soft: oklch(88% 0.022 85);
+      --petrol: oklch(45% 0.045 210);
+      --sage: oklch(55% 0.038 155);
+      --brass: oklch(66% 0.055 82);
+      --line: oklch(84% 0.016 88 / 0.26);
+      --muted: oklch(77% 0.018 85);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 3840px;
+      height: 2160px;
+      margin: 0;
+      overflow: hidden;
+      background: var(--navy);
+      color: var(--paper);
+    }
+
+    body {
+      font-family: Aptos, "Segoe UI", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: geometricPrecision;
+    }
+
+    .board {
+      position: relative;
+      width: 3840px;
+      height: 2160px;
+      padding: 150px 170px;
+      background:
+        linear-gradient(90deg, oklch(92% 0.016 83 / 0.055) 1px, transparent 1px) 0 0 / 120px 120px,
+        linear-gradient(0deg, oklch(92% 0.016 83 / 0.045) 1px, transparent 1px) 0 0 / 120px 120px,
+        radial-gradient(circle at 12% 18%, oklch(31% 0.045 232 / 0.42), transparent 34%),
+        linear-gradient(135deg, var(--navy), oklch(17% 0.033 248) 64%, oklch(15% 0.02 235));
+    }
+
+    .board::before {
+      content: "";
+      position: absolute;
+      inset: 72px;
+      border: 1px solid oklch(88% 0.016 82 / 0.18);
+      pointer-events: none;
+    }
+
+    .board::after {
+      content: "";
+      position: absolute;
+      left: 170px;
+      right: 170px;
+      top: 150px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--brass), transparent 72%);
+      opacity: 0.72;
+    }
+
+    .layout {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1.05fr 0.92fr 0.92fr;
+      grid-template-rows: 530px 600px 530px;
+      gap: 64px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .section {
+      min-width: 0;
+      position: relative;
+    }
+
+    .brand {
+      grid-column: 1 / 3;
+      grid-row: 1;
+      align-self: end;
+      padding: 24px 0 0;
+    }
+
+    .eyebrow {
+      margin: 0 0 46px;
+      color: var(--brass);
+      font-size: 34px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .brand h1 {
+      margin: 0;
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 190px;
+      font-weight: 400;
+      line-height: 0.92;
+      letter-spacing: 0;
+    }
+
+    .brand .tagline {
+      max-width: 1290px;
+      margin: 54px 0 0;
+      color: var(--paper-soft);
+      font-size: 58px;
+      font-weight: 350;
+      line-height: 1.14;
+    }
+
+    .palette {
+      grid-column: 3;
+      grid-row: 1;
+      align-self: end;
+      padding-top: 108px;
+    }
+
+    .label {
+      margin: 0 0 30px;
+      color: var(--muted);
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .swatches {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      height: 320px;
+      border: 1px solid var(--line);
+    }
+
+    .swatch {
+      display: flex;
+      align-items: end;
+      padding: 22px;
+      color: var(--paper);
+      font-size: 24px;
+      line-height: 1.1;
+      border-right: 1px solid oklch(92% 0.016 83 / 0.18);
+    }
+
+    .swatch:last-child {
+      border-right: 0;
+    }
+
+    .s1 { background: var(--navy); }
+    .s2 { background: var(--paper); color: var(--ink); }
+    .s3 { background: oklch(33% 0.014 235); }
+    .s4 { background: var(--petrol); }
+    .s5 { background: var(--brass); color: var(--ink); }
+
+    .type {
+      grid-column: 1;
+      grid-row: 2;
+      padding-top: 20px;
+    }
+
+    .type h2 {
+      max-width: 1060px;
+      margin: 0 0 42px;
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 128px;
+      font-weight: 400;
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    .type p {
+      max-width: 930px;
+      margin: 0 0 42px;
+      color: var(--paper-soft);
+      font-size: 38px;
+      font-weight: 350;
+      line-height: 1.35;
+    }
+
+    .micro-lines {
+      display: grid;
+      gap: 16px;
+      max-width: 900px;
+      margin-top: 46px;
+      color: var(--muted);
+      font-size: 30px;
+      line-height: 1.25;
+    }
+
+    .content {
+      grid-column: 2 / 4;
+      grid-row: 2;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 58px;
+      padding-top: 20px;
+    }
+
+    .mockups {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px;
+      align-items: end;
+    }
+
+    .mock {
+      min-height: 520px;
+      padding: 30px;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, oklch(92% 0.016 83 / 0.075), transparent 42%),
+        oklch(19% 0.031 248 / 0.88);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .mock:nth-child(2) {
+      transform: translateY(-34px);
+      background:
+        linear-gradient(180deg, oklch(58% 0.045 210 / 0.28), transparent 48%),
+        oklch(18% 0.03 248 / 0.9);
+    }
+
+    .mock:nth-child(3) {
+      transform: translateY(28px);
+      background:
+        linear-gradient(180deg, oklch(62% 0.04 155 / 0.22), transparent 48%),
+        oklch(18% 0.03 248 / 0.9);
+    }
+
+    .mock-kicker {
+      color: var(--brass);
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .mock-title {
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 44px;
+      line-height: 1.02;
+    }
+
+    .mock-rule {
+      width: 72px;
+      height: 2px;
+      background: var(--brass);
+    }
+
+    .photo-direction {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-content: start;
+    }
+
+    .photo-block {
+      min-height: 248px;
+      padding: 26px;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(135deg, oklch(72% 0.018 85 / 0.08), transparent),
+        repeating-linear-gradient(45deg, oklch(90% 0.016 85 / 0.045) 0 2px, transparent 2px 22px);
+      display: flex;
+      align-items: end;
+    }
+
+    .photo-block span {
+      color: var(--paper);
+      font-size: 31px;
+      line-height: 1.16;
+    }
+
+    .rules {
+      grid-column: 1 / 3;
+      grid-row: 3;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 28px;
+      align-self: end;
+      padding-bottom: 16px;
+    }
+
+    .rule {
+      min-height: 230px;
+      padding: 34px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .rule strong {
+      display: block;
+      margin-bottom: 18px;
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 1.02;
+    }
+
+    .rule span {
+      color: var(--muted);
+      font-size: 27px;
+      line-height: 1.28;
+    }
+
+    .signature {
+      grid-column: 3;
+      grid-row: 3;
+      align-self: end;
+      padding-bottom: 48px;
+      color: var(--paper-soft);
+    }
+
+    .signature .small {
+      margin-bottom: 28px;
+      color: var(--brass);
+      font-size: 24px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .signature .statement {
+      max-width: 850px;
+      font-size: 48px;
+      line-height: 1.12;
+      font-weight: 350;
+    }
+  </style>
+</head>
+<body>
+  <main class="board" aria-label="Prancha conceitual do kit visual B. Living Floripa">
+    <div class="layout">
+      <section class="section brand">
+        <p class="eyebrow">Kit visual conceitual</p>
+        <h1>B. Living<br />Floripa</h1>
+        <p class="tagline">Curadoria para decis&otilde;es imobili&aacute;rias de alto padr&atilde;o.</p>
+      </section>
+
+      <section class="section palette">
+        <p class="label">Paleta</p>
+        <div class="swatches">
+          <div class="swatch s1">Azul<br />profundo</div>
+          <div class="swatch s2">Off-white<br />quente</div>
+          <div class="swatch s3">Grafite<br />pedra</div>
+          <div class="swatch s4">Azul<br />petr&oacute;leo</div>
+          <div class="swatch s5">Detalhe<br />brass</div>
+        </div>
+      </section>
+
+      <section class="section type">
+        <p class="label">Tipografia e mensagem</p>
+        <h2>Antes do im&oacute;vel, vem a decis&atilde;o.</h2>
+        <p>Uma linguagem editorial, precisa e consultiva. Alto padr&atilde;o sem ostenta&ccedil;&atilde;o, com leitura de mercado antes da oferta.</p>
+        <div class="micro-lines">
+          <span>Escolha bem conduzida.</span>
+          <span>Leitura, crit&eacute;rio e confian&ccedil;a.</span>
+          <span>Cidade, produto, timing e patrim&ocirc;nio.</span>
+        </div>
+      </section>
+
+      <section class="section content">
+        <div>
+          <p class="label">Sistema de conte&uacute;do</p>
+          <div class="mockups">
+            <article class="mock">
+              <div class="mock-kicker">Rafael</div>
+              <div class="mock-title">L&ecirc; o mercado</div>
+              <div class="mock-rule"></div>
+            </article>
+            <article class="mock">
+              <div class="mock-kicker">Equipe</div>
+              <div class="mock-title">Em m&eacute;todo</div>
+              <div class="mock-rule"></div>
+            </article>
+            <article class="mock">
+              <div class="mock-kicker">Floripa</div>
+              <div class="mock-title">Em movimento</div>
+              <div class="mock-rule"></div>
+            </article>
+            <article class="mock">
+              <div class="mock-kicker">Produto</div>
+              <div class="mock-title">Com tese</div>
+              <div class="mock-rule"></div>
+            </article>
+          </div>
+        </div>
+
+        <div>
+          <p class="label">Dire&ccedil;&atilde;o fotogr&aacute;fica</p>
+          <div class="photo-direction">
+            <div class="photo-block"><span>Rafael<br />lideran&ccedil;a</span></div>
+            <div class="photo-block"><span>Equipe<br />preparo</span></div>
+            <div class="photo-block"><span>Cidade<br />territ&oacute;rio</span></div>
+            <div class="photo-block"><span>Im&oacute;vel<br />tese</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section rules">
+        <div class="rule">
+          <strong>Autoridade</strong>
+          <span>n&atilde;o vitrine</span>
+        </div>
+        <div class="rule">
+          <strong>Crit&eacute;rio</strong>
+          <span>n&atilde;o cat&aacute;logo</span>
+        </div>
+        <div class="rule">
+          <strong>Sofistica&ccedil;&atilde;o</strong>
+          <span>n&atilde;o ostenta&ccedil;&atilde;o</span>
+        </div>
+        <div class="rule">
+          <strong>Cidade</strong>
+          <span>n&atilde;o cen&aacute;rio</span>
+        </div>
+      </section>
+
+      <section class="section signature">
+        <div class="small">Quiet authority</div>
+        <div class="statement">Uma marca de decis&atilde;o, constru&iacute;da por leitura, preparo e confian&ccedil;a.</div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,196 @@
+# Imported from C:\Users\vini1\Downloads\config.toml and adapted for Windows.
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+personality = "pragmatic"
+sandbox_mode = "danger-full-access"
+approval_policy = "on-request"
+
+[windows]
+sandbox = "elevated"
+
+[features]
+multi_agent = true
+memories = true
+
+[projects.'C:\Users\vini1']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Hyren Ventures\Hyren Ventures Platform']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Working\B Living']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Working']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\HyrenOS']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-21-review-the-latest-b-living-requests']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-23-alguma-coisa-est-acontecendo-que-meu']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-22-voc-consegue-gerar-imagens']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-22-preciso-selecionar-20-fotos-dessa-pasta']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-22-tenho-uma-agencia-de-marketing-tenho']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-23\files-mentioned-by-the-user-ig']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-23\files-mentioned-by-the-user-zeiss']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-23\files-mentioned-by-the-user-zeiss-2']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-23\files-mentioned-by-the-user-zeiss-3']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-24\me-diga-o-estado-atual-da']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-25\como-me-indica-que-seja-organizado']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-27\fa-a-uma-pesquisa-nas-pastas']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-27\preciso-que-fa-a-um-estudo']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-27\estou-ajudando-um-amigo-e-o']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-27\files-mentioned-by-the-user-img']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\me-recomenda-adicionar-ou-criar-algum']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\analise-a-symphony-lan-ada-recentemente']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\analise-explique-brevemente-de-forma-clara']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\quais-outros-plugins-e-ou-skills']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\files-mentioned-by-the-user-chatgpt']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\files-mentioned-by-the-user-chatgpt-2']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\files-mentioned-by-the-user-6']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\files-mentioned-by-the-user-ig']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\files-mentioned-by-the-user-openai']
+trust_level = "trusted"
+
+[projects.'C:\Users\vini1\Documents\Codex\2026-04-28\files-mentioned-by-the-user-config']
+trust_level = "trusted"
+
+[plugins."github@openai-curated"]
+enabled = true
+
+[plugins."build-web-apps@openai-curated"]
+enabled = true
+
+[plugins."vercel@openai-curated"]
+enabled = true
+
+[plugins."google-drive@openai-curated"]
+enabled = true
+
+[plugins."figma@openai-curated"]
+enabled = true
+
+[plugins."canva@openai-curated"]
+enabled = true
+
+[plugins."superpowers@openai-curated"]
+enabled = true
+
+[plugins."remotion@openai-curated"]
+enabled = true
+
+[plugins."build-macos-apps@openai-curated"]
+enabled = true
+
+[plugins."build-ios-apps@openai-curated"]
+enabled = true
+
+[plugins."notion@openai-curated"]
+enabled = true
+
+[plugins."meta-ads-diagnostics@my-skills-marketplace"]
+enabled = true
+
+[plugins."gmail@openai-curated"]
+enabled = true
+
+[plugins."plugin-eval@openai-curated"]
+enabled = true
+
+[plugins."chatgpt-apps@openai-curated"]
+enabled = true
+
+[plugins."hyperframes@openai-curated"]
+enabled = true
+
+[plugins."circleci@openai-curated"]
+enabled = true
+
+[plugins."temporal@openai-curated"]
+enabled = true
+
+[plugins."google-calendar@openai-curated"]
+enabled = true
+
+[plugins."browser-use@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."latex-tectonic@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[sandbox_workspace_write]
+network_access = true
+
+[marketplaces.openai-bundled]
+last_updated = "2026-04-28T21:01:21Z"
+source_type = "local"
+source = '\\?\C:\Users\vini1\.codex\.tmp\bundled-marketplaces\openai-bundled'
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-04-28T22:00:46Z"
+source_type = "local"
+source = '\\?\C:\Users\vini1\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
+
+[memories]
+generate_memories = true
+use_memories = true
+no_memories_if_mcp_or_web_search = false

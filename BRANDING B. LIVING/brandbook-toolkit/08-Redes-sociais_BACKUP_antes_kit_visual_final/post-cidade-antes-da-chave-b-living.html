@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>B. Living - A cidade antes da chave</title>
+  <style>
+    :root {
+      --navy: oklch(16.5% 0.048 245);
+      --navy-deep: oklch(12.5% 0.035 250);
+      --navy-soft: oklch(22% 0.048 240);
+      --paper: oklch(92% 0.015 82);
+      --paper-soft: oklch(84% 0.018 82);
+      --paper-dim: oklch(70% 0.018 82);
+      --petrol: oklch(42% 0.055 205);
+      --stone: oklch(37% 0.012 238);
+      --brass: oklch(68% 0.055 78);
+      --brass-soft: oklch(76% 0.045 80);
+      --ink: oklch(15% 0.04 245);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      background: var(--navy-deep);
+    }
+
+    body {
+      display: grid;
+      place-items: center;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    .post {
+      position: relative;
+      width: 2160px;
+      height: 2700px;
+      overflow: hidden;
+      color: var(--paper);
+      background:
+        radial-gradient(circle at 24% 18%, oklch(31% 0.07 225 / 0.52), transparent 31%),
+        radial-gradient(circle at 84% 52%, oklch(36% 0.055 205 / 0.38), transparent 32%),
+        linear-gradient(155deg, oklch(18% 0.052 242), oklch(10.8% 0.03 252) 68%);
+    }
+
+    .post::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.42;
+      background-image:
+        linear-gradient(oklch(92% 0.015 82 / 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, oklch(92% 0.015 82 / 0.035) 1px, transparent 1px);
+      background-size: 90px 90px;
+      mask-image: linear-gradient(180deg, black 0 74%, transparent 100%);
+    }
+
+    .post::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.24;
+      background:
+        repeating-linear-gradient(118deg, oklch(95% 0.012 82 / 0.05) 0 1px, transparent 1px 9px),
+        radial-gradient(circle at 50% 50%, transparent 0 58%, oklch(2% 0.02 250 / 0.38) 100%);
+      mix-blend-mode: soft-light;
+      pointer-events: none;
+    }
+
+    .frame {
+      position: absolute;
+      inset: 72px;
+      z-index: 1;
+      border: 1px solid oklch(92% 0.015 82 / 0.22);
+    }
+
+    .brand {
+      position: absolute;
+      z-index: 3;
+      top: 142px;
+      left: 150px;
+      right: 150px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 80px;
+    }
+
+    .brand img {
+      width: 548px;
+      height: auto;
+      display: block;
+    }
+
+    .brand-tag {
+      padding-top: 18px;
+      color: var(--paper-dim);
+      font-size: 24px;
+      line-height: 1.45;
+      letter-spacing: 0.14em;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    .headline {
+      position: absolute;
+      z-index: 3;
+      top: 430px;
+      left: 150px;
+      width: 1260px;
+      margin: 0;
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 190px;
+      font-weight: 400;
+      line-height: 0.91;
+      letter-spacing: 0;
+    }
+
+    .headline .small {
+      display: block;
+      color: var(--paper-soft);
+      font-size: 138px;
+    }
+
+    .subhead {
+      position: absolute;
+      z-index: 3;
+      top: 1058px;
+      left: 158px;
+      width: 1050px;
+      margin: 0;
+      color: var(--paper-soft);
+      font-size: 43px;
+      font-weight: 350;
+      line-height: 1.3;
+    }
+
+    .subhead strong {
+      color: var(--paper);
+      font-weight: 520;
+    }
+
+    .map-stage {
+      position: absolute;
+      z-index: 2;
+      top: 520px;
+      right: 126px;
+      width: 750px;
+      height: 1020px;
+      border: 1px solid oklch(92% 0.015 82 / 0.2);
+      background:
+        linear-gradient(160deg, oklch(22% 0.05 235 / 0.78), oklch(11% 0.03 250 / 0.18)),
+        linear-gradient(90deg, transparent 0 49.8%, oklch(92% 0.015 82 / 0.08) 49.8% 50%, transparent 50%),
+        linear-gradient(0deg, transparent 0 49.8%, oklch(92% 0.015 82 / 0.07) 49.8% 50%, transparent 50%);
+      overflow: hidden;
+    }
+
+    .map-stage::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.4;
+      background-image:
+        linear-gradient(oklch(92% 0.015 82 / 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, oklch(92% 0.015 82 / 0.035) 1px, transparent 1px);
+      background-size: 72px 72px;
+    }
+
+    .map-stage svg {
+      position: absolute;
+      inset: 46px;
+      width: calc(100% - 92px);
+      height: calc(100% - 92px);
+      overflow: visible;
+    }
+
+    .map-title {
+      position: absolute;
+      top: 48px;
+      left: 50px;
+      color: var(--brass-soft);
+      font-size: 24px;
+      font-weight: 650;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .map-note {
+      position: absolute;
+      right: 42px;
+      bottom: 42px;
+      width: 300px;
+      color: var(--paper-soft);
+      font-size: 27px;
+      line-height: 1.24;
+      text-align: right;
+    }
+
+    .map-note strong {
+      display: block;
+      margin-bottom: 14px;
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 56px;
+      font-weight: 400;
+      line-height: 0.96;
+    }
+
+    .side-column {
+      position: absolute;
+      z-index: 3;
+      top: 1548px;
+      right: 150px;
+      width: 600px;
+      display: grid;
+      grid-template-columns: 1fr;
+      border-top: 1px solid oklch(92% 0.015 82 / 0.2);
+      border-bottom: 1px solid oklch(92% 0.015 82 / 0.2);
+    }
+
+    .criterion {
+      min-height: 132px;
+      padding: 24px 0;
+      border-bottom: 1px solid oklch(92% 0.015 82 / 0.13);
+    }
+
+    .criterion:last-child {
+      border-bottom: 0;
+    }
+
+    .criterion-label {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      color: var(--brass-soft);
+      font-size: 22px;
+      font-weight: 650;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .criterion-label::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, var(--brass), transparent);
+      opacity: 0.76;
+    }
+
+    .criterion-copy {
+      margin-top: 22px;
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 42px;
+      font-weight: 400;
+      line-height: 1.02;
+    }
+
+    .left-proof {
+      position: absolute;
+      z-index: 3;
+      left: 150px;
+      top: 1388px;
+      width: 1010px;
+      height: 700px;
+      display: grid;
+      grid-template-columns: 0.78fr 1fr;
+      border-top: 1px solid oklch(92% 0.015 82 / 0.2);
+      border-bottom: 1px solid oklch(92% 0.015 82 / 0.18);
+    }
+
+    .proof-seal {
+      position: relative;
+      padding: 56px 48px;
+      border-right: 1px solid oklch(92% 0.015 82 / 0.14);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .proof-seal img {
+      width: 150px;
+      height: auto;
+      display: block;
+    }
+
+    .proof-seal p {
+      margin: 0;
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 62px;
+      line-height: 0.98;
+    }
+
+    .proof-table {
+      padding: 56px 52px;
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+    }
+
+    .proof-row {
+      display: grid;
+      grid-template-columns: 78px 1fr;
+      gap: 28px;
+      align-items: center;
+      border-bottom: 1px solid oklch(92% 0.015 82 / 0.12);
+    }
+
+    .proof-row:last-child {
+      border-bottom: 0;
+    }
+
+    .proof-number {
+      color: var(--brass-soft);
+      font-size: 22px;
+      font-weight: 650;
+      letter-spacing: 0.18em;
+    }
+
+    .proof-text {
+      color: var(--paper-soft);
+      font-size: 31px;
+      line-height: 1.25;
+    }
+
+    .bottom-statement {
+      position: absolute;
+      z-index: 3;
+      left: 150px;
+      right: 150px;
+      bottom: 150px;
+      height: 392px;
+      display: grid;
+      grid-template-columns: 1.52fr 0.48fr;
+      gap: 42px;
+    }
+
+    .statement-card {
+      position: relative;
+      background: var(--paper);
+      color: var(--ink);
+      padding: 72px 78px;
+      overflow: hidden;
+    }
+
+    .statement-card::before {
+      content: "";
+      position: absolute;
+      inset: 34px;
+      border: 1px solid oklch(17% 0.045 245 / 0.18);
+    }
+
+    .statement-card p {
+      position: relative;
+      margin: 0;
+      max-width: 1180px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 82px;
+      line-height: 0.98;
+      font-weight: 400;
+    }
+
+    .statement-card span {
+      position: relative;
+      display: block;
+      margin-top: 32px;
+      max-width: 1120px;
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 37px;
+      line-height: 1.3;
+      font-weight: 370;
+    }
+
+    .signature {
+      border: 1px solid oklch(92% 0.015 82 / 0.2);
+      padding: 58px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background:
+        linear-gradient(135deg, oklch(22% 0.048 240 / 0.35), transparent),
+        oklch(10% 0.03 250 / 0.42);
+    }
+
+    .signature img {
+      width: 178px;
+      height: auto;
+      display: block;
+    }
+
+    .signature p {
+      margin: 0;
+      color: var(--paper);
+      font-size: 30px;
+      line-height: 1.3;
+      font-weight: 350;
+    }
+
+    .vertical-tag {
+      position: absolute;
+      z-index: 3;
+      right: 94px;
+      top: 1048px;
+      color: var(--paper-dim);
+      font-size: 22px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      transform: rotate(90deg);
+      transform-origin: right top;
+    }
+  </style>
+</head>
+<body>
+  <main class="post" aria-label="Post B. Living A cidade antes da chave">
+    <div class="frame"></div>
+
+    <header class="brand">
+      <img src="../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" alt="B. Living Floripa" />
+      <div class="brand-tag">leitura territorial<br />alto padr&atilde;o</div>
+    </header>
+
+    <h1 class="headline">A cidade <span class="small">antes da chave.</span></h1>
+
+    <p class="subhead"><strong>Antes de escolher um im&oacute;vel,</strong> &eacute; preciso entender territ&oacute;rio, timing, liquidez e momento de vida.</p>
+
+    <section class="map-stage" aria-label="Mapa abstrato de leitura territorial">
+      <div class="map-title">Florian&oacute;polis em leitura</div>
+      <svg viewBox="0 0 650 880" role="presentation" aria-hidden="true">
+        <defs>
+          <linearGradient id="lineA" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0" stop-color="oklch(76% 0.045 80)" stop-opacity="0.95" />
+            <stop offset="1" stop-color="oklch(42% 0.055 205)" stop-opacity="0.15" />
+          </linearGradient>
+          <linearGradient id="fieldA" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0" stop-color="oklch(42% 0.055 205)" stop-opacity="0.2" />
+            <stop offset="1" stop-color="oklch(92% 0.015 82)" stop-opacity="0.02" />
+          </linearGradient>
+        </defs>
+        <path d="M94 160 C168 108 264 128 330 192 C406 266 490 250 560 198" fill="none" stroke="oklch(92% 0.015 82 / 0.22)" stroke-width="3" />
+        <path d="M132 690 C202 574 214 482 314 414 C418 344 476 270 520 168" fill="none" stroke="url(#lineA)" stroke-width="4" />
+        <path d="M120 260 H516 V630 H178 V360 H458 V550 H248 V438 H398" fill="none" stroke="oklch(92% 0.015 82 / 0.24)" stroke-width="2" />
+        <path d="M168 642 H500 M132 520 H540 M196 402 H476 M116 302 H382" fill="none" stroke="oklch(92% 0.015 82 / 0.11)" stroke-width="2" />
+        <path d="M160 680 L298 470 L420 350 L535 160 L596 86" fill="none" stroke="oklch(76% 0.045 80 / 0.46)" stroke-width="2" />
+        <polygon points="126,264 514,264 514,630 178,630 178,360 458,360 458,550 248,550 248,438 398,438 398,402 196,402 196,642 500,642 500,690 126,690" fill="url(#fieldA)" />
+        <circle cx="154" cy="650" r="11" fill="oklch(76% 0.045 80)" />
+        <circle cx="300" cy="470" r="11" fill="oklch(76% 0.045 80)" />
+        <circle cx="420" cy="350" r="11" fill="oklch(76% 0.045 80)" />
+        <circle cx="535" cy="160" r="11" fill="oklch(76% 0.045 80)" />
+        <text x="74" y="728" fill="oklch(70% 0.018 82)" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="4">TERRITORIO</text>
+        <text x="438" y="118" fill="oklch(70% 0.018 82)" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="4">TIMING</text>
+      </svg>
+      <div class="map-note"><strong>Leitura antes.</strong> Oportunidade depois.</div>
+    </section>
+
+    <div class="vertical-tag">cidade / timing / patrimonio</div>
+
+    <section class="left-proof" aria-label="Provas de metodo">
+      <article class="proof-seal">
+        <img src="../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg" alt="B. Living" />
+        <p>Crit&eacute;rio n&atilde;o &eacute; detalhe.</p>
+      </article>
+      <div class="proof-table">
+        <div class="proof-row">
+          <div class="proof-number">01</div>
+          <div class="proof-text">Rafael e equipe interpretam o contexto antes da recomenda&ccedil;&atilde;o.</div>
+        </div>
+        <div class="proof-row">
+          <div class="proof-number">02</div>
+          <div class="proof-text">Construtoras e mercado entram como acesso, n&atilde;o como vitrine.</div>
+        </div>
+        <div class="proof-row">
+          <div class="proof-number">03</div>
+          <div class="proof-text">Florian&oacute;polis aparece como territ&oacute;rio estrat&eacute;gico, n&atilde;o como cen&aacute;rio.</div>
+        </div>
+        <div class="proof-row">
+          <div class="proof-number">04</div>
+          <div class="proof-text">O im&oacute;vel certo &eacute; consequ&ecirc;ncia da tese correta.</div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="side-column" aria-label="Criterios de decisao">
+      <article class="criterion">
+        <div class="criterion-label">Territ&oacute;rio</div>
+        <div class="criterion-copy">onde a cidade se move</div>
+      </article>
+      <article class="criterion">
+        <div class="criterion-label">Timing</div>
+        <div class="criterion-copy">quando faz sentido</div>
+      </article>
+      <article class="criterion">
+        <div class="criterion-label">Patrim&ocirc;nio</div>
+        <div class="criterion-copy">como a escolha sustenta valor</div>
+      </article>
+      <article class="criterion">
+        <div class="criterion-label">Condu&ccedil;&atilde;o</div>
+        <div class="criterion-copy">quem ajuda a decidir melhor</div>
+      </article>
+    </aside>
+
+    <section class="bottom-statement" aria-label="Assinatura da peca">
+      <article class="statement-card">
+        <p>O im&oacute;vel vem depois da leitura.</p>
+        <span>Curadoria para decis&otilde;es imobili&aacute;rias de alto padr&atilde;o.</span>
+      </article>
+      <aside class="signature">
+        <img src="../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg" alt="B. Living" />
+        <p>Escolha bem conduzida em Florian&oacute;polis.</p>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

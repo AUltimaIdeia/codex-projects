@@ -1,0 +1,8 @@
+entry_count: 104
+missing_pages: []
+has_ana_couto: False
+has_page_001: True
+has_page_104: True
+pdf_pages: 45
+pdf_has_title: True
+missing_required_notes: []

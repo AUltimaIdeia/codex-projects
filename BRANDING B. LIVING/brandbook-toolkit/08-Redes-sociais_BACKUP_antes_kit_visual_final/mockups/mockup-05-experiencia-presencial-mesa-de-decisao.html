@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"/><title>Experiencia Presencial - Mesa De Decisao</title><style>
+  :root {
+    --navy: oklch(16.5% 0.048 245);
+    --navy-deep: oklch(12.5% 0.035 250);
+    --navy-soft: oklch(22% 0.048 240);
+    --paper: oklch(92% 0.015 82);
+    --paper-soft: oklch(84% 0.018 82);
+    --paper-dim: oklch(70% 0.018 82);
+    --petrol: oklch(42% 0.055 205);
+    --stone: oklch(37% 0.012 238);
+    --brass: oklch(68% 0.055 78);
+    --brass-soft: oklch(76% 0.045 80);
+    --ink: oklch(15% 0.04 245);
+    --line: oklch(92% 0.015 82 / 0.18);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 100%; min-height: 100%; background: var(--navy-deep); }
+  body { display: grid; place-items: center; font-family: "Segoe UI", Arial, sans-serif; }
+  .board {
+    position: relative;
+    width: 3840px;
+    height: 2160px;
+    overflow: hidden;
+    color: var(--paper);
+    background:
+      radial-gradient(circle at 16% 14%, oklch(31% 0.07 225 / 0.48), transparent 30%),
+      radial-gradient(circle at 88% 72%, oklch(36% 0.055 205 / 0.26), transparent 28%),
+      linear-gradient(145deg, oklch(18% 0.052 242), oklch(10.8% 0.03 252) 70%);
+  }
+  .board::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.38;
+    background-image:
+      linear-gradient(oklch(92% 0.015 82 / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(92% 0.015 82 / 0.035) 1px, transparent 1px);
+    background-size: 96px 96px;
+  }
+  .board::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.25;
+    background: radial-gradient(circle at 50% 50%, transparent 0 62%, oklch(2% 0.02 250 / 0.42) 100%);
+  }
+  .frame { position: absolute; inset: 70px; z-index: 1; border: 1px solid var(--line); }
+  .logo-main { position: absolute; z-index: 3; left: 150px; top: 128px; width: 520px; }
+  .label {
+    color: var(--brass-soft);
+    font-size: 24px;
+    font-weight: 650;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  h1, h2, h3, p { margin: 0; }
+  .display {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 0.92;
+    letter-spacing: 0;
+  }
+  .body-copy { color: var(--paper-soft); font-size: 34px; line-height: 1.32; font-weight: 350; }
+  .paper { background: var(--paper); color: var(--ink); }
+  .thin { border: 1px solid var(--line); }
+  .rule { height: 1px; background: linear-gradient(90deg, var(--brass), transparent); }
+  .logo-small { width: 120px; height: auto; }
+
+      .headline { position:absolute; z-index:3; left:150px; top:420px; width:1160px; font-size:126px; }
+      .copy { position:absolute; z-index:3; left:154px; top:830px; width:880px; }
+      .scene { position:absolute; z-index:3; right:150px; top:150px; width:2050px; height:1810px; }
+      .wall { position:absolute; inset:0 0 560px 0; border:1px solid var(--line); background:linear-gradient(145deg, oklch(15% 0.04 245 / .9), oklch(9% 0.03 250 / .7)); display:grid; place-items:center; }
+      .wall img { width:820px; }
+      .table { position:absolute; left:80px; right:80px; bottom:80px; height:680px; border:1px solid var(--line); background:oklch(92% 0.015 82); color:var(--ink); }
+      .folder { position:absolute; left:90px; top:80px; width:760px; height:500px; border:1px solid oklch(17% 0.045 245 / .16); padding:56px; }
+      .folder img { width:330px; }
+      .folder h3 { margin-top:96px; width:360px; font-size:44px; line-height:1.02; }
+      .invite { position:absolute; right:90px; top:80px; width:720px; height:500px; background:var(--navy); color:var(--paper); padding:56px; border:1px solid oklch(17% 0.045 245 / .16); }
+      .invite h3 { margin-top:150px; font-size:68px; }
+      .invite p { margin-top:24px; color:var(--paper-soft); font-size:27px; line-height:1.32; }
+      .plate { position:absolute; left:900px; bottom:90px; width:520px; height:140px; background:oklch(15% 0.04 245); color:var(--paper); display:flex; align-items:center; justify-content:center; font-size:26px; letter-spacing:.12em; text-transform:uppercase; }
+      .notes { position:absolute; z-index:3; left:154px; bottom:190px; width:980px; display:grid; gap:24px; }
+      .notes div { border-top:1px solid var(--line); padding-top:24px; color:var(--paper-soft); font-size:30px; line-height:1.32; }
+      .notes strong { color:var(--paper); font-family:Georgia,serif; font-size:58px; font-weight:400; display:block; margin-bottom:12px; }
+    </style></head>
+<body><main class="board">
+      <div class="frame"></div><img class="logo-main" src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" />
+      <h1 class="display headline">Mesa de decis&atilde;o B. Living.</h1>
+      <p class="body-copy copy">O ponto f&iacute;sico e os eventos precisam parecer extens&atilde;o da curadoria: ambiente de leitura, rela&ccedil;&atilde;o e condu&ccedil;&atilde;o.</p>
+      <section class="scene">
+        <div class="wall"><img src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg"/></div>
+        <div class="table">
+          <article class="folder"><img src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20AZUL%20ESCURO.svg"/><h3 class="display">Dossi&ecirc; de decis&atilde;o</h3></article>
+          <article class="invite"><div class="label">Wine & Living</div><h3 class="display">Cidade, mercado e patrim&ocirc;nio.</h3><p>Encontro para leitura de oportunidades com parceiros e clientes.</p></article>
+          <div class="plate">A cidade &eacute; parte da decis&atilde;o</div>
+        </div>
+      </section>
+      <section class="notes"><div><strong>Presen&ccedil;a</strong>Fachada, mesa, pasta e convite sem ostenta&ccedil;&atilde;o.</div><div><strong>Fun&ccedil;&atilde;o</strong>Transformar atendimento presencial em prova de marca.</div></section></main></body></html>

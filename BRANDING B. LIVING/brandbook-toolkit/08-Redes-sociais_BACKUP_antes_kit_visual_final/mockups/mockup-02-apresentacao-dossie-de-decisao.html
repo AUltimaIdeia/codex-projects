@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"/><title>Apresentacao Comercial - Dossie De Decisao</title><style>
+  :root {
+    --navy: oklch(16.5% 0.048 245);
+    --navy-deep: oklch(12.5% 0.035 250);
+    --navy-soft: oklch(22% 0.048 240);
+    --paper: oklch(92% 0.015 82);
+    --paper-soft: oklch(84% 0.018 82);
+    --paper-dim: oklch(70% 0.018 82);
+    --petrol: oklch(42% 0.055 205);
+    --stone: oklch(37% 0.012 238);
+    --brass: oklch(68% 0.055 78);
+    --brass-soft: oklch(76% 0.045 80);
+    --ink: oklch(15% 0.04 245);
+    --line: oklch(92% 0.015 82 / 0.18);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 100%; min-height: 100%; background: var(--navy-deep); }
+  body { display: grid; place-items: center; font-family: "Segoe UI", Arial, sans-serif; }
+  .board {
+    position: relative;
+    width: 3840px;
+    height: 2160px;
+    overflow: hidden;
+    color: var(--paper);
+    background:
+      radial-gradient(circle at 16% 14%, oklch(31% 0.07 225 / 0.48), transparent 30%),
+      radial-gradient(circle at 88% 72%, oklch(36% 0.055 205 / 0.26), transparent 28%),
+      linear-gradient(145deg, oklch(18% 0.052 242), oklch(10.8% 0.03 252) 70%);
+  }
+  .board::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.38;
+    background-image:
+      linear-gradient(oklch(92% 0.015 82 / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(92% 0.015 82 / 0.035) 1px, transparent 1px);
+    background-size: 96px 96px;
+  }
+  .board::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.25;
+    background: radial-gradient(circle at 50% 50%, transparent 0 62%, oklch(2% 0.02 250 / 0.42) 100%);
+  }
+  .frame { position: absolute; inset: 70px; z-index: 1; border: 1px solid var(--line); }
+  .logo-main { position: absolute; z-index: 3; left: 150px; top: 128px; width: 520px; }
+  .label {
+    color: var(--brass-soft);
+    font-size: 24px;
+    font-weight: 650;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  h1, h2, h3, p { margin: 0; }
+  .display {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 0.92;
+    letter-spacing: 0;
+  }
+  .body-copy { color: var(--paper-soft); font-size: 34px; line-height: 1.32; font-weight: 350; }
+  .paper { background: var(--paper); color: var(--ink); }
+  .thin { border: 1px solid var(--line); }
+  .rule { height: 1px; background: linear-gradient(90deg, var(--brass), transparent); }
+  .logo-small { width: 120px; height: auto; }
+
+      .title { position:absolute; z-index:3; left:150px; top:420px; width:1040px; font-size:126px; }
+      .copy { position:absolute; z-index:3; left:154px; top:820px; width:850px; }
+      .deck { position:absolute; z-index:3; right:150px; top:170px; width:1900px; height:1680px; }
+      .slide { position:absolute; border:1px solid var(--line); }
+      .s1 { left:0; top:180px; width:920px; height:1220px; padding:84px; background:var(--paper); color:var(--ink); }
+      .s2 { right:0; top:0; width:1060px; height:700px; padding:70px; background:oklch(15% 0.04 245 / .92); }
+      .s3 { right:160px; bottom:0; width:1080px; height:780px; padding:70px; background:oklch(18% 0.042 242 / .88); }
+      .s1 img { width:420px; }
+      .s1 h2 { margin-top:420px; font-size:86px; }
+      .s1 p { margin-top:34px; color:oklch(24% 0.04 245); font-size:31px; line-height:1.32; }
+      .s2 h3,.s3 h3 { font-size:66px; }
+      .s2 p,.s3 p { margin-top:36px; color:var(--paper-soft); font-size:31px; line-height:1.35; }
+      .map-svg { position:absolute; right:64px; bottom:48px; width:520px; height:400px; opacity:.75; }
+      .metrics { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; margin-top:70px; }
+      .metric { border-top:1px solid var(--brass); padding-top:22px; color:var(--paper-soft); font-size:24px; }
+      .metric strong { display:block; color:var(--paper); font-family:Georgia,serif; font-size:48px; font-weight:400; }
+    </style></head>
+<body><main class="board">
+      <div class="frame"></div><img class="logo-main" src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" />
+      <h1 class="display title">Dossi&ecirc; de decis&atilde;o.</h1>
+      <p class="body-copy copy">Uma apresenta&ccedil;&atilde;o comercial que organiza tese, cidade, produto, timing e crit&eacute;rio. Menos PDF de venda. Mais material de orienta&ccedil;&atilde;o patrimonial.</p>
+      <section class="deck">
+        <article class="slide s1"><img src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20AZUL%20ESCURO.svg"/><h2 class="display">Curadoria imobili&aacute;ria para quem decide com crit&eacute;rio.</h2><p>Apresenta&ccedil;&atilde;o para cliente/investidor. Florian&oacute;polis, tese, produto e pr&oacute;ximo passo.</p></article>
+        <article class="slide s2"><div class="label">Leitura territorial</div><h3 class="display">Por que este movimento importa agora?</h3><p>Antes de apresentar uma unidade, a B. Living contextualiza bairro, liquidez, desenvolvimento e momento de vida.</p>
+  <svg class="map-svg" viewBox="0 0 720 560" aria-hidden="true">
+    <path d="M72 142 H640 V480 H120 V222 H560 V420 H214 V302 H470" fill="none" stroke="oklch(92% 0.015 82 / 0.23)" stroke-width="2"/>
+    <path d="M96 500 C178 382 218 310 340 250 C478 182 548 112 650 56" fill="none" stroke="oklch(68% 0.055 78 / 0.72)" stroke-width="3"/>
+    <path d="M112 404 H610 M140 324 H542 M170 246 H610" fill="none" stroke="oklch(92% 0.015 82 / 0.11)" stroke-width="2"/>
+    <circle cx="142" cy="432" r="9" fill="oklch(76% 0.045 80)"/>
+    <circle cx="342" cy="250" r="9" fill="oklch(76% 0.045 80)"/>
+    <circle cx="584" cy="98" r="9" fill="oklch(76% 0.045 80)"/>
+  </svg></article>
+        <article class="slide s3"><div class="label">Produto com tese</div><h3 class="display">O im&oacute;vel como consequ&ecirc;ncia da an&aacute;lise.</h3><p>Crit&eacute;rios vis&iacute;veis, recomenda&ccedil;&atilde;o objetiva e fechamento consultivo.</p><div class="metrics"><div class="metric"><strong>01</strong>Contexto</div><div class="metric"><strong>02</strong>Timing</div><div class="metric"><strong>03</strong>Decis&atilde;o</div></div></article>
+      </section></main></body></html>

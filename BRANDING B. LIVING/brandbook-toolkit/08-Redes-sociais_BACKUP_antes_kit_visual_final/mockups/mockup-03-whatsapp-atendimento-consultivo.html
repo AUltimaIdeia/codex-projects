@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"/><title>WhatsApp - Atendimento Consultivo</title><style>
+  :root {
+    --navy: oklch(16.5% 0.048 245);
+    --navy-deep: oklch(12.5% 0.035 250);
+    --navy-soft: oklch(22% 0.048 240);
+    --paper: oklch(92% 0.015 82);
+    --paper-soft: oklch(84% 0.018 82);
+    --paper-dim: oklch(70% 0.018 82);
+    --petrol: oklch(42% 0.055 205);
+    --stone: oklch(37% 0.012 238);
+    --brass: oklch(68% 0.055 78);
+    --brass-soft: oklch(76% 0.045 80);
+    --ink: oklch(15% 0.04 245);
+    --line: oklch(92% 0.015 82 / 0.18);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 100%; min-height: 100%; background: var(--navy-deep); }
+  body { display: grid; place-items: center; font-family: "Segoe UI", Arial, sans-serif; }
+  .board {
+    position: relative;
+    width: 3840px;
+    height: 2160px;
+    overflow: hidden;
+    color: var(--paper);
+    background:
+      radial-gradient(circle at 16% 14%, oklch(31% 0.07 225 / 0.48), transparent 30%),
+      radial-gradient(circle at 88% 72%, oklch(36% 0.055 205 / 0.26), transparent 28%),
+      linear-gradient(145deg, oklch(18% 0.052 242), oklch(10.8% 0.03 252) 70%);
+  }
+  .board::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.38;
+    background-image:
+      linear-gradient(oklch(92% 0.015 82 / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(92% 0.015 82 / 0.035) 1px, transparent 1px);
+    background-size: 96px 96px;
+  }
+  .board::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.25;
+    background: radial-gradient(circle at 50% 50%, transparent 0 62%, oklch(2% 0.02 250 / 0.42) 100%);
+  }
+  .frame { position: absolute; inset: 70px; z-index: 1; border: 1px solid var(--line); }
+  .logo-main { position: absolute; z-index: 3; left: 150px; top: 128px; width: 520px; }
+  .label {
+    color: var(--brass-soft);
+    font-size: 24px;
+    font-weight: 650;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  h1, h2, h3, p { margin: 0; }
+  .display {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 0.92;
+    letter-spacing: 0;
+  }
+  .body-copy { color: var(--paper-soft); font-size: 34px; line-height: 1.32; font-weight: 350; }
+  .paper { background: var(--paper); color: var(--ink); }
+  .thin { border: 1px solid var(--line); }
+  .rule { height: 1px; background: linear-gradient(90deg, var(--brass), transparent); }
+  .logo-small { width: 120px; height: auto; }
+
+      .headline { position:absolute; z-index:3; left:150px; top:410px; width:1050px; font-size:118px; }
+      .copy { position:absolute; z-index:3; left:154px; top:805px; width:860px; }
+      .phone { position:absolute; z-index:3; right:290px; top:150px; width:980px; height:1840px; border:1px solid var(--line); background:oklch(92% 0.015 82); color:var(--ink); padding:54px; }
+      .top { display:flex; align-items:center; gap:28px; border-bottom:1px solid oklch(17% 0.045 245 / .16); padding-bottom:38px; }
+      .top img { width:90px; }
+      .top strong { font-size:32px; }
+      .top span { display:block; margin-top:6px; color:oklch(36% 0.018 245); font-size:20px; }
+      .chat { display:grid; gap:26px; margin-top:60px; }
+      .bubble { max-width:760px; padding:30px 34px; border:1px solid oklch(17% 0.045 245 / .15); font-size:30px; line-height:1.32; }
+      .me { margin-left:auto; background:oklch(16.5% 0.048 245); color:var(--paper); }
+      .client { background:oklch(88% 0.018 82); }
+      .analysis { margin-top:46px; padding:42px; background:var(--navy); color:var(--paper); }
+      .analysis .label { font-size:18px; }
+      .analysis h3 { margin-top:130px; font-size:58px; }
+      .analysis p { margin-top:22px; color:var(--paper-soft); font-size:24px; line-height:1.34; }
+      .left-notes { position:absolute; z-index:3; left:154px; bottom:210px; width:980px; display:grid; grid-template-columns:1fr 1fr; gap:34px; }
+      .note { border-top:1px solid var(--line); padding-top:28px; color:var(--paper-soft); font-size:30px; line-height:1.3; }
+      .note strong { display:block; color:var(--paper); font-family:Georgia,serif; font-size:58px; font-weight:400; margin-bottom:14px; }
+    </style></head>
+<body><main class="board">
+      <div class="frame"></div><img class="logo-main" src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" />
+      <h1 class="display headline">Antes de te enviar op&ccedil;&otilde;es.</h1>
+      <p class="body-copy copy">O atendimento tamb&eacute;m precisa carregar a marca: escuta, qualifica&ccedil;&atilde;o e recomenda&ccedil;&atilde;o com crit&eacute;rio.</p>
+      <section class="phone">
+        <div class="top"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20AZUL%20ESCURO.svg"/><div><strong>B. Living Floripa</strong><span>curadoria imobili&aacute;ria de alto padr&atilde;o</span></div></div>
+        <div class="chat">
+          <div class="bubble client">Tenho interesse em comprar em Florian&oacute;polis. Voc&ecirc;s t&ecirc;m op&ccedil;&otilde;es?</div>
+          <div class="bubble me">Temos. Mas antes de te enviar op&ccedil;&otilde;es, quero entender seu objetivo: moradia, investimento ou uma combina&ccedil;&atilde;o dos dois?</div>
+          <div class="bubble client">Investimento com possibilidade de uso familiar.</div>
+          <div class="bubble me">Perfeito. Vamos olhar territ&oacute;rio, liquidez, timing e perfil de produto antes de selecionar as unidades.</div>
+        </div>
+        <div class="analysis"><div class="label">An&aacute;lise preliminar</div><h3 class="display">Produto certo para o momento certo.</h3><p>Sele&ccedil;&atilde;o enviada com contexto, n&atilde;o como cat&aacute;logo.</p></div>
+      </section>
+      <section class="left-notes"><article class="note"><strong>Tom</strong>Consultivo, seguro e humano.</article><article class="note"><strong>Fun&ccedil;&atilde;o</strong>Converter sem parecer venda comum.</article></section></main></body></html>

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-07T15:44:38-03:00",
+  "title": "Design System: B. Living Floripa",
+  "extensions": {
+    "northStar": {
+      "name": "The Decision Table",
+      "description": "A quiet, premium decision room for curadoria imobiliaria de alto padrao in Florianopolis."
+    },
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Deep Decision Navy",
+        "canonical": "oklch(16.5% 0.048 245)",
+        "usage": "Main background, brand atmosphere and institutional surfaces."
+      },
+      "navy-deep": {
+        "role": "primary",
+        "displayName": "Night Navy",
+        "canonical": "oklch(12.5% 0.035 250)",
+        "usage": "Deeper layer, edge darkness and vignette."
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "oklch(92% 0.015 82)",
+        "usage": "Logo on dark, main text and high-contrast light panels."
+      },
+      "petrol": {
+        "role": "secondary",
+        "displayName": "Territory Petrol",
+        "canonical": "oklch(42% 0.055 205)",
+        "usage": "Territory, city and map logic."
+      },
+      "brass": {
+        "role": "tertiary",
+        "displayName": "Quiet Brass",
+        "canonical": "oklch(68% 0.055 78)",
+        "usage": "Fine rules, dots, sequence accents and proof markers."
+      }
+    },
+    "logoReferences": {
+      "primaryOnDark": "brandbook-toolkit/02-Logos/LOGO PRINCIPAL/SVG/B. LIVING LOGO - BEGE CLARO.svg",
+      "primaryOnLight": "brandbook-toolkit/02-Logos/LOGO PRINCIPAL/SVG/B. LIVING LOGO - AZUL ESCURO.svg",
+      "compactOnDark": "brandbook-toolkit/02-Logos/LOGO COMPACTA/SVG/Logo B. LIVING COMPACTA - BEGE CLARO.svg",
+      "compactOnLight": "brandbook-toolkit/02-Logos/LOGO COMPACTA/SVG/Logo B. LIVING COMPACTA - AZUL ESCURO.svg"
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Primary Didone Display",
+        "fontFamily": "Bodoni Moda, Bodoni 72, Didot, Bodoni MT, Georgia, Times New Roman, serif",
+        "purpose": "Hero-scale statements such as Antes do imovel, vem a decisao. Officialized from the approved visual reference: high-contrast serif, editorial and architectural."
+      },
+      "body": {
+        "displayName": "Secondary Consultive Sans",
+        "fontFamily": "Montserrat, Avenir Next, Helvetica Neue, Segoe UI, Arial, sans-serif",
+        "purpose": "Clear strategic explanation without commercial pressure. Officialized from the approved visual reference: clean sans with controlled spacing."
+      },
+      "label": {
+        "displayName": "Institutional Label",
+        "fontFamily": "Montserrat, Avenir Next, Helvetica Neue, Segoe UI, Arial, sans-serif",
+        "purpose": "Short labels, sequence numbers and map captions."
+      }
+    },
+    "layoutMeta": {
+      "preferredFormats": {
+        "instagramFeedVertical": "2160x2700",
+        "kitBoard": "3840x2160"
+      },
+      "structure": "Asymmetric editorial grid with visible decision logic, generous silence and thin-line structure."
+    },
+    "componentMeta": {
+      "decisionMap": {
+        "description": "Thin-line analytical panel built from straight lines, rectangles, coordinates and dots.",
+        "avoid": "waves, nautical motifs, decorative patterns, construction-site visuals"
+      },
+      "sequenceStrip": {
+        "description": "Ordered proof sequence. Rafael and equipe must appear before bairros, imoveis or product.",
+        "order": ["Rafael", "Equipe", "Construtoras", "Floripa", "Imovel"]
+      },
+      "statementCard": {
+        "description": "Warm paper editorial block for strategic synthesis and manifesto lines."
+      }
+    },
+    "motionMeta": {
+      "allowed": "Slow editorial reveals if animated later.",
+      "avoid": "bounce, elastic motion, flashy transitions and layout-shifting animation."
+    },
+    "sourceArtifacts": [
+      "brandbook-toolkit/01-Brandbook/brandbook-b-living-master.md",
+      "brandbook-toolkit/08-Redes-sociais/kit-visual-b-living-prancha-v2.html",
+      "brandbook-toolkit/08-Redes-sociais/post-manifesto-antes-do-imovel-b-living.html",
+      "brandbook-toolkit/02-Logos/README-LOGOS.md"
+    ]
+  }
+}

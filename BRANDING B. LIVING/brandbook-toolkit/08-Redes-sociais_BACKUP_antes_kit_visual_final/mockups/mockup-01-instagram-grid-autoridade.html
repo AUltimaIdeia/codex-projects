@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"/><title>Instagram - Autoridade Antes Do Produto</title><style>
+  :root {
+    --navy: oklch(16.5% 0.048 245);
+    --navy-deep: oklch(12.5% 0.035 250);
+    --navy-soft: oklch(22% 0.048 240);
+    --paper: oklch(92% 0.015 82);
+    --paper-soft: oklch(84% 0.018 82);
+    --paper-dim: oklch(70% 0.018 82);
+    --petrol: oklch(42% 0.055 205);
+    --stone: oklch(37% 0.012 238);
+    --brass: oklch(68% 0.055 78);
+    --brass-soft: oklch(76% 0.045 80);
+    --ink: oklch(15% 0.04 245);
+    --line: oklch(92% 0.015 82 / 0.18);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 100%; min-height: 100%; background: var(--navy-deep); }
+  body { display: grid; place-items: center; font-family: "Segoe UI", Arial, sans-serif; }
+  .board {
+    position: relative;
+    width: 3840px;
+    height: 2160px;
+    overflow: hidden;
+    color: var(--paper);
+    background:
+      radial-gradient(circle at 16% 14%, oklch(31% 0.07 225 / 0.48), transparent 30%),
+      radial-gradient(circle at 88% 72%, oklch(36% 0.055 205 / 0.26), transparent 28%),
+      linear-gradient(145deg, oklch(18% 0.052 242), oklch(10.8% 0.03 252) 70%);
+  }
+  .board::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.38;
+    background-image:
+      linear-gradient(oklch(92% 0.015 82 / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(92% 0.015 82 / 0.035) 1px, transparent 1px);
+    background-size: 96px 96px;
+  }
+  .board::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.25;
+    background: radial-gradient(circle at 50% 50%, transparent 0 62%, oklch(2% 0.02 250 / 0.42) 100%);
+  }
+  .frame { position: absolute; inset: 70px; z-index: 1; border: 1px solid var(--line); }
+  .logo-main { position: absolute; z-index: 3; left: 150px; top: 128px; width: 520px; }
+  .label {
+    color: var(--brass-soft);
+    font-size: 24px;
+    font-weight: 650;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  h1, h2, h3, p { margin: 0; }
+  .display {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 0.92;
+    letter-spacing: 0;
+  }
+  .body-copy { color: var(--paper-soft); font-size: 34px; line-height: 1.32; font-weight: 350; }
+  .paper { background: var(--paper); color: var(--ink); }
+  .thin { border: 1px solid var(--line); }
+  .rule { height: 1px; background: linear-gradient(90deg, var(--brass), transparent); }
+  .logo-small { width: 120px; height: auto; }
+
+      .headline { position:absolute; z-index:3; left:150px; top:440px; width:1120px; font-size:132px; }
+      .intro { position:absolute; z-index:3; left:154px; top:885px; width:920px; }
+      .phone { position:absolute; z-index:3; right:180px; top:170px; width:1180px; height:1820px; border:1px solid var(--line); background:oklch(9% 0.03 250 / .45); padding:74px; }
+      .profile { display:flex; align-items:center; gap:42px; padding-bottom:48px; border-bottom:1px solid var(--line); }
+      .avatar { width:150px; height:150px; border:1px solid var(--line); display:grid; place-items:center; }
+      .avatar img { width:94px; }
+      .handle { font-size:38px; color:var(--paper); }
+      .bio { color:var(--paper-soft); margin-top:10px; font-size:24px; line-height:1.35; }
+      .highlights { display:grid; grid-template-columns:repeat(6, 1fr); gap:22px; margin:42px 0 54px; }
+      .highlight { text-align:center; color:var(--paper-dim); font-size:18px; letter-spacing:.06em; }
+      .dot { width:82px; height:82px; border:1px solid var(--brass); margin:0 auto 14px; display:grid; place-items:center; }
+      .dot img { width:42px; }
+      .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+      .post { aspect-ratio:1; border:1px solid var(--line); padding:32px; display:flex; flex-direction:column; justify-content:space-between; background:oklch(17% 0.035 245 / .74); }
+      .post.paper { background:var(--paper); color:var(--ink); }
+      .post .k { color:var(--brass-soft); font-size:17px; letter-spacing:.16em; text-transform:uppercase; font-weight:650; }
+      .post .t { font-family:Georgia,serif; font-size:40px; line-height:.98; }
+      .post.paper .k { color:var(--petrol); }
+      .left-list { position:absolute; z-index:3; left:154px; bottom:190px; width:960px; display:grid; gap:24px; }
+      .left-list div { border-top:1px solid var(--line); padding-top:24px; display:grid; grid-template-columns:140px 1fr; gap:26px; color:var(--paper-soft); font-size:28px; }
+      .left-list strong { color:var(--brass-soft); font-size:20px; letter-spacing:.18em; }
+    </style></head>
+<body><main class="board">
+      <div class="frame"></div><img class="logo-main" src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" />
+      <h1 class="display headline">Autoridade antes do produto.</h1>
+      <p class="body-copy intro">Um perfil que conduz a percep&ccedil;&atilde;o: Rafael, equipe, m&eacute;todo, cidade e oportunidades com tese.</p>
+      <section class="phone">
+        <div class="profile"><div class="avatar"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div><div><div class="handle">@b.livingfloripa</div><div class="bio">Curadoria para decis&otilde;es imobili&aacute;rias de alto padr&atilde;o.<br/>Rafael Bittencourt + equipe. Florian&oacute;polis com leitura, crit&eacute;rio e confian&ccedil;a.</div></div></div>
+        <div class="highlights"><div class="highlight"><div class="dot"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div>Comece</div><div class="highlight"><div class="dot"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div>Rafael</div><div class="highlight"><div class="dot"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div>Equipe</div><div class="highlight"><div class="dot"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div>Metodo</div><div class="highlight"><div class="dot"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div>Floripa</div><div class="highlight"><div class="dot"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div>Invest</div></div>
+        <div class="grid">
+          <article class="post paper"><div class="k">Manifesto</div><div class="t">Antes do imovel, vem a decisao.</div></article><article class="post "><div class="k">Rafael</div><div class="t">Le o mercado</div></article><article class="post "><div class="k">Equipe</div><div class="t">Preparo em operacao</div></article><article class="post "><div class="k">Floripa</div><div class="t">A cidade como ativo</div></article><article class="post paper"><div class="k">Metodo</div><div class="t">Criterio nao e detalhe</div></article><article class="post "><div class="k">Produto</div><div class="t">Com tese</div></article><article class="post "><div class="k">Construtoras</div><div class="t">Acesso e relacao</div></article><article class="post "><div class="k">Prova</div><div class="t">VGV autorizado</div></article><article class="post paper"><div class="k">Contato</div><div class="t">Analise antes da oferta</div></article>
+        </div>
+      </section>
+      <section class="left-list"><div><strong>01</strong><span>Instagram como jornada de confian&ccedil;a, n&atilde;o cat&aacute;logo.</span></div><div><strong>02</strong><span>Destaques ordenados para explicar, provar e conduzir.</span></div><div><strong>03</strong><span>Produto aparece como consequ&ecirc;ncia da curadoria.</span></div></section></main></body></html>

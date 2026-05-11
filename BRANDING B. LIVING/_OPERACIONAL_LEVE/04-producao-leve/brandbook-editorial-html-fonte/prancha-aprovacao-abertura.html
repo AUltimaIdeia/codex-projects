@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>B. Living - Prancha de Aprovacao Visual</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Montserrat:wght@400;500;600;700&display=swap");
+
+      :root {
+        --navy: oklch(16.5% 0.048 245);
+        --navy-deep: oklch(12.5% 0.035 250);
+        --navy-soft: oklch(22% 0.048 240);
+        --paper: oklch(92% 0.015 82);
+        --paper-soft: oklch(84% 0.018 82);
+        --paper-dim: oklch(70% 0.018 82);
+        --brass: oklch(68% 0.055 78);
+        --line: oklch(76% 0.045 80 / 0.32);
+        --display: "Bodoni Moda", "Bodoni 72", Didot, "Bodoni MT", Georgia, serif;
+        --sans: Montserrat, "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: 3840px;
+        height: 2160px;
+        overflow: hidden;
+        background: var(--navy-deep);
+        color: var(--paper);
+      }
+
+      .board {
+        position: relative;
+        width: 3840px;
+        height: 2160px;
+        padding: 96px 108px 90px;
+        background:
+          radial-gradient(circle at 84% 8%, oklch(42% 0.055 205 / 0.26), transparent 32%),
+          linear-gradient(135deg, var(--navy-deep), var(--navy) 48%, oklch(9% 0.026 250));
+        font-family: var(--sans);
+      }
+
+      .board::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, oklch(92% 0.015 82 / 0.04) 1px, transparent 1px),
+          linear-gradient(0deg, oklch(92% 0.015 82 / 0.03) 1px, transparent 1px);
+        background-size: 160px 160px;
+        mask-image: linear-gradient(112deg, black, transparent 70%);
+        pointer-events: none;
+      }
+
+      .header {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 80px;
+        align-items: start;
+        margin-bottom: 66px;
+      }
+
+      .label {
+        color: var(--brass);
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 0.16em;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 1420px;
+        margin: 30px 0 0;
+        font-family: var(--display);
+        font-size: 112px;
+        font-weight: 400;
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .note {
+        max-width: 910px;
+        margin: 42px 0 0;
+        color: var(--paper-soft);
+        font-size: 34px;
+        line-height: 1.34;
+      }
+
+      .logo {
+        width: 430px;
+        height: auto;
+      }
+
+      .grid {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+      }
+
+      .tile {
+        position: relative;
+        border: 1px solid oklch(92% 0.015 82 / 0.16);
+        background: oklch(12.5% 0.035 250 / 0.72);
+      }
+
+      .tile img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .tile-caption {
+        position: absolute;
+        left: 24px;
+        top: 22px;
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        color: var(--paper);
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      .tile-caption span {
+        color: var(--brass);
+      }
+
+      .footer {
+        position: absolute;
+        left: 108px;
+        right: 108px;
+        bottom: 52px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        border-top: 1px solid var(--line);
+        padding-top: 24px;
+        color: var(--paper-dim);
+        font-size: 24px;
+        line-height: 1.3;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="board">
+      <header class="header">
+        <div>
+          <div class="label">Checkpoint visual</div>
+          <h1>Prancha de aprovacao da abertura premium.</h1>
+          <p class="note">Se esta direcao for aprovada, ela passa a orientar o ritmo visual do brandbook: tipografia didone, azul profundo, textura, silencio, criterio e presenca institucional.</p>
+        </div>
+        <img class="logo" src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" alt="B. Living Floripa" />
+      </header>
+
+      <section class="grid">
+        <article class="tile">
+          <div class="tile-caption"><span>01</span> Capa</div>
+          <img src="./previews/brandbook-b-living-p01.png" alt="Pagina 01 do brandbook" />
+        </article>
+        <article class="tile">
+          <div class="tile-caption"><span>02</span> Manifesto</div>
+          <img src="./previews/brandbook-b-living-p02.png" alt="Pagina 02 do brandbook" />
+        </article>
+        <article class="tile">
+          <div class="tile-caption"><span>03</span> Promessa</div>
+          <img src="./previews/brandbook-b-living-p03.png" alt="Pagina 03 do brandbook" />
+        </article>
+        <article class="tile">
+          <div class="tile-caption"><span>04</span> Estrutura</div>
+          <img src="./previews/brandbook-b-living-p04.png" alt="Pagina 04 do brandbook" />
+        </article>
+        <article class="tile">
+          <div class="tile-caption"><span>05</span> Tese</div>
+          <img src="./previews/brandbook-b-living-p05.png" alt="Pagina 05 do brandbook" />
+        </article>
+        <article class="tile">
+          <div class="tile-caption"><span>06</span> Fechamento</div>
+          <img src="./previews/brandbook-b-living-p06.png" alt="Pagina 06 do brandbook" />
+        </article>
+      </section>
+
+      <footer class="footer">
+        <span>B. Living Brandbook Completo, abertura 01-06</span>
+        <span>Quiet authority, escolha bem conduzida</span>
+      </footer>
+    </main>
+  </body>
+</html>
