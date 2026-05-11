@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Browser Use Smoke Test</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Inter, Arial, sans-serif;
+      background: #f4f6f8;
+      color: #17212b;
+    }
+    body {
+      margin: 0;
+      padding: 32px;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      display: grid;
+      gap: 18px;
+    }
+    section {
+      background: #fff;
+      border: 1px solid #d9e0e7;
+      border-radius: 8px;
+      padding: 18px;
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+    }
+    .toolbar, .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    button, input, select {
+      min-height: 40px;
+      border: 1px solid #aab6c2;
+      border-radius: 6px;
+      padding: 0 12px;
+      font: inherit;
+      background: #fff;
+    }
+    button {
+      cursor: pointer;
+      background: #0f766e;
+      color: #fff;
+      border-color: #0f766e;
+    }
+    button.secondary {
+      background: #fff;
+      color: #17212b;
+    }
+    [aria-selected="true"] {
+      background: #17212b;
+      border-color: #17212b;
+      color: #fff;
+    }
+    .status {
+      min-height: 28px;
+      padding: 8px 10px;
+      background: #edf7f5;
+      border-radius: 6px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+    th, td {
+      border-bottom: 1px solid #d9e0e7;
+      padding: 10px;
+      text-align: left;
+    }
+    dialog {
+      border: 0;
+      border-radius: 8px;
+      padding: 20px;
+      width: min(420px, calc(100vw - 32px));
+      box-shadow: 0 20px 60px rgba(0,0,0,.22);
+    }
+  </style>
+</head>
+<body>
+<main>
+  <section>
+    <h1>Browser Use Smoke Test</h1>
+    <p id="summary">Página local para validar navegação, interação, leitura de estado e filtro.</p>
+    <div class="toolbar">
+      <button id="increment">Incrementar</button>
+      <button class="secondary" id="reset">Resetar</button>
+      <strong>Contador: <span id="count">0</span></strong>
+    </div>
+  </section>
+
+  <section>
+    <h2>Formulário</h2>
+    <div class="row">
+      <label>Nome <input id="name" aria-label="Nome" placeholder="Digite um nome"></label>
+      <label><input id="priority" type="checkbox"> Alta prioridade</label>
+      <button id="save">Salvar</button>
+    </div>
+    <p class="status" id="formStatus">Aguardando ação.</p>
+  </section>
+
+  <section>
+    <h2>Abas</h2>
+    <div class="toolbar" role="tablist" aria-label="Modo de visualização">
+      <button class="secondary" role="tab" aria-selected="true" id="tab-overview">Visão geral</button>
+      <button class="secondary" role="tab" aria-selected="false" id="tab-details">Detalhes</button>
+    </div>
+    <p class="status" id="tabPanel">Modo ativo: Visão geral</p>
+  </section>
+
+  <section>
+    <h2>Filtro</h2>
+    <label>Filtrar tabela <input id="filter" aria-label="Filtrar tabela" placeholder="Ex: ativo"></label>
+    <table aria-label="Tabela de clientes">
+      <thead>
+        <tr><th>Cliente</th><th>Status</th></tr>
+      </thead>
+      <tbody id="tableBody">
+        <tr><td>Switch Cube</td><td>ativo</td></tr>
+        <tr><td>Hyren</td><td>em revisão</td></tr>
+        <tr><td>B Living</td><td>ativo</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Modal</h2>
+    <button id="openModal">Abrir modal</button>
+  </section>
+</main>
+
+<dialog id="modal">
+  <h2>Modal validado</h2>
+  <p>O Browser Use abriu este modal e pode fechá-lo.</p>
+  <button id="closeModal">Fechar</button>
+</dialog>
+
+<script>
+  let count = 0;
+  const countEl = document.getElementById("count");
+  const statusEl = document.getElementById("formStatus");
+  document.getElementById("increment").addEventListener("click", () => {
+    count += 1;
+    countEl.textContent = String(count);
+  });
+  document.getElementById("reset").addEventListener("click", () => {
+    count = 0;
+    countEl.textContent = "0";
+  });
+  document.getElementById("save").addEventListener("click", () => {
+    const name = document.getElementById("name").value.trim() || "sem nome";
+    const priority = document.getElementById("priority").checked ? "alta" : "normal";
+    statusEl.textContent = `Salvo: ${name} | prioridade ${priority}`;
+  });
+  for (const tab of [document.getElementById("tab-overview"), document.getElementById("tab-details")]) {
+    tab.addEventListener("click", () => {
+      document.querySelectorAll("[role='tab']").forEach((item) => item.setAttribute("aria-selected", "false"));
+      tab.setAttribute("aria-selected", "true");
+      document.getElementById("tabPanel").textContent = `Modo ativo: ${tab.textContent}`;
+    });
+  }
+  document.getElementById("filter").addEventListener("input", (event) => {
+    const query = event.target.value.toLowerCase();
+    document.querySelectorAll("#tableBody tr").forEach((row) => {
+      row.hidden = !row.textContent.toLowerCase().includes(query);
+    });
+  });
+  document.getElementById("openModal").addEventListener("click", () => document.getElementById("modal").showModal());
+  document.getElementById("closeModal").addEventListener("click", () => document.getElementById("modal").close());
+</script>
+</body>
+</html>

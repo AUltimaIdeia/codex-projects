@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"/><title>Kit Rafael e Equipe - Autoridade Distribuida</title><style>
+  :root {
+    --navy: oklch(16.5% 0.048 245);
+    --navy-deep: oklch(12.5% 0.035 250);
+    --navy-soft: oklch(22% 0.048 240);
+    --paper: oklch(92% 0.015 82);
+    --paper-soft: oklch(84% 0.018 82);
+    --paper-dim: oklch(70% 0.018 82);
+    --petrol: oklch(42% 0.055 205);
+    --stone: oklch(37% 0.012 238);
+    --brass: oklch(68% 0.055 78);
+    --brass-soft: oklch(76% 0.045 80);
+    --ink: oklch(15% 0.04 245);
+    --line: oklch(92% 0.015 82 / 0.18);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 100%; min-height: 100%; background: var(--navy-deep); }
+  body { display: grid; place-items: center; font-family: "Segoe UI", Arial, sans-serif; }
+  .board {
+    position: relative;
+    width: 3840px;
+    height: 2160px;
+    overflow: hidden;
+    color: var(--paper);
+    background:
+      radial-gradient(circle at 16% 14%, oklch(31% 0.07 225 / 0.48), transparent 30%),
+      radial-gradient(circle at 88% 72%, oklch(36% 0.055 205 / 0.26), transparent 28%),
+      linear-gradient(145deg, oklch(18% 0.052 242), oklch(10.8% 0.03 252) 70%);
+  }
+  .board::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.38;
+    background-image:
+      linear-gradient(oklch(92% 0.015 82 / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(92% 0.015 82 / 0.035) 1px, transparent 1px);
+    background-size: 96px 96px;
+  }
+  .board::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.25;
+    background: radial-gradient(circle at 50% 50%, transparent 0 62%, oklch(2% 0.02 250 / 0.42) 100%);
+  }
+  .frame { position: absolute; inset: 70px; z-index: 1; border: 1px solid var(--line); }
+  .logo-main { position: absolute; z-index: 3; left: 150px; top: 128px; width: 520px; }
+  .label {
+    color: var(--brass-soft);
+    font-size: 24px;
+    font-weight: 650;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  h1, h2, h3, p { margin: 0; }
+  .display {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 0.92;
+    letter-spacing: 0;
+  }
+  .body-copy { color: var(--paper-soft); font-size: 34px; line-height: 1.32; font-weight: 350; }
+  .paper { background: var(--paper); color: var(--ink); }
+  .thin { border: 1px solid var(--line); }
+  .rule { height: 1px; background: linear-gradient(90deg, var(--brass), transparent); }
+  .logo-small { width: 120px; height: auto; }
+
+      .headline { position:absolute; z-index:3; left:150px; top:430px; width:1160px; font-size:122px; }
+      .copy { position:absolute; z-index:3; left:154px; top:835px; width:850px; }
+      .cards { position:absolute; z-index:3; right:150px; top:150px; width:2000px; height:1800px; display:grid; grid-template-columns:1.1fr 1fr 1fr; grid-template-rows:1fr 1fr; gap:34px; }
+      .person { border:1px solid var(--line); padding:56px; background:oklch(15% 0.038 245 / .78); display:flex; flex-direction:column; justify-content:space-between; }
+      .rafael { grid-row:span 2; background:var(--paper); color:var(--ink); }
+      .person .role { color:var(--brass-soft); font-size:20px; font-weight:650; letter-spacing:.16em; text-transform:uppercase; }
+      .rafael .role { color:var(--petrol); }
+      .person h3 { font-size:76px; }
+      .rafael h3 { font-size:108px; }
+      .person p { color:var(--paper-soft); font-size:29px; line-height:1.32; }
+      .rafael p { color:oklch(28% 0.03 245); font-size:34px; }
+      .portrait { height:420px; border:1px solid oklch(17% 0.045 245 / .16); background:linear-gradient(145deg, oklch(16% 0.04 245 / .12), transparent); display:grid; place-items:center; }
+      .portrait img { width:140px; }
+      .person:not(.rafael) .portrait { border-color:var(--line); background:linear-gradient(145deg, oklch(42% 0.055 205 / .16), transparent); }
+      .system { position:absolute; z-index:3; left:154px; bottom:190px; width:980px; border-top:1px solid var(--line); padding-top:34px; color:var(--paper-soft); font-size:30px; line-height:1.35; }
+      .system strong { color:var(--paper); }
+    </style></head>
+<body><main class="board">
+      <div class="frame"></div><img class="logo-main" src="../../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" />
+      <h1 class="display headline">Autoridade distribu&iacute;da.</h1>
+      <p class="body-copy copy">Rafael puxa a tese. A equipe sustenta o m&eacute;todo. Cada especialista aparece com uma for&ccedil;a clara, sem linguagem de corretor gen&eacute;rico.</p>
+      <section class="cards">
+        <article class="person rafael"><div><div class="role">Fundador / leitura de mercado</div><h3 class="display">Rafael Bittencourt</h3></div><div class="portrait"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20AZUL%20ESCURO.svg"/></div><p>18 anos de mercado, lideran&ccedil;a comercial e vis&atilde;o sobre Florian&oacute;polis.</p></article>
+        <article class="person"><div><div class="role">Equipe B. Living</div><h3 class="display">Marta</h3></div><div class="portrait"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div><p>seguran&ccedil;a relacional e credibilidade</p></article><article class="person"><div><div class="role">Equipe B. Living</div><h3 class="display">Juan</h3></div><div class="portrait"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div><p>energia de execu&ccedil;&atilde;o e evolu&ccedil;&atilde;o</p></article><article class="person"><div><div class="role">Equipe B. Living</div><h3 class="display">Uberdan</h3></div><div class="portrait"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div><p>presen&ccedil;a comercial e conex&atilde;o pr&aacute;tica</p></article><article class="person"><div><div class="role">Equipe B. Living</div><h3 class="display">Fabiano</h3></div><div class="portrait"><img src="../../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg"/></div><p>vis&atilde;o de oportunidade e investimento</p></article>
+      </section>
+      <div class="system"><strong>Sistema replic&aacute;vel:</strong> cada corretor ganha presen&ccedil;a sem romper a marca. A assinatura individual serve &agrave; autoridade coletiva.</div></main></body></html>

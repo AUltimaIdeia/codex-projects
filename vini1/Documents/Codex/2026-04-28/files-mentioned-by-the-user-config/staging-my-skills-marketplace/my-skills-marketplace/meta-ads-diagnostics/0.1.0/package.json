@@ -1,0 +1,19 @@
+{
+  "name": "meta-ads-diagnostics",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "mcp": "node ./scripts/server.mjs",
+    "auth:url": "node ./scripts/auth.mjs url",
+    "auth:exchange": "node ./scripts/auth.mjs exchange",
+    "auth:long-lived": "node ./scripts/auth.mjs long-lived"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.1",
+    "zod": "^3.25.76"
+  }
+}

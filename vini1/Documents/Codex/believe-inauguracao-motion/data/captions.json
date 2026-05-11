@@ -1,0 +1,1427 @@
+{
+  "schema": "hyren.hyperframes.caption-track.v1",
+  "composition_id": "believe-inauguracao-video",
+  "duration_seconds": 276,
+  "fps": 30,
+  "total_screens": 136,
+  "style": {
+    "mode": "burned_in",
+    "language": "pt-BR",
+    "placement": "bottom_safe_area",
+    "max_lines": 2,
+    "animation": "soft_fade_up",
+    "emphasis": "highlight key nouns only"
+  },
+  "cues": [
+    {
+      "index": 1,
+      "start": 0.266,
+      "end": 3.333,
+      "text": "Toda grande inauguração simboliza um nascimento",
+      "duration": 3.067,
+      "lines": [
+        "Toda grande inauguração",
+        "simboliza um nascimento"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 3.566,
+      "end": 5.866,
+      "text": "Ela marca o abrir portas do negócio",
+      "duration": 2.3,
+      "lines": [
+        "Ela marca o abrir portas do",
+        "negócio"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 6.366,
+      "end": 7.666,
+      "text": "Essa inauguração não",
+      "duration": 1.3,
+      "lines": [
+        "Essa inauguração não"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 7.8,
+      "end": 8.5,
+      "text": "Esse evento",
+      "duration": 0.7,
+      "lines": [
+        "Esse evento"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 8.5,
+      "end": 9.7,
+      "text": "Tem outro significado",
+      "duration": 1.2,
+      "lines": [
+        "Tem outro significado"
+      ]
+    },
+    {
+      "index": 6,
+      "start": 10.3,
+      "end": 13.166,
+      "text": "Esta inauguração marca uma nova fase do mercado",
+      "duration": 2.866,
+      "lines": [
+        "Esta inauguração marca uma",
+        "nova fase do mercado"
+      ]
+    },
+    {
+      "index": 7,
+      "start": 13.5,
+      "end": 15.133,
+      "text": "Uma fase de mais maturidade",
+      "duration": 1.633,
+      "lines": [
+        "Uma fase de mais maturidade"
+      ]
+    },
+    {
+      "index": 8,
+      "start": 15.466,
+      "end": 16.266,
+      "text": "Ou melhor",
+      "duration": 0.8,
+      "lines": [
+        "Ou melhor"
+      ]
+    },
+    {
+      "index": 9,
+      "start": 16.533,
+      "end": 17.333,
+      "text": "Uma evolução",
+      "duration": 0.8,
+      "lines": [
+        "Uma evolução"
+      ]
+    },
+    {
+      "index": 10,
+      "start": 18.066,
+      "end": 21.366,
+      "text": "Um sinal de que o mercado imobiliário de Florianópolis",
+      "duration": 3.3,
+      "lines": [
+        "Um sinal de que o mercado",
+        "imobiliário de Florianópolis"
+      ]
+    },
+    {
+      "index": 11,
+      "start": 21.733,
+      "end": 23.966,
+      "text": "Está entrando em uma era mais sofisticada",
+      "duration": 2.233,
+      "lines": [
+        "Está entrando em uma era mais",
+        "sofisticada"
+      ]
+    },
+    {
+      "index": 12,
+      "start": 24.666,
+      "end": 25.566,
+      "text": "Mais integrada",
+      "duration": 0.9,
+      "lines": [
+        "Mais integrada"
+      ]
+    },
+    {
+      "index": 13,
+      "start": 25.9,
+      "end": 28.7,
+      "text": "E mais consciente do impacto que pode gerar",
+      "duration": 2.8,
+      "lines": [
+        "E mais consciente do impacto",
+        "que pode gerar"
+      ]
+    },
+    {
+      "index": 14,
+      "start": 29.4,
+      "end": 31.9,
+      "text": "Florianópolis nunca foi uma cidade comum",
+      "duration": 2.5,
+      "lines": [
+        "Florianópolis nunca foi uma",
+        "cidade comum"
+      ]
+    },
+    {
+      "index": 15,
+      "start": 32.4,
+      "end": 34.2,
+      "text": "É uma cidade de valor raro",
+      "duration": 1.8,
+      "lines": [
+        "É uma cidade de valor raro"
+      ]
+    },
+    {
+      "index": 16,
+      "start": 34.866,
+      "end": 36.166,
+      "text": "Rara pela geografia",
+      "duration": 1.3,
+      "lines": [
+        "Rara pela geografia"
+      ]
+    },
+    {
+      "index": 17,
+      "start": 36.733,
+      "end": 38.2,
+      "text": "Rara pela atratividade",
+      "duration": 1.467,
+      "lines": [
+        "Rara pela atratividade"
+      ]
+    },
+    {
+      "index": 18,
+      "start": 39.066,
+      "end": 40.566,
+      "text": "Rara pela qualidade de vida",
+      "duration": 1.5,
+      "lines": [
+        "Rara pela qualidade de vida"
+      ]
+    },
+    {
+      "index": 19,
+      "start": 41.566,
+      "end": 43.9,
+      "text": "Rara pela força econômica que carrega",
+      "duration": 2.334,
+      "lines": [
+        "Rara pela força econômica que",
+        "carrega"
+      ]
+    },
+    {
+      "index": 20,
+      "start": 44.6,
+      "end": 46.133,
+      "text": "E rara principalmente",
+      "duration": 1.533,
+      "lines": [
+        "E rara principalmente"
+      ]
+    },
+    {
+      "index": 21,
+      "start": 46.7,
+      "end": 49.3,
+      "text": "Porque aqui existe desenvolvimento constante",
+      "duration": 2.6,
+      "lines": [
+        "Porque aqui existe",
+        "desenvolvimento constante"
+      ]
+    },
+    {
+      "index": 22,
+      "start": 50,
+      "end": 52.9,
+      "text": "E esta nova era é a era da integração",
+      "duration": 2.9,
+      "lines": [
+        "E esta nova era é a era da",
+        "integração"
+      ]
+    },
+    {
+      "index": 23,
+      "start": 53.533,
+      "end": 54.733,
+      "text": "Entre quem constrói",
+      "duration": 1.2,
+      "lines": [
+        "Entre quem constrói"
+      ]
+    },
+    {
+      "index": 24,
+      "start": 55.1,
+      "end": 57.3,
+      "text": "Quem conecta e quem coordena",
+      "duration": 2.2,
+      "lines": [
+        "Quem conecta e quem coordena"
+      ]
+    },
+    {
+      "index": 25,
+      "start": 58.566,
+      "end": 60.133,
+      "text": "Bom a maior realização hoje",
+      "duration": 1.567,
+      "lines": [
+        "Bom a maior realização hoje"
+      ]
+    },
+    {
+      "index": 26,
+      "start": 60.2,
+      "end": 60.666,
+      "text": "Nesse momento",
+      "duration": 0.466,
+      "lines": [
+        "Nesse momento"
+      ]
+    },
+    {
+      "index": 27,
+      "start": 60.666,
+      "end": 61.733,
+      "text": "Aqui com a believe",
+      "duration": 1.067,
+      "lines": [
+        "Aqui com a believe"
+      ]
+    },
+    {
+      "index": 28,
+      "start": 62.266,
+      "end": 63.9,
+      "text": "É é ter esse poder",
+      "duration": 1.634,
+      "lines": [
+        "É é ter esse poder"
+      ]
+    },
+    {
+      "index": 29,
+      "start": 64.7,
+      "end": 65.8,
+      "text": "De entregar mais",
+      "duration": 1.1,
+      "lines": [
+        "De entregar mais"
+      ]
+    },
+    {
+      "index": 30,
+      "start": 66,
+      "end": 67.7,
+      "text": "De me conectar mais com as pessoas",
+      "duration": 1.7,
+      "lines": [
+        "De me conectar mais com as",
+        "pessoas"
+      ]
+    },
+    {
+      "index": 31,
+      "start": 68.333,
+      "end": 69.333,
+      "text": "Através do meu time",
+      "duration": 1,
+      "lines": [
+        "Através do meu time"
+      ]
+    },
+    {
+      "index": 32,
+      "start": 69.9,
+      "end": 70.7,
+      "text": "Entregar",
+      "duration": 0.8,
+      "lines": [
+        "Entregar"
+      ]
+    },
+    {
+      "index": 33,
+      "start": 70.9,
+      "end": 71.5,
+      "text": "O melhor",
+      "duration": 0.6,
+      "lines": [
+        "O melhor"
+      ]
+    },
+    {
+      "index": 34,
+      "start": 71.5,
+      "end": 74.166,
+      "text": "O melhor que a gente deseja pra quem tá na nossa volta",
+      "duration": 2.666,
+      "lines": [
+        "O melhor que a gente deseja",
+        "pra quem tá na nossa volta"
+      ]
+    },
+    {
+      "index": 35,
+      "start": 74.533,
+      "end": 75.6,
+      "text": "Que é a nossa essência",
+      "duration": 1.067,
+      "lines": [
+        "Que é a nossa essência"
+      ]
+    },
+    {
+      "index": 36,
+      "start": 75.733,
+      "end": 77.866,
+      "text": "E que isso gera uma onda de positividade",
+      "duration": 2.133,
+      "lines": [
+        "E que isso gera uma onda de",
+        "positividade"
+      ]
+    },
+    {
+      "index": 37,
+      "start": 77.933,
+      "end": 79.6,
+      "text": "De resultado positivo absurdo",
+      "duration": 1.667,
+      "lines": [
+        "De resultado positivo absurdo"
+      ]
+    },
+    {
+      "index": 38,
+      "start": 80.2,
+      "end": 82.766,
+      "text": "E é essa onda que é a maior realização",
+      "duration": 2.566,
+      "lines": [
+        "E é essa onda que é a maior",
+        "realização"
+      ]
+    },
+    {
+      "index": 39,
+      "start": 83.366,
+      "end": 84.466,
+      "text": "É a maior conquista",
+      "duration": 1.1,
+      "lines": [
+        "É a maior conquista"
+      ]
+    },
+    {
+      "index": 40,
+      "start": 85,
+      "end": 87.066,
+      "text": "Que o homem g que eu posso sonhar",
+      "duration": 2.066,
+      "lines": [
+        "Que o homem g que eu posso",
+        "sonhar"
+      ]
+    },
+    {
+      "index": 41,
+      "start": 87.366,
+      "end": 89.166,
+      "text": "É ver todo mundo da minha volta",
+      "duration": 1.8,
+      "lines": [
+        "É ver todo mundo da minha",
+        "volta"
+      ]
+    },
+    {
+      "index": 42,
+      "start": 89.7,
+      "end": 90.666,
+      "text": "Com a nossa orientação",
+      "duration": 0.966,
+      "lines": [
+        "Com a nossa orientação"
+      ]
+    },
+    {
+      "index": 43,
+      "start": 90.966,
+      "end": 91.933,
+      "text": "Se dando muito bem",
+      "duration": 0.967,
+      "lines": [
+        "Se dando muito bem"
+      ]
+    },
+    {
+      "index": 44,
+      "start": 92.266,
+      "end": 93.7,
+      "text": "Muito prósperos e muito feliz",
+      "duration": 1.434,
+      "lines": [
+        "Muito prósperos e muito feliz"
+      ]
+    },
+    {
+      "index": 45,
+      "start": 94.3,
+      "end": 94.933,
+      "text": "Essa noite",
+      "duration": 0.633,
+      "lines": [
+        "Essa noite"
+      ]
+    },
+    {
+      "index": 46,
+      "start": 94.933,
+      "end": 95.733,
+      "text": "Pra mim",
+      "duration": 0.8,
+      "lines": [
+        "Pra mim"
+      ]
+    },
+    {
+      "index": 47,
+      "start": 95.8,
+      "end": 98.3,
+      "text": "Ela tem uma palavra que é confiança",
+      "duration": 2.5,
+      "lines": [
+        "Ela tem uma palavra que é",
+        "confiança"
+      ]
+    },
+    {
+      "index": 48,
+      "start": 99.066,
+      "end": 101.733,
+      "text": "Confiança em tudo que a gente trabalha juntos",
+      "duration": 2.667,
+      "lines": [
+        "Confiança em tudo que a gente",
+        "trabalha juntos"
+      ]
+    },
+    {
+      "index": 49,
+      "start": 102.466,
+      "end": 103.266,
+      "text": "Confiança",
+      "duration": 0.8,
+      "lines": [
+        "Confiança"
+      ]
+    },
+    {
+      "index": 50,
+      "start": 103.533,
+      "end": 105.533,
+      "text": "Na empresa que o Rafael construiu",
+      "duration": 2,
+      "lines": [
+        "Na empresa que o Rafael",
+        "construiu"
+      ]
+    },
+    {
+      "index": 51,
+      "start": 105.666,
+      "end": 106.5,
+      "text": "Na equipe que",
+      "duration": 0.834,
+      "lines": [
+        "Na equipe que"
+      ]
+    },
+    {
+      "index": 52,
+      "start": 106.5,
+      "end": 107.3,
+      "text": "Ele construiu",
+      "duration": 0.8,
+      "lines": [
+        "Ele construiu"
+      ]
+    },
+    {
+      "index": 53,
+      "start": 107.666,
+      "end": 108.5,
+      "text": "Confiança em todas",
+      "duration": 0.834,
+      "lines": [
+        "Confiança em todas"
+      ]
+    },
+    {
+      "index": 54,
+      "start": 108.8,
+      "end": 110.066,
+      "text": "Pelas pessoas que estão aqui",
+      "duration": 1.266,
+      "lines": [
+        "Pelas pessoas que estão aqui"
+      ]
+    },
+    {
+      "index": 55,
+      "start": 110.3,
+      "end": 111.933,
+      "text": "E tá sendo um momento único pra nós",
+      "duration": 1.633,
+      "lines": [
+        "E tá sendo um momento único",
+        "pra nós"
+      ]
+    },
+    {
+      "index": 56,
+      "start": 112.2,
+      "end": 112.9,
+      "text": "Momento",
+      "duration": 0.7,
+      "lines": [
+        "Momento"
+      ]
+    },
+    {
+      "index": 57,
+      "start": 112.9,
+      "end": 113.766,
+      "text": "De muita felicidade",
+      "duration": 0.866,
+      "lines": [
+        "De muita felicidade"
+      ]
+    },
+    {
+      "index": 58,
+      "start": 114.5,
+      "end": 117.166,
+      "text": "É o momento que estamos aguardando muito",
+      "duration": 2.666,
+      "lines": [
+        "É o momento que estamos",
+        "aguardando muito"
+      ]
+    },
+    {
+      "index": 59,
+      "start": 117.9,
+      "end": 119.566,
+      "text": "E finalmente se concretizou né",
+      "duration": 1.666,
+      "lines": [
+        "E finalmente se concretizou",
+        "né"
+      ]
+    },
+    {
+      "index": 60,
+      "start": 119.666,
+      "end": 120.766,
+      "text": "E tá sendo aí um sucesso",
+      "duration": 1.1,
+      "lines": [
+        "E tá sendo aí um sucesso"
+      ]
+    },
+    {
+      "index": 61,
+      "start": 120.9,
+      "end": 121.7,
+      "text": "Todo mundo feliz",
+      "duration": 0.8,
+      "lines": [
+        "Todo mundo feliz"
+      ]
+    },
+    {
+      "index": 62,
+      "start": 122.066,
+      "end": 122.866,
+      "text": "Muitos amigos",
+      "duration": 0.8,
+      "lines": [
+        "Muitos amigos"
+      ]
+    },
+    {
+      "index": 63,
+      "start": 123.133,
+      "end": 123.933,
+      "text": "Muitos parceiros",
+      "duration": 0.8,
+      "lines": [
+        "Muitos parceiros"
+      ]
+    },
+    {
+      "index": 64,
+      "start": 124,
+      "end": 124.8,
+      "text": "Muita gente",
+      "duration": 0.8,
+      "lines": [
+        "Muita gente"
+      ]
+    },
+    {
+      "index": 65,
+      "start": 125.266,
+      "end": 127.066,
+      "text": "É contente com tudo que tá acontecendo",
+      "duration": 1.8,
+      "lines": [
+        "É contente com tudo que tá",
+        "acontecendo"
+      ]
+    },
+    {
+      "index": 66,
+      "start": 127.533,
+      "end": 130.3,
+      "text": "E a believe pra mim ela é mais do que um time",
+      "duration": 2.767,
+      "lines": [
+        "E a believe pra mim ela é",
+        "mais do que um time"
+      ]
+    },
+    {
+      "index": 67,
+      "start": 130.7,
+      "end": 131.5,
+      "text": "É uma família",
+      "duration": 0.8,
+      "lines": [
+        "É uma família"
+      ]
+    },
+    {
+      "index": 68,
+      "start": 132.2,
+      "end": 133.1,
+      "text": "A gente se ajuda",
+      "duration": 0.9,
+      "lines": [
+        "A gente se ajuda"
+      ]
+    },
+    {
+      "index": 69,
+      "start": 133.466,
+      "end": 134.666,
+      "text": "A gente é unido",
+      "duration": 1.2,
+      "lines": [
+        "A gente é unido"
+      ]
+    },
+    {
+      "index": 70,
+      "start": 135.466,
+      "end": 137.466,
+      "text": "E a gente é amigo e",
+      "duration": 2,
+      "lines": [
+        "E a gente é amigo e"
+      ]
+    },
+    {
+      "index": 71,
+      "start": 138.6,
+      "end": 140.466,
+      "text": "É uma família que não tem como explicar",
+      "duration": 1.866,
+      "lines": [
+        "É uma família que não tem",
+        "como explicar"
+      ]
+    },
+    {
+      "index": 72,
+      "start": 141,
+      "end": 143.966,
+      "text": "E hoje abrindo as portas aqui da believe em com certeza",
+      "duration": 2.966,
+      "lines": [
+        "E hoje abrindo as portas aqui",
+        "da believe em com certeza"
+      ]
+    },
+    {
+      "index": 73,
+      "start": 144.7,
+      "end": 146.866,
+      "text": "Vai ser um marco pra cidade nesse sentido",
+      "duration": 2.166,
+      "lines": [
+        "Vai ser um marco pra cidade",
+        "nesse sentido"
+      ]
+    },
+    {
+      "index": 74,
+      "start": 147.4,
+      "end": 148.266,
+      "text": "E vai ser um prazer",
+      "duration": 0.866,
+      "lines": [
+        "E vai ser um prazer"
+      ]
+    },
+    {
+      "index": 75,
+      "start": 148.366,
+      "end": 149.6,
+      "text": "As portas estão abertas",
+      "duration": 1.234,
+      "lines": [
+        "As portas estão abertas"
+      ]
+    },
+    {
+      "index": 76,
+      "start": 150.2,
+      "end": 151.3,
+      "text": "Pra falar de negócios",
+      "duration": 1.1,
+      "lines": [
+        "Pra falar de negócios"
+      ]
+    },
+    {
+      "index": 77,
+      "start": 151.8,
+      "end": 153.933,
+      "text": "Hoje é um festa especial de abertura",
+      "duration": 2.133,
+      "lines": [
+        "Hoje é um festa especial de",
+        "abertura"
+      ]
+    },
+    {
+      "index": 78,
+      "start": 154.466,
+      "end": 155.266,
+      "text": "Mas os nossos",
+      "duration": 0.8,
+      "lines": [
+        "Mas os nossos"
+      ]
+    },
+    {
+      "index": 79,
+      "start": 155.8,
+      "end": 158.333,
+      "text": "Negócios muitas vezes são feitos em eventos dessa forma",
+      "duration": 2.533,
+      "lines": [
+        "Negócios muitas vezes são",
+        "feitos em eventos dessa forma"
+      ]
+    },
+    {
+      "index": 80,
+      "start": 158.766,
+      "end": 160.4,
+      "text": "E é sempre um prazer recebê los",
+      "duration": 1.634,
+      "lines": [
+        "E é sempre um prazer recebê",
+        "los"
+      ]
+    },
+    {
+      "index": 81,
+      "start": 160.566,
+      "end": 161.5,
+      "text": "Bem pra believe",
+      "duration": 0.934,
+      "lines": [
+        "Bem pra believe"
+      ]
+    },
+    {
+      "index": 82,
+      "start": 161.766,
+      "end": 163.766,
+      "text": "Florianópolis vive um momento",
+      "duration": 2,
+      "lines": [
+        "Florianópolis vive um momento"
+      ]
+    },
+    {
+      "index": 83,
+      "start": 164.1,
+      "end": 166.333,
+      "text": "De ascensão no mercado imobiliário",
+      "duration": 2.233,
+      "lines": [
+        "De ascensão no mercado",
+        "imobiliário"
+      ]
+    },
+    {
+      "index": 84,
+      "start": 166.8,
+      "end": 170.1,
+      "text": "E a believe nasceu exatamente no momento",
+      "duration": 3.3,
+      "lines": [
+        "E a believe nasceu exatamente",
+        "no momento"
+      ]
+    },
+    {
+      "index": 85,
+      "start": 171.1,
+      "end": 173.2,
+      "text": "Certo no momento aonde o mercado",
+      "duration": 2.1,
+      "lines": [
+        "Certo no momento aonde o",
+        "mercado"
+      ]
+    },
+    {
+      "index": 86,
+      "start": 174,
+      "end": 174.866,
+      "text": "Já esperava",
+      "duration": 0.866,
+      "lines": [
+        "Já esperava"
+      ]
+    },
+    {
+      "index": 87,
+      "start": 175.7,
+      "end": 176.5,
+      "text": "Por essa",
+      "duration": 0.8,
+      "lines": [
+        "Por essa"
+      ]
+    },
+    {
+      "index": 88,
+      "start": 176.9,
+      "end": 177.5,
+      "text": "Empresa",
+      "duration": 0.6,
+      "lines": [
+        "Empresa"
+      ]
+    },
+    {
+      "index": 89,
+      "start": 177.5,
+      "end": 178.766,
+      "text": "Por essa imobiliária",
+      "duration": 1.266,
+      "lines": [
+        "Por essa imobiliária"
+      ]
+    },
+    {
+      "index": 90,
+      "start": 179.066,
+      "end": 179.866,
+      "text": "Com pessoas",
+      "duration": 0.8,
+      "lines": [
+        "Com pessoas"
+      ]
+    },
+    {
+      "index": 91,
+      "start": 180,
+      "end": 183.933,
+      "text": "Reunidas em prol de um propósito muito específico",
+      "duration": 3.933,
+      "lines": [
+        "Reunidas em prol de um",
+        "propósito muito específico"
+      ]
+    },
+    {
+      "index": 92,
+      "start": 184.133,
+      "end": 186.8,
+      "text": "Que é servir o mercado imobiliário com inovação",
+      "duration": 2.667,
+      "lines": [
+        "Que é servir o mercado",
+        "imobiliário com inovação"
+      ]
+    },
+    {
+      "index": 93,
+      "start": 187.1,
+      "end": 188.3,
+      "text": "Tá aqui na believe",
+      "duration": 1.2,
+      "lines": [
+        "Tá aqui na believe"
+      ]
+    },
+    {
+      "index": 94,
+      "start": 188.6,
+      "end": 189.966,
+      "text": "É uma satisfação enorme",
+      "duration": 1.366,
+      "lines": [
+        "É uma satisfação enorme"
+      ]
+    },
+    {
+      "index": 95,
+      "start": 190.866,
+      "end": 192.1,
+      "text": "Porque desde sempre",
+      "duration": 1.234,
+      "lines": [
+        "Porque desde sempre"
+      ]
+    },
+    {
+      "index": 96,
+      "start": 192.266,
+      "end": 194.966,
+      "text": "Eu me identifiquei com o pessoal que trabalha aqui",
+      "duration": 2.7,
+      "lines": [
+        "Eu me identifiquei com o",
+        "pessoal que trabalha aqui"
+      ]
+    },
+    {
+      "index": 97,
+      "start": 195.866,
+      "end": 198.8,
+      "text": "São várias características dentro da equipe",
+      "duration": 2.934,
+      "lines": [
+        "São várias características",
+        "dentro da equipe"
+      ]
+    },
+    {
+      "index": 98,
+      "start": 199.3,
+      "end": 200.533,
+      "text": "Cada um com a sua",
+      "duration": 1.233,
+      "lines": [
+        "Cada um com a sua"
+      ]
+    },
+    {
+      "index": 99,
+      "start": 201.6,
+      "end": 202.4,
+      "text": "Personalidade",
+      "duration": 0.8,
+      "lines": [
+        "Personalidade"
+      ]
+    },
+    {
+      "index": 100,
+      "start": 202.666,
+      "end": 203.866,
+      "text": "Cada um com a sua",
+      "duration": 1.2,
+      "lines": [
+        "Cada um com a sua"
+      ]
+    },
+    {
+      "index": 101,
+      "start": 204.666,
+      "end": 205.466,
+      "text": "Diferença",
+      "duration": 0.8,
+      "lines": [
+        "Diferença"
+      ]
+    },
+    {
+      "index": 102,
+      "start": 205.9,
+      "end": 207.466,
+      "text": "Mas todos se completando",
+      "duration": 1.566,
+      "lines": [
+        "Mas todos se completando"
+      ]
+    },
+    {
+      "index": 103,
+      "start": 207.733,
+      "end": 208.966,
+      "text": "É a believe ela",
+      "duration": 1.233,
+      "lines": [
+        "É a believe ela"
+      ]
+    },
+    {
+      "index": 104,
+      "start": 209.1,
+      "end": 209.566,
+      "text": "Ela vem",
+      "duration": 0.466,
+      "lines": [
+        "Ela vem"
+      ]
+    },
+    {
+      "index": 105,
+      "start": 209.566,
+      "end": 211.733,
+      "text": "Com essa posição é uma imobiliária nova",
+      "duration": 2.167,
+      "lines": [
+        "Com essa posição é uma",
+        "imobiliária nova"
+      ]
+    },
+    {
+      "index": 106,
+      "start": 212.8,
+      "end": 214,
+      "text": "Como marca né",
+      "duration": 1.2,
+      "lines": [
+        "Como marca né"
+      ]
+    },
+    {
+      "index": 107,
+      "start": 214,
+      "end": 215.666,
+      "text": "Mas na experiência dos que estão aqui",
+      "duration": 1.666,
+      "lines": [
+        "Mas na experiência dos que",
+        "estão aqui"
+      ]
+    },
+    {
+      "index": 108,
+      "start": 215.966,
+      "end": 217.933,
+      "text": "É ela já viveu muita coisa",
+      "duration": 1.967,
+      "lines": [
+        "É ela já viveu muita coisa"
+      ]
+    },
+    {
+      "index": 109,
+      "start": 218.533,
+      "end": 220,
+      "text": "Na na história da cidade",
+      "duration": 1.467,
+      "lines": [
+        "Na na história da cidade"
+      ]
+    },
+    {
+      "index": 110,
+      "start": 220.7,
+      "end": 221.5,
+      "text": "A gente consegue",
+      "duration": 0.8,
+      "lines": [
+        "A gente consegue"
+      ]
+    },
+    {
+      "index": 111,
+      "start": 222.766,
+      "end": 223.8,
+      "text": "Entender o passado",
+      "duration": 1.034,
+      "lines": [
+        "Entender o passado"
+      ]
+    },
+    {
+      "index": 112,
+      "start": 224.1,
+      "end": 225.766,
+      "text": "A gente conhece o passado da cidade",
+      "duration": 1.666,
+      "lines": [
+        "A gente conhece o passado da",
+        "cidade"
+      ]
+    },
+    {
+      "index": 113,
+      "start": 226.4,
+      "end": 227.966,
+      "text": "A gente consegue interpretar o presente",
+      "duration": 1.566,
+      "lines": [
+        "A gente consegue interpretar",
+        "o presente"
+      ]
+    },
+    {
+      "index": 114,
+      "start": 228.166,
+      "end": 230.6,
+      "text": "E a gente consegue é projetar o futuro da cidade",
+      "duration": 2.434,
+      "lines": [
+        "E a gente consegue é projetar",
+        "o futuro da cidade"
+      ]
+    },
+    {
+      "index": 115,
+      "start": 230.933,
+      "end": 233.2,
+      "text": "Então eu quero que vocês todos acreditem",
+      "duration": 2.267,
+      "lines": [
+        "Então eu quero que vocês",
+        "todos acreditem"
+      ]
+    },
+    {
+      "index": 116,
+      "start": 233.7,
+      "end": 235.066,
+      "text": "Que esse espaço é pra vocês",
+      "duration": 1.366,
+      "lines": [
+        "Que esse espaço é pra vocês"
+      ]
+    },
+    {
+      "index": 117,
+      "start": 235.366,
+      "end": 237.366,
+      "text": "E a melhor consultoria da cidade hoje",
+      "duration": 2,
+      "lines": [
+        "E a melhor consultoria da",
+        "cidade hoje"
+      ]
+    },
+    {
+      "index": 118,
+      "start": 237.5,
+      "end": 239.866,
+      "text": "Como o mercado tá mudando muito em Florianópolis",
+      "duration": 2.366,
+      "lines": [
+        "Como o mercado tá mudando",
+        "muito em Florianópolis"
+      ]
+    },
+    {
+      "index": 119,
+      "start": 240.066,
+      "end": 240.866,
+      "text": "Pai vocês",
+      "duration": 0.8,
+      "lines": [
+        "Pai vocês"
+      ]
+    },
+    {
+      "index": 120,
+      "start": 240.9,
+      "end": 241.8,
+      "text": "Vocês vão estar aqui",
+      "duration": 0.9,
+      "lines": [
+        "Vocês vão estar aqui"
+      ]
+    },
+    {
+      "index": 121,
+      "start": 243.133,
+      "end": 244.4,
+      "text": "A partir disso a gente vai",
+      "duration": 1.267,
+      "lines": [
+        "A partir disso a gente vai"
+      ]
+    },
+    {
+      "index": 122,
+      "start": 245.3,
+      "end": 246.866,
+      "text": "Perceber qual é o seu momento",
+      "duration": 1.566,
+      "lines": [
+        "Perceber qual é o seu momento"
+      ]
+    },
+    {
+      "index": 123,
+      "start": 247.533,
+      "end": 249.266,
+      "text": "E o momento hoje é believing",
+      "duration": 1.733,
+      "lines": [
+        "E o momento hoje é believing"
+      ]
+    },
+    {
+      "index": 124,
+      "start": 249.4,
+      "end": 252.066,
+      "text": "É de viver a vida e de viver Florianópolis",
+      "duration": 2.666,
+      "lines": [
+        "É de viver a vida e de viver",
+        "Florianópolis"
+      ]
+    },
+    {
+      "index": 125,
+      "start": 252.133,
+      "end": 252.9,
+      "text": "A believing",
+      "duration": 0.767,
+      "lines": [
+        "A believing"
+      ]
+    },
+    {
+      "index": 126,
+      "start": 252.9,
+      "end": 254.5,
+      "text": "Ela preza por um atendimento",
+      "duration": 1.6,
+      "lines": [
+        "Ela preza por um atendimento"
+      ]
+    },
+    {
+      "index": 127,
+      "start": 255.166,
+      "end": 256,
+      "text": "De qualidade",
+      "duration": 0.834,
+      "lines": [
+        "De qualidade"
+      ]
+    },
+    {
+      "index": 128,
+      "start": 256.3,
+      "end": 257.6,
+      "text": "Com foco no cliente",
+      "duration": 1.3,
+      "lines": [
+        "Com foco no cliente"
+      ]
+    },
+    {
+      "index": 129,
+      "start": 258.166,
+      "end": 260.066,
+      "text": "E com um método desenvolvido",
+      "duration": 1.9,
+      "lines": [
+        "E com um método desenvolvido"
+      ]
+    },
+    {
+      "index": 130,
+      "start": 260.566,
+      "end": 261.4,
+      "text": "Pelo Rafael",
+      "duration": 0.834,
+      "lines": [
+        "Pelo Rafael"
+      ]
+    },
+    {
+      "index": 131,
+      "start": 262.133,
+      "end": 265.7,
+      "text": "Uma pessoa que também traz uma bagagem de dezoito anos",
+      "duration": 3.567,
+      "lines": [
+        "Uma pessoa que também traz",
+        "uma bagagem de dezoito anos"
+      ]
+    },
+    {
+      "index": 132,
+      "start": 266.066,
+      "end": 269.266,
+      "text": "Agregado a bagagem de cada corretor dessa imobiliária",
+      "duration": 3.2,
+      "lines": [
+        "Agregado a bagagem de cada",
+        "corretor dessa imobiliária"
+      ]
+    },
+    {
+      "index": 133,
+      "start": 269.4,
+      "end": 270.2,
+      "text": "Convido você",
+      "duration": 0.8,
+      "lines": [
+        "Convido você"
+      ]
+    },
+    {
+      "index": 134,
+      "start": 270.866,
+      "end": 272.366,
+      "text": "A experimentar esse atendimento",
+      "duration": 1.5,
+      "lines": [
+        "A experimentar esse",
+        "atendimento"
+      ]
+    },
+    {
+      "index": 135,
+      "start": 272.533,
+      "end": 273.866,
+      "text": "Essa metodologia que nós temos",
+      "duration": 1.333,
+      "lines": [
+        "Essa metodologia que nós",
+        "temos"
+      ]
+    },
+    {
+      "index": 136,
+      "start": 273.966,
+      "end": 275.666,
+      "text": "Venha para a believe Floripa",
+      "duration": 1.7,
+      "lines": [
+        "Venha para a believe Floripa"
+      ]
+    }
+  ]
+}

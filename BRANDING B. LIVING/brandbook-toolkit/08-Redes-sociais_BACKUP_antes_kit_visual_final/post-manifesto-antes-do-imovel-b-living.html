@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>B. Living - Antes do imovel, vem a decisao</title>
+  <style>
+    :root {
+      --navy: oklch(16.5% 0.048 245);
+      --navy-deep: oklch(12.5% 0.035 250);
+      --navy-soft: oklch(22% 0.048 240);
+      --paper: oklch(92% 0.015 82);
+      --paper-soft: oklch(84% 0.018 82);
+      --paper-dim: oklch(70% 0.018 82);
+      --petrol: oklch(42% 0.055 205);
+      --stone: oklch(37% 0.012 238);
+      --brass: oklch(68% 0.055 78);
+      --brass-soft: oklch(76% 0.045 80);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      background: var(--navy-deep);
+    }
+
+    body {
+      display: grid;
+      place-items: center;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    .post {
+      position: relative;
+      width: 2160px;
+      height: 2700px;
+      overflow: hidden;
+      color: var(--paper);
+      background:
+        radial-gradient(circle at 18% 8%, oklch(28% 0.065 230 / 0.62), transparent 34%),
+        radial-gradient(circle at 92% 74%, oklch(33% 0.055 202 / 0.32), transparent 32%),
+        linear-gradient(150deg, oklch(18.5% 0.052 242), var(--navy-deep) 56%, oklch(12% 0.03 250));
+    }
+
+    .post::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.44;
+      background-image:
+        linear-gradient(oklch(87% 0.012 82 / 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, oklch(87% 0.012 82 / 0.035) 1px, transparent 1px);
+      background-size: 96px 96px;
+      mask-image: linear-gradient(180deg, black, black 72%, transparent);
+    }
+
+    .post::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.26;
+      background:
+        repeating-linear-gradient(115deg, oklch(95% 0.01 82 / 0.055) 0 1px, transparent 1px 7px),
+        radial-gradient(circle at 50% 50%, transparent 0 55%, oklch(3% 0.02 250 / 0.34) 100%);
+      mix-blend-mode: soft-light;
+    }
+
+    .inner-frame {
+      position: absolute;
+      inset: 72px;
+      border: 1px solid oklch(88% 0.012 82 / 0.22);
+    }
+
+    .brand {
+      position: absolute;
+      top: 142px;
+      left: 150px;
+      right: 150px;
+      z-index: 2;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 80px;
+    }
+
+    .brand-logo {
+      width: 560px;
+      height: auto;
+      display: block;
+    }
+
+    .brand-note {
+      padding-top: 18px;
+      color: var(--paper-soft);
+      font-size: 28px;
+      line-height: 1.35;
+      text-align: right;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .headline {
+      position: absolute;
+      z-index: 2;
+      left: 146px;
+      top: 440px;
+      width: 1280px;
+      margin: 0;
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 202px;
+      font-weight: 400;
+      line-height: 0.92;
+      letter-spacing: 0;
+    }
+
+    .headline em {
+      font-style: normal;
+      color: var(--paper);
+      text-shadow: 0 0 44px oklch(90% 0.02 82 / 0.12);
+    }
+
+    .support {
+      position: absolute;
+      z-index: 2;
+      left: 154px;
+      top: 1268px;
+      width: 1040px;
+      color: var(--paper-soft);
+      font-size: 45px;
+      line-height: 1.28;
+      font-weight: 350;
+    }
+
+    .support strong {
+      color: var(--paper);
+      font-weight: 520;
+    }
+
+    .decision-map {
+      position: absolute;
+      z-index: 2;
+      right: 132px;
+      top: 426px;
+      width: 622px;
+      height: 910px;
+      border: 1px solid oklch(88% 0.012 82 / 0.2);
+      background:
+        linear-gradient(160deg, oklch(22% 0.047 234 / 0.78), oklch(12% 0.035 250 / 0.35)),
+        linear-gradient(90deg, transparent 0 49%, oklch(86% 0.01 82 / 0.11) 49% 49.2%, transparent 49.2%),
+        linear-gradient(0deg, transparent 0 49%, oklch(86% 0.01 82 / 0.08) 49% 49.2%, transparent 49.2%);
+      box-shadow: inset 0 0 0 1px oklch(0% 0 0 / 0.18);
+    }
+
+    .decision-map svg {
+      position: absolute;
+      inset: 38px;
+      width: calc(100% - 76px);
+      height: calc(100% - 76px);
+      overflow: visible;
+    }
+
+    .map-label {
+      position: absolute;
+      color: var(--paper-dim);
+      font-size: 21px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .map-label.top {
+      top: 36px;
+      left: 42px;
+    }
+
+    .map-label.side {
+      right: 32px;
+      bottom: 40px;
+      transform: rotate(-90deg);
+      transform-origin: right bottom;
+    }
+
+    .map-core {
+      position: absolute;
+      left: 74px;
+      bottom: 74px;
+      width: 300px;
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 52px;
+      line-height: 1.02;
+    }
+
+    .map-core span {
+      display: block;
+      margin-top: 20px;
+      color: var(--paper-dim);
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 21px;
+      line-height: 1.32;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .sequence {
+      position: absolute;
+      z-index: 2;
+      left: 150px;
+      right: 150px;
+      top: 1588px;
+      height: 500px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      border-top: 1px solid oklch(88% 0.012 82 / 0.26);
+      border-bottom: 1px solid oklch(88% 0.012 82 / 0.18);
+    }
+
+    .step {
+      position: relative;
+      padding: 76px 44px 52px;
+      border-right: 1px solid oklch(88% 0.012 82 / 0.14);
+    }
+
+    .step:last-child {
+      border-right: 0;
+    }
+
+    .step::before {
+      content: attr(data-number);
+      display: block;
+      margin-bottom: 98px;
+      color: var(--brass-soft);
+      font-size: 24px;
+      font-weight: 650;
+      letter-spacing: 0.2em;
+    }
+
+    .step::after {
+      content: "";
+      position: absolute;
+      top: 88px;
+      left: 108px;
+      right: 44px;
+      height: 1px;
+      background: linear-gradient(90deg, var(--brass), transparent);
+      opacity: 0.72;
+    }
+
+    .step-title {
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 64px;
+      line-height: 0.98;
+      font-weight: 400;
+    }
+
+    .step-copy {
+      margin-top: 26px;
+      color: var(--paper-soft);
+      font-size: 28px;
+      line-height: 1.28;
+      font-weight: 350;
+    }
+
+    .statement {
+      position: absolute;
+      z-index: 2;
+      left: 150px;
+      right: 150px;
+      bottom: 150px;
+      height: 368px;
+      display: grid;
+      grid-template-columns: 1.45fr 0.55fr;
+      gap: 40px;
+    }
+
+    .statement-main {
+      position: relative;
+      padding: 68px 78px;
+      background: var(--paper);
+      color: var(--navy);
+      overflow: hidden;
+    }
+
+    .statement-main::before {
+      content: "";
+      position: absolute;
+      inset: 34px;
+      border: 1px solid oklch(17% 0.045 245 / 0.18);
+    }
+
+    .statement-main p {
+      position: relative;
+      margin: 0;
+      max-width: 1050px;
+      font-size: 42px;
+      line-height: 1.26;
+      font-weight: 370;
+    }
+
+    .statement-main strong {
+      display: block;
+      margin-bottom: 24px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 74px;
+      line-height: 0.96;
+      font-weight: 400;
+    }
+
+    .statement-seal {
+      position: relative;
+      padding: 56px 58px;
+      border: 1px solid oklch(88% 0.012 82 / 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: oklch(9% 0.028 250 / 0.35);
+    }
+
+    .compact-logo {
+      width: 172px;
+      height: auto;
+      display: block;
+    }
+
+    .seal-copy {
+      color: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 62px;
+      line-height: 0.98;
+      font-weight: 400;
+    }
+
+    .micro {
+      position: absolute;
+      z-index: 2;
+      right: 152px;
+      top: 1402px;
+      color: var(--paper-dim);
+      font-size: 23px;
+      line-height: 1.5;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-align: right;
+    }
+
+    .brass-rule {
+      position: absolute;
+      z-index: 2;
+      left: 152px;
+      top: 1492px;
+      width: 660px;
+      height: 1px;
+      background: linear-gradient(90deg, var(--brass), transparent);
+    }
+
+    .coordinate {
+      position: absolute;
+      z-index: 2;
+      right: 150px;
+      bottom: 566px;
+      width: 392px;
+      height: 150px;
+      border-top: 1px solid oklch(88% 0.012 82 / 0.18);
+      color: var(--paper-dim);
+      font-size: 22px;
+      line-height: 1.45;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding-top: 28px;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <main class="post" aria-label="Post manifesto B. Living">
+    <div class="inner-frame"></div>
+
+    <header class="brand">
+      <img class="brand-logo" src="../02-Logos/LOGO%20PRINCIPAL/SVG/B.%20LIVING%20LOGO%20-%20BEGE%20CLARO.svg" alt="B. Living Floripa" />
+      <div class="brand-note">Manifesto<br />institucional</div>
+    </header>
+
+    <h1 class="headline">Antes do <em>im&oacute;vel</em>, vem a decis&atilde;o.</h1>
+
+    <p class="support"><strong>Curadoria para decis&otilde;es imobili&aacute;rias de alto padr&atilde;o.</strong> Leitura de cidade, crit&eacute;rio de mercado e condu&ccedil;&atilde;o estrat&eacute;gica para quem compra, investe ou posiciona patrim&ocirc;nio em Florian&oacute;polis.</p>
+
+    <section class="decision-map" aria-label="Mapa de decisao">
+      <div class="map-label top">mesa de decis&atilde;o</div>
+      <div class="map-label side">cidade / timing / patrim&ocirc;nio</div>
+      <svg viewBox="0 0 520 760" role="presentation" aria-hidden="true">
+        <defs>
+          <linearGradient id="brassLine" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0" stop-color="oklch(76% 0.045 80)" stop-opacity="0.95" />
+            <stop offset="1" stop-color="oklch(42% 0.055 205)" stop-opacity="0.1" />
+          </linearGradient>
+        </defs>
+        <path d="M30 96 H488 V606 H86 V206 H418 V520 H176 V304 H350" fill="none" stroke="oklch(92% 0.015 82 / 0.3)" stroke-width="2" />
+        <path d="M72 660 L458 90" fill="none" stroke="url(#brassLine)" stroke-width="3" />
+        <path d="M116 198 H400 M116 304 H350 M116 412 H438 M116 520 H318" fill="none" stroke="oklch(92% 0.015 82 / 0.16)" stroke-width="2" />
+        <circle cx="174" cy="508" r="9" fill="oklch(76% 0.045 80)" />
+        <circle cx="302" cy="318" r="9" fill="oklch(76% 0.045 80)" />
+        <circle cx="418" cy="148" r="9" fill="oklch(76% 0.045 80)" />
+        <path d="M174 508 L302 318 L418 148" fill="none" stroke="oklch(76% 0.045 80 / 0.72)" stroke-width="2" />
+      </svg>
+      <div class="map-core">Produto certo<span>quando a tese vem antes da oferta</span></div>
+    </section>
+
+    <div class="brass-rule"></div>
+    <div class="micro">Rafael e equipe antes do produto.<br />Crit&eacute;rio antes do cat&aacute;logo.</div>
+
+    <section class="sequence" aria-label="Pilares da decisao">
+      <article class="step" data-number="01">
+        <div class="step-title">Rafael</div>
+        <div class="step-copy">vis&atilde;o e lideran&ccedil;a</div>
+      </article>
+      <article class="step" data-number="02">
+        <div class="step-title">Equipe</div>
+        <div class="step-copy">preparo em opera&ccedil;&atilde;o</div>
+      </article>
+      <article class="step" data-number="03">
+        <div class="step-title">Construtoras</div>
+        <div class="step-copy">acesso e relacionamento</div>
+      </article>
+      <article class="step" data-number="04">
+        <div class="step-title">Floripa</div>
+        <div class="step-copy">territ&oacute;rio e timing</div>
+      </article>
+      <article class="step" data-number="05">
+        <div class="step-title">Im&oacute;vel</div>
+        <div class="step-copy">consequ&ecirc;ncia da tese</div>
+      </article>
+    </section>
+
+    <div class="coordinate">Florian&oacute;polis como ativo.<br />Decis&atilde;o como condu&ccedil;&atilde;o.</div>
+
+    <section class="statement" aria-label="Assinatura estrategica">
+      <article class="statement-main">
+        <p><strong>A melhor escolha n&atilde;o come&ccedil;a pela unidade.</strong> Come&ccedil;a por entender contexto, cidade, momento de vida, patrim&ocirc;nio e mercado.</p>
+      </article>
+      <aside class="statement-seal">
+        <img class="compact-logo" src="../02-Logos/LOGO%20COMPACTA/SVG/Logo%20B.%20LIVING%20COMPACTA%20-%20BEGE%20CLARO.svg" alt="B. Living" />
+        <div class="seal-copy">Escolha bem conduzida.</div>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

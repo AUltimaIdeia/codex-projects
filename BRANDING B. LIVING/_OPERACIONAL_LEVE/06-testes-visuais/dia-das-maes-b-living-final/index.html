@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>B. Living - Dia Das Maes</title>
+    <style>
+      :root {
+        --navy: #101d2a;
+        --navy-deep: #07101a;
+        --paper: #e9dfcc;
+        --paper-soft: #d8c8ad;
+        --paper-dim: #b9aa91;
+        --brass: #b79b69;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #111;
+        font-family: Montserrat, "Avenir Next", "Helvetica Neue", Segoe UI, Arial, sans-serif;
+      }
+
+      .story {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        isolation: isolate;
+        background: var(--navy-deep);
+        color: var(--paper);
+      }
+
+      .base {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+      }
+
+      .veil {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        background:
+          linear-gradient(90deg, rgba(5, 12, 20, 0.86) 0%, rgba(5, 12, 20, 0.54) 38%, rgba(5, 12, 20, 0.12) 76%),
+          linear-gradient(180deg, rgba(5, 12, 20, 0.42) 0%, rgba(5, 12, 20, 0.08) 42%, rgba(5, 12, 20, 0.62) 100%);
+      }
+
+      .story:nth-of-type(1) .veil,
+      .story:nth-of-type(4) .veil {
+        background:
+          linear-gradient(90deg, rgba(5, 12, 20, 0.88) 0%, rgba(5, 12, 20, 0.54) 42%, rgba(5, 12, 20, 0.14) 78%),
+          linear-gradient(180deg, rgba(5, 12, 20, 0.34) 0%, rgba(5, 12, 20, 0.04) 46%, rgba(5, 12, 20, 0.58) 100%);
+      }
+
+      .content {
+        position: absolute;
+        left: 82px;
+        right: 96px;
+        top: 154px;
+        z-index: 4;
+      }
+
+      .story:nth-of-type(2) .content {
+        top: 128px;
+        right: 148px;
+      }
+
+      .story:nth-of-type(3) .content {
+        top: 168px;
+        right: 330px;
+      }
+
+      .story:nth-of-type(4) .content {
+        top: 146px;
+        right: 210px;
+      }
+
+      .kicker {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        margin-bottom: 34px;
+        color: var(--brass);
+        font-size: 19px;
+        line-height: 1;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .kicker::before {
+        content: "";
+        width: 86px;
+        height: 1px;
+        background: currentColor;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 760px;
+        font-family: "Bodoni Moda", "Bodoni 72", Didot, "Bodoni MT", Georgia, "Times New Roman", serif;
+        font-weight: 500;
+        font-size: 78px;
+        line-height: 0.95;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        color: var(--paper);
+        text-wrap: balance;
+      }
+
+      .support {
+        max-width: 520px;
+        margin-top: 34px;
+        color: var(--paper-soft);
+        font-size: 28px;
+        line-height: 1.38;
+        font-weight: 400;
+      }
+
+      .rule {
+        position: absolute;
+        z-index: 3;
+        background: var(--brass);
+        opacity: 0.76;
+      }
+
+      .rule.v {
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        right: 74px;
+      }
+
+      .rule.h {
+        width: 230px;
+        height: 1px;
+        right: 74px;
+        bottom: 318px;
+      }
+
+      .brand-icon {
+        position: absolute;
+        z-index: 5;
+        right: 76px;
+        bottom: 76px;
+        width: 108px;
+        height: 124px;
+        opacity: 0.98;
+      }
+
+      .brand-icon::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(128deg, transparent 12%, rgba(255, 255, 255, 0.58) 34%, transparent 50%),
+          radial-gradient(circle at 32% 18%, rgba(255, 245, 207, 0.9), rgba(255, 245, 207, 0) 28%);
+        -webkit-mask: url("assets/icone-b-brass.png") center / contain no-repeat;
+        mask: url("assets/icone-b-brass.png") center / contain no-repeat;
+        mix-blend-mode: screen;
+      }
+
+      .brand-icon img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        filter:
+          sepia(0.18)
+          saturate(1.08)
+          contrast(1.1)
+          brightness(1.02)
+          drop-shadow(0 1px 0 rgba(255, 248, 218, 0.34))
+          drop-shadow(0 12px 22px rgba(0, 0, 0, 0.46));
+      }
+
+      .story.final .base {
+        filter: saturate(0.9) contrast(1.04);
+      }
+
+      .story.final .veil {
+        background:
+          radial-gradient(circle at 76% 63%, rgba(183, 155, 105, 0.1), rgba(183, 155, 105, 0) 30%),
+          linear-gradient(90deg, rgba(5, 12, 20, 0.82) 0%, rgba(5, 12, 20, 0.58) 48%, rgba(5, 12, 20, 0.38) 100%),
+          linear-gradient(180deg, rgba(5, 12, 20, 0.58) 0%, rgba(5, 12, 20, 0.28) 54%, rgba(5, 12, 20, 0.82) 100%);
+      }
+
+      .map {
+        position: absolute;
+        z-index: 3;
+        right: 64px;
+        bottom: 360px;
+        width: 410px;
+        height: 540px;
+        opacity: 0.86;
+        filter: drop-shadow(0 14px 32px rgba(0, 0, 0, 0.35));
+      }
+
+      .final .content {
+        top: 312px;
+        right: 130px;
+      }
+
+      .final h1 {
+        max-width: 810px;
+        font-size: 108px;
+        line-height: 0.92;
+        color: var(--paper);
+        text-shadow:
+          0 1px 0 rgba(255, 246, 220, 0.54),
+          0 -1px 0 rgba(70, 52, 31, 0.54),
+          2px 4px 0 rgba(5, 12, 20, 0.34),
+          0 16px 30px rgba(0, 0, 0, 0.38);
+      }
+
+      .final .support {
+        max-width: 615px;
+        font-size: 31px;
+      }
+
+      .source-note {
+        position: absolute;
+        left: 82px;
+        bottom: 80px;
+        z-index: 4;
+        color: rgba(233, 223, 204, 0.42);
+        font-size: 14px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="story" id="story-01">
+      <img class="base" src="assets/base-01-gravidez.png" alt="" />
+      <div class="veil"></div>
+      <div class="rule v"></div>
+      <div class="content">
+        <div class="kicker">Dia das mães</div>
+        <h1>Antes de chegar, você já morava nela.</h1>
+        <p class="support">Toda mãe prepara uma casa antes de conhecer o rosto que vai transformá-la.</p>
+      </div>
+      <div class="brand-icon" aria-label="B. Living"><img src="assets/icone-b-brass.png" alt="" /></div>
+    </section>
+
+    <section class="story" id="story-02">
+      <img class="base" src="assets/base-02-ritmo.png" alt="" />
+      <div class="veil"></div>
+      <div class="rule h"></div>
+      <div class="content">
+        <div class="kicker">Casa viva</div>
+        <h1>A casa aprendeu o ritmo da família.</h1>
+        <p class="support">Passos pequenos, noites longas, mesa cheia. O lar muda junto com quem a gente ama.</p>
+      </div>
+      <div class="brand-icon" aria-label="B. Living"><img src="assets/icone-b-brass.png" alt="" /></div>
+    </section>
+
+    <section class="story" id="story-03">
+      <img class="base" src="assets/base-03-quartos.png" alt="" />
+      <div class="veil"></div>
+      <div class="rule v"></div>
+      <div class="content">
+        <div class="kicker">Memória</div>
+        <h1>Um dia, os quartos ficam maiores.</h1>
+        <p class="support">Quando os filhos ganham mundo, a casa guarda o que ensinou.</p>
+      </div>
+      <div class="brand-icon" aria-label="B. Living"><img src="assets/icone-b-brass.png" alt="" /></div>
+    </section>
+
+    <section class="story" id="story-04">
+      <img class="base" src="assets/base-04-proxima-fase.png" alt="" />
+      <div class="veil"></div>
+      <div class="rule h"></div>
+      <div class="content">
+        <div class="kicker">Próxima fase</div>
+        <h1>E a mãe também muda de casa por dentro.</h1>
+        <p class="support">Depois de cuidar de tantos começos, ela também merece escolher a próxima fase.</p>
+      </div>
+      <div class="brand-icon" aria-label="B. Living"><img src="assets/icone-b-brass.png" alt="" /></div>
+    </section>
+
+    <section class="story final" id="story-05">
+      <img class="base" src="assets/base-05-final.png" alt="" />
+      <div class="veil"></div>
+      <img class="map" src="assets/florianopolis-ibge-map.svg" alt="Contorno oficial de Florianópolis, fonte IBGE" />
+      <div class="rule v"></div>
+      <div class="content">
+        <div class="kicker">B. Living</div>
+        <h1 data-title="Feliz dia das mães.">Feliz dia das mães.</h1>
+        <p class="support">Às mulheres que transformam paredes em memória, rotina em cuidado e escolhas em futuro.</p>
+      </div>
+      <div class="source-note">Mapa: malha municipal IBGE 4205407</div>
+      <div class="brand-icon" aria-label="B. Living"><img src="assets/icone-b-brass.png" alt="" /></div>
+    </section>
+  </body>
+</html>

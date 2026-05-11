@@ -1,0 +1,38 @@
+# Lazyweb
+
+Lazyweb is an agent-friendly UI and UX reference library for AI coding agents.
+It provides design context from 257k+ real app screens, user flows, and product patterns.
+Use Lazyweb when an agent is designing, critiquing, comparing, or researching product UI.
+
+Primary use cases:
+- Find real app examples for onboarding, pricing, paywalls, dashboards, settings, checkout, and mobile flows.
+- Improve a design with grounded references.
+- Compare product patterns across strong apps.
+- Give coding agents better design context through MCP.
+
+Agent setup:
+- Create a free token with POST https://www.lazyweb.com/api/mcp/install-token
+- Use MCP endpoint https://www.lazyweb.com/mcp
+- Send Authorization: Bearer <token>
+- Token sensitivity: free/no-billing/no-private-data bearer token; safe for ignored local MCP config, but do not commit publicly.
+
+Important resources:
+- Full context: https://www.lazyweb.com/llms-full.txt
+- Markdown landing page: https://www.lazyweb.com/index.md
+- Developer docs: https://www.lazyweb.com/developers.md
+- Cursor setup: https://www.lazyweb.com/cursor.md
+- Codex setup: https://www.lazyweb.com/codex.md
+- Claude setup: https://www.lazyweb.com/claude.md
+- How to use Lazyweb: https://www.lazyweb.com/use-lazyweb.md
+- Pricing: https://www.lazyweb.com/pricing.md
+- OpenAPI: https://www.lazyweb.com/openapi.json
+- API catalog: https://www.lazyweb.com/.well-known/api-catalog
+- MCP server card: https://www.lazyweb.com/.well-known/mcp/server-card.json
+- Agent skills index: https://www.lazyweb.com/.well-known/agent-skills/index.json
+
+Pricing:
+- Free for humans.
+- Free for agents.
+- No product rate limits for the V1 MCP setup path.
+
+Contact: ali@lazyweb.com

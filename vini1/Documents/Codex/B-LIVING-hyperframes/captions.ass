@@ -1,0 +1,149 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,44,&H00F7F4EF,&H00D7CCC0,&H00132142,&D9132142,0,0,0,0,100,100,0,0,3,1,0,2,110,110,142,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.27,0:00:03.33,Default,,0,0,0,,toda grande inauguração simboliza um nascimento
+Dialogue: 0,0:00:03.57,0:00:05.87,Default,,0,0,0,,ela marca o abrir portas do negócio
+Dialogue: 0,0:00:06.37,0:00:07.67,Default,,0,0,0,,essa inauguração não
+Dialogue: 0,0:00:07.80,0:00:08.50,Default,,0,0,0,,esse evento
+Dialogue: 0,0:00:08.50,0:00:09.70,Default,,0,0,0,,tem outro significado
+Dialogue: 0,0:00:10.30,0:00:13.17,Default,,0,0,0,,esta inauguração marca uma nova fase do mercado
+Dialogue: 0,0:00:13.50,0:00:15.13,Default,,0,0,0,,uma fase de mais maturidade
+Dialogue: 0,0:00:15.47,0:00:16.27,Default,,0,0,0,,ou melhor
+Dialogue: 0,0:00:16.53,0:00:17.33,Default,,0,0,0,,uma evolução
+Dialogue: 0,0:00:18.07,0:00:21.37,Default,,0,0,0,,um sinal de que o mercado imobiliário de Florianópolis
+Dialogue: 0,0:00:21.73,0:00:23.97,Default,,0,0,0,,está entrando em uma era mais sofisticada
+Dialogue: 0,0:00:24.67,0:00:25.57,Default,,0,0,0,,mais integrada
+Dialogue: 0,0:00:25.90,0:00:28.70,Default,,0,0,0,,e mais consciente do impacto que pode gerar
+Dialogue: 0,0:00:29.40,0:00:31.90,Default,,0,0,0,,Florianópolis nunca foi 1 cidade comum
+Dialogue: 0,0:00:32.40,0:00:34.20,Default,,0,0,0,,é 1 cidade de valor raro
+Dialogue: 0,0:00:34.87,0:00:36.17,Default,,0,0,0,,rara pela geografia
+Dialogue: 0,0:00:36.73,0:00:38.20,Default,,0,0,0,,rara pela atratividade
+Dialogue: 0,0:00:39.07,0:00:40.57,Default,,0,0,0,,rara pela qualidade de vida
+Dialogue: 0,0:00:41.57,0:00:43.90,Default,,0,0,0,,rara pela força econômica que carrega
+Dialogue: 0,0:00:44.60,0:00:46.13,Default,,0,0,0,,e rara principalmente
+Dialogue: 0,0:00:46.70,0:00:49.30,Default,,0,0,0,,porque aqui existe desenvolvimento constante
+Dialogue: 0,0:00:50.00,0:00:52.90,Default,,0,0,0,,e esta nova era é a era da integração
+Dialogue: 0,0:00:53.53,0:00:54.73,Default,,0,0,0,,entre quem constrói
+Dialogue: 0,0:00:55.10,0:00:57.30,Default,,0,0,0,,quem conecta e quem coordena
+Dialogue: 0,0:00:58.57,0:01:00.13,Default,,0,0,0,,bom a maior realização hoje
+Dialogue: 0,0:01:00.20,0:01:00.67,Default,,0,0,0,,nesse momento
+Dialogue: 0,0:01:00.67,0:01:01.73,Default,,0,0,0,,aqui com a believe
+Dialogue: 0,0:01:02.27,0:01:03.90,Default,,0,0,0,,é é ter esse poder
+Dialogue: 0,0:01:04.70,0:01:05.80,Default,,0,0,0,,de entregar mais
+Dialogue: 0,0:01:06.00,0:01:07.70,Default,,0,0,0,,de me conectar mais com as pessoas
+Dialogue: 0,0:01:08.33,0:01:09.33,Default,,0,0,0,,através do meu time
+Dialogue: 0,0:01:09.90,0:01:10.70,Default,,0,0,0,,entregar
+Dialogue: 0,0:01:10.90,0:01:11.50,Default,,0,0,0,,o melhor
+Dialogue: 0,0:01:11.50,0:01:14.17,Default,,0,0,0,,o melhor que a gente deseja pra quem tá na nossa volta
+Dialogue: 0,0:01:14.53,0:01:15.60,Default,,0,0,0,,que é a nossa essência
+Dialogue: 0,0:01:15.73,0:01:17.87,Default,,0,0,0,,e que isso gera uma onda de positividade
+Dialogue: 0,0:01:17.93,0:01:19.60,Default,,0,0,0,,de resultado positivo absurdo
+Dialogue: 0,0:01:20.20,0:01:22.77,Default,,0,0,0,,e é essa onda que é a maior realização
+Dialogue: 0,0:01:23.37,0:01:24.47,Default,,0,0,0,,é a maior conquista
+Dialogue: 0,0:01:25.00,0:01:27.07,Default,,0,0,0,,que o homem g que eu posso sonhar
+Dialogue: 0,0:01:27.37,0:01:29.17,Default,,0,0,0,,é ver todo mundo da minha volta
+Dialogue: 0,0:01:29.70,0:01:30.67,Default,,0,0,0,,com a nossa orientação
+Dialogue: 0,0:01:30.97,0:01:31.93,Default,,0,0,0,,se dando muito bem
+Dialogue: 0,0:01:32.27,0:01:33.70,Default,,0,0,0,,muito prósperos e muito feliz
+Dialogue: 0,0:01:34.30,0:01:34.93,Default,,0,0,0,,essa noite
+Dialogue: 0,0:01:34.93,0:01:35.73,Default,,0,0,0,,pra mim
+Dialogue: 0,0:01:35.80,0:01:38.30,Default,,0,0,0,,ela tem uma palavra que é confiança
+Dialogue: 0,0:01:39.07,0:01:41.73,Default,,0,0,0,,confiança em tudo que a gente trabalha juntos
+Dialogue: 0,0:01:42.47,0:01:43.27,Default,,0,0,0,,confiança
+Dialogue: 0,0:01:43.53,0:01:45.53,Default,,0,0,0,,na empresa que o Rafael construiu
+Dialogue: 0,0:01:45.67,0:01:46.50,Default,,0,0,0,,na equipe que
+Dialogue: 0,0:01:46.50,0:01:47.30,Default,,0,0,0,,ele construiu
+Dialogue: 0,0:01:47.67,0:01:48.50,Default,,0,0,0,,confiança em todas
+Dialogue: 0,0:01:48.80,0:01:50.07,Default,,0,0,0,,pelas pessoas que estão aqui
+Dialogue: 0,0:01:50.30,0:01:51.93,Default,,0,0,0,,e tá sendo um momento único pra nós
+Dialogue: 0,0:01:52.20,0:01:52.90,Default,,0,0,0,,momento
+Dialogue: 0,0:01:52.90,0:01:53.77,Default,,0,0,0,,de muita felicidade
+Dialogue: 0,0:01:54.50,0:01:57.17,Default,,0,0,0,,é o momento que estamos aguardando muito
+Dialogue: 0,0:01:57.90,0:01:59.57,Default,,0,0,0,,e finalmente se concretizou né
+Dialogue: 0,0:01:59.67,0:02:00.77,Default,,0,0,0,,e tá sendo aí um sucesso
+Dialogue: 0,0:02:00.90,0:02:01.70,Default,,0,0,0,,todo mundo feliz
+Dialogue: 0,0:02:02.07,0:02:02.87,Default,,0,0,0,,muitos amigos
+Dialogue: 0,0:02:03.13,0:02:03.93,Default,,0,0,0,,muitos parceiros
+Dialogue: 0,0:02:04.00,0:02:04.80,Default,,0,0,0,,muita gente
+Dialogue: 0,0:02:05.27,0:02:07.07,Default,,0,0,0,,é contente com tudo que tá acontecendo
+Dialogue: 0,0:02:07.53,0:02:10.30,Default,,0,0,0,,e a believe pra mim ela é mais do que um time
+Dialogue: 0,0:02:10.70,0:02:11.50,Default,,0,0,0,,é uma família
+Dialogue: 0,0:02:12.20,0:02:13.10,Default,,0,0,0,,a gente se ajuda
+Dialogue: 0,0:02:13.47,0:02:14.67,Default,,0,0,0,,a gente é unido
+Dialogue: 0,0:02:15.47,0:02:17.47,Default,,0,0,0,,e a gente é amigo e
+Dialogue: 0,0:02:18.60,0:02:20.47,Default,,0,0,0,,é 1 família que não tem como explicar
+Dialogue: 0,0:02:21.00,0:02:23.97,Default,,0,0,0,,e hoje abrindo as portas aqui da believe em com certeza
+Dialogue: 0,0:02:24.70,0:02:26.87,Default,,0,0,0,,vai ser 1 Marco pra cidade nesse sentido
+Dialogue: 0,0:02:27.40,0:02:28.27,Default,,0,0,0,,e vai ser 1 prazer
+Dialogue: 0,0:02:28.37,0:02:29.60,Default,,0,0,0,,as portas estão abertas
+Dialogue: 0,0:02:30.20,0:02:31.30,Default,,0,0,0,,pra falar de negócios
+Dialogue: 0,0:02:31.80,0:02:33.93,Default,,0,0,0,,hoje é 1 festa especial de abertura
+Dialogue: 0,0:02:34.47,0:02:35.27,Default,,0,0,0,,mas os nossos
+Dialogue: 0,0:02:35.80,0:02:38.33,Default,,0,0,0,,negócios muitas vezes são feitos em eventos dessa forma
+Dialogue: 0,0:02:38.77,0:02:40.40,Default,,0,0,0,,e é sempre um prazer recebê los
+Dialogue: 0,0:02:40.57,0:02:41.50,Default,,0,0,0,,bem pra believe
+Dialogue: 0,0:02:41.77,0:02:43.77,Default,,0,0,0,,Florianópolis vive um momento
+Dialogue: 0,0:02:44.10,0:02:46.33,Default,,0,0,0,,de ascensão no mercado imobiliário
+Dialogue: 0,0:02:46.80,0:02:50.10,Default,,0,0,0,,e a believe nasceu exatamente no momento
+Dialogue: 0,0:02:51.10,0:02:53.20,Default,,0,0,0,,certo no momento aonde o mercado
+Dialogue: 0,0:02:54.00,0:02:54.87,Default,,0,0,0,,já esperava
+Dialogue: 0,0:02:55.70,0:02:56.50,Default,,0,0,0,,por essa
+Dialogue: 0,0:02:56.90,0:02:57.50,Default,,0,0,0,,empresa
+Dialogue: 0,0:02:57.50,0:02:58.77,Default,,0,0,0,,por essa imobiliária
+Dialogue: 0,0:02:59.07,0:02:59.87,Default,,0,0,0,,com pessoas
+Dialogue: 0,0:03:00.00,0:03:03.93,Default,,0,0,0,,reunidas em prol de um propósito muito específico
+Dialogue: 0,0:03:04.13,0:03:06.80,Default,,0,0,0,,que é servir o mercado imobiliário com inovação
+Dialogue: 0,0:03:07.10,0:03:08.30,Default,,0,0,0,,tá aqui na believe
+Dialogue: 0,0:03:08.60,0:03:09.97,Default,,0,0,0,,é uma satisfação enorme
+Dialogue: 0,0:03:10.87,0:03:12.10,Default,,0,0,0,,porque desde sempre
+Dialogue: 0,0:03:12.27,0:03:14.97,Default,,0,0,0,,eu me identifiquei com o pessoal que trabalha aqui
+Dialogue: 0,0:03:15.87,0:03:18.80,Default,,0,0,0,,são várias características dentro da equipe
+Dialogue: 0,0:03:19.30,0:03:20.53,Default,,0,0,0,,cada um com a sua
+Dialogue: 0,0:03:21.60,0:03:22.40,Default,,0,0,0,,personalidade
+Dialogue: 0,0:03:22.67,0:03:23.87,Default,,0,0,0,,cada um com a sua
+Dialogue: 0,0:03:24.67,0:03:25.47,Default,,0,0,0,,diferença
+Dialogue: 0,0:03:25.90,0:03:27.47,Default,,0,0,0,,mas todos se completando
+Dialogue: 0,0:03:27.73,0:03:28.97,Default,,0,0,0,,é a believe ela
+Dialogue: 0,0:03:29.10,0:03:29.57,Default,,0,0,0,,ela vem
+Dialogue: 0,0:03:29.57,0:03:31.73,Default,,0,0,0,,com essa posição é uma imobiliária nova
+Dialogue: 0,0:03:32.80,0:03:34.00,Default,,0,0,0,,como marca né
+Dialogue: 0,0:03:34.00,0:03:35.67,Default,,0,0,0,,mas na experiência dos que estão aqui
+Dialogue: 0,0:03:35.97,0:03:37.93,Default,,0,0,0,,é ela já viveu muita coisa
+Dialogue: 0,0:03:38.53,0:03:40.00,Default,,0,0,0,,na na história da cidade
+Dialogue: 0,0:03:40.70,0:03:41.50,Default,,0,0,0,,a gente consegue
+Dialogue: 0,0:03:42.77,0:03:43.80,Default,,0,0,0,,entender o passado
+Dialogue: 0,0:03:44.10,0:03:45.77,Default,,0,0,0,,a gente conhece o passado da cidade
+Dialogue: 0,0:03:46.40,0:03:47.97,Default,,0,0,0,,a gente consegue interpretar o presente
+Dialogue: 0,0:03:48.17,0:03:50.60,Default,,0,0,0,,e a gente consegue é projetar o futuro da cidade
+Dialogue: 0,0:03:50.93,0:03:53.20,Default,,0,0,0,,então eu quero que vocês todos acreditem
+Dialogue: 0,0:03:53.70,0:03:55.07,Default,,0,0,0,,que esse espaço é pra vocês
+Dialogue: 0,0:03:55.37,0:03:57.37,Default,,0,0,0,,e a melhor consultoria da cidade hoje
+Dialogue: 0,0:03:57.50,0:03:59.87,Default,,0,0,0,,como o mercado tá mudando muito em Florianópolis
+Dialogue: 0,0:04:00.07,0:04:00.87,Default,,0,0,0,,pai vocês
+Dialogue: 0,0:04:00.90,0:04:01.80,Default,,0,0,0,,vocês vão estar aqui
+Dialogue: 0,0:04:03.13,0:04:04.40,Default,,0,0,0,,a partir disso a gente vai
+Dialogue: 0,0:04:05.30,0:04:06.87,Default,,0,0,0,,perceber qual é o seu momento
+Dialogue: 0,0:04:07.53,0:04:09.27,Default,,0,0,0,,e o momento hoje é believing
+Dialogue: 0,0:04:09.40,0:04:12.07,Default,,0,0,0,,é de viver a vida e de viver Florianópolis
+Dialogue: 0,0:04:12.13,0:04:12.90,Default,,0,0,0,,a believing
+Dialogue: 0,0:04:12.90,0:04:14.50,Default,,0,0,0,,ela preza por um atendimento
+Dialogue: 0,0:04:15.17,0:04:16.00,Default,,0,0,0,,de qualidade
+Dialogue: 0,0:04:16.30,0:04:17.60,Default,,0,0,0,,com foco no cliente
+Dialogue: 0,0:04:18.17,0:04:20.07,Default,,0,0,0,,e com 1 método desenvolvido
+Dialogue: 0,0:04:20.57,0:04:21.40,Default,,0,0,0,,pelo Rafael
+Dialogue: 0,0:04:22.13,0:04:25.70,Default,,0,0,0,,uma pessoa que também traz uma bagagem de dezoito anos
+Dialogue: 0,0:04:26.07,0:04:29.27,Default,,0,0,0,,agregado a bagagem de cada corretor dessa imobiliária
+Dialogue: 0,0:04:29.40,0:04:30.20,Default,,0,0,0,,convido você
+Dialogue: 0,0:04:30.87,0:04:32.37,Default,,0,0,0,,a experimentar esse atendimento
+Dialogue: 0,0:04:32.53,0:04:33.87,Default,,0,0,0,,essa metodologia que nós temos
+Dialogue: 0,0:04:33.97,0:04:35.67,Default,,0,0,0,,venha para a believe Floripa
