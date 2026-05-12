@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="700" viewBox="0 0 2400 700" role="img" aria-labelledby="title desc">
+  <title id="title">A Última Ideia Standard Wordmark</title>
+  <desc id="desc">Single-line wordmark for A Última Ideia. The acute accent is built as the brand's red cut.</desc>
+  <rect width="2400" height="700" fill="#090909"/>
+  <g transform="translate(548 252)">
+    <text
+      x="0"
+      y="0"
+      fill="#F7F3EA"
+      font-family="'Arial Narrow', 'Arial', sans-serif"
+      font-size="190"
+      font-weight="700"
+      letter-spacing="-2"
+      dominant-baseline="text-before-edge">A ULTIMA IDEIA</text>
+    <polygon points="178,-64 222,-64 195,-18 151,-18" fill="#D71920"/>
+  </g>
+</svg>

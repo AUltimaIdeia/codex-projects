@@ -1,0 +1,9 @@
+node_modules/
+__MACOSX/
+.DS_Store
+._*
+*.log
+tmp/
+staging/
+.video_deps/
+.impeccable-live/

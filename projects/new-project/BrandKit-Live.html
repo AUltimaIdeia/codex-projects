@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A Última Ideia, BrandKit Visual</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --obsidian: #090909;
+        --ritual: #f7f3ea;
+        --graphite: #202020;
+        --concrete: #8a8a84;
+        --idea-red: #d71920;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--obsidian);
+        color: var(--ritual);
+        font-family: Arial, sans-serif;
+      }
+
+      main {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: clamp(18px, 4vw, 64px);
+      }
+
+      .brandkit-frame {
+        width: min(100%, 980px);
+        display: grid;
+        gap: 18px;
+      }
+
+      .brandkit-meta {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 24px;
+        border-bottom: 1px solid var(--graphite);
+        padding-bottom: 16px;
+      }
+
+      .brandkit-meta h1 {
+        margin: 0;
+        font-size: clamp(26px, 5vw, 56px);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .brandkit-meta p {
+        margin: 0;
+        max-width: 34ch;
+        color: var(--concrete);
+        font-size: 15px;
+        line-height: 1.45;
+        text-align: right;
+      }
+
+      .brandkit-artifact {
+        width: 100%;
+        background: var(--graphite);
+        border: 1px solid color-mix(in oklch, var(--ritual) 18%, transparent);
+        box-shadow: 0 34px 90px rgba(0, 0, 0, 0.42);
+      }
+
+      .brandkit-artifact img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .brandkit-rule {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--concrete);
+        font-size: 13px;
+        letter-spacing: 0.02em;
+      }
+
+      .brandkit-rule::before {
+        content: "";
+        width: 42px;
+        height: 7px;
+        background: var(--idea-red);
+        flex: 0 0 auto;
+      }
+
+      @media (max-width: 680px) {
+        .brandkit-meta {
+          display: grid;
+          align-items: start;
+        }
+
+        .brandkit-meta p {
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="brandkit-frame" aria-label="Visualização do BrandKit da A Última Ideia">
+        <header class="brandkit-meta">
+          <h1>A Última Ideia</h1>
+          <p>Visualização viva do BrandKit atual: direção criativa, performance e laboratório autoral.</p>
+        </header>
+        <div class="brandkit-artifact">
+          <img src="./BrandKit-Visual.svg" alt="Prancha visual do BrandKit da A Última Ideia" />
+        </div>
+        <p class="brandkit-rule">A marca deve criar uma pausa, não implorar atenção.</p>
+      </section>
+    </main>
+  <!-- impeccable-live-start -->
+<script src="http://localhost:8400/live.js"></script>
+<!-- impeccable-live-end -->
+</body>
+</html>

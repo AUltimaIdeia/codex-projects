@@ -1,0 +1,1997 @@
+[
+  {
+    "id": "ana-couto-home",
+    "label": "Ana Couto home",
+    "url": "https://anacouto.com.br/",
+    "title": "Ana Couto",
+    "currentUrl": "https://anacouto.com.br/",
+    "screenshot": "C:\\Users\\vini1\\OneDrive\\Documentos\\New project\\ana-couto-design-library\\screenshots\\ana-couto-home.png",
+    "lines": [
+      "- link \"Ir para o conteúdo\":",
+      "- heading \"PRONTO PARA ELEVAR O VALOR DA SUA MARCA?\" [level=2]",
+      "- link \"SOLICITE UMA PROPOSTA\":",
+      "- link:",
+      "- heading \"É FAZ FALA\" [level=1]:",
+      "- heading \"Há mais de 30 anos nosso propósito é impulsionar o valor de pessoas e organizações\" [level=1]",
+      "- link \"Quem somos\":",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/talt/",
+      "  - generic: Cases",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/asaas/",
+      "  - generic: Cases",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/herbissimo/",
+      "  - generic: Cases",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/casper-libero/",
+      "  - generic: Cases",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/betania-2/",
+      "  - generic: Cases",
+      "- link \"Artigo Quando marca, negócio e comunicação se alinham, o branding evolui organizações\":",
+      "  - /url: https://anacouto.com.br/artigos/2026/04/23/branding-estrategico-alinhamento-marca-negocio-intelbras/",
+      "  - heading \"Quando marca, negócio e comunicação se alinham, o branding evolui organizações\" [level=5]",
+      "- 'link \"Artigo Grandes Apostas 2026: as perguntas que as marcas deveriam estar fazendo\"':",
+      "  - /url: https://anacouto.com.br/artigos/2026/04/16/grandes-apostas-2026-marcas-perguntas-estrategia/",
+      "  - 'heading \"Grandes Apostas 2026: as perguntas que as marcas deveriam estar fazendo\" [level=5]'",
+      "- link \"Artigo O que realmente diferencia marcas de luxo\":",
+      "  - /url: https://anacouto.com.br/artigos/2026/03/24/o-que-realmente-diferencia-marcas-de-luxo/",
+      "  - heading \"O que realmente diferencia marcas de luxo\" [level=5]",
+      "- link \"Artigo Como reposicionar sua marca e comunicação em um mercado competitivo\":",
+      "  - /url: https://anacouto.com.br/artigos/2026/02/25/como-reposicionar-sua-marca-e-comunicacao-em-um-mercado-competitivo/",
+      "  - heading \"Como reposicionar sua marca e comunicação em um mercado competitivo\" [level=5]",
+      "- heading \"Para nós, a relevância está em ser o que se faz, fazer o que se fala, falar o que se faz.\" [level=1]",
+      "- heading \"Marcas podem disputar espaço. Aqui, elas criam o seu.\" [level=1]",
+      "- link \"O que fazemos\":",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "  - paragraph:",
+      "    - img \"Rede\"",
+      "  - paragraph:",
+      "    - img \"P&G\"",
+      "  - paragraph:",
+      "    - img \"ultragaz\"",
+      "  - paragraph:",
+      "    - img \"yelum\"",
+      "  - paragraph:",
+      "    - img \"vigor\"",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "  - paragraph:",
+      "    - img \"CBF\"",
+      "  - paragraph:",
+      "    - img \"Arezzo&co\"",
+      "  - paragraph:",
+      "    - img \"Mobly\"",
+      "  - paragraph:",
+      "    - img \"Cartão Flash\"",
+      "  - paragraph:",
+      "    - img \"Eletrobras\"",
+      "- link \"FALAR COM UM ESPECIALISTA\":",
+      "- paragraph:",
+      "  - link \"E-mail\":",
+      "  - link \"Instagram\":",
+      "  - link \"Youtube\":",
+      "  - link \"Facebook\":",
+      "  - link \"LinkedIn\":",
+      "    - /url: https://www.linkedin.com/company/anacouto-ag",
+      "    - generic: LinkedIn",
+      "- paragraph:",
+      "  - link \"Política de Privacidade\":",
+      "    - /url: http://anacouto.com.br//wp-content/uploads/2024/05/ac-laje-politica-privacidade.pdf",
+      "  - link \"Ética e Compliance\":"
+    ],
+    "imgs": [
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setadown.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/vigor-logo.png",
+        "alt": "vigor"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/rede-logo-1.png",
+        "alt": "Rede"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/PG_logo.png",
+        "alt": "P&G"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/Ultragaz_logo_2021.png",
+        "alt": "ultragaz"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/yelum-seguradora-logo-png_seeklogo-541376.png",
+        "alt": "yelum"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/vigor-logo.png",
+        "alt": "vigor"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/rede-logo-1.png",
+        "alt": "Rede"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/PG_logo.png",
+        "alt": "P&G"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/Ultragaz_logo_2021.png",
+        "alt": "ultragaz"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/yelum-seguradora-logo-png_seeklogo-541376.png",
+        "alt": "yelum"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/vigor-logo.png",
+        "alt": "vigor"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/Eletrobras.png",
+        "alt": "Eletrobras"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/cbf-logo-selecao-logo-brasil.png",
+        "alt": "CBF"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/arezzo-co-logo.png",
+        "alt": "Arezzo&co"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/mobly-logo.png",
+        "alt": "Mobly"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/logo-flash-degrade-2.webp",
+        "alt": "Cartão Flash"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/Eletrobras.png",
+        "alt": "Eletrobras"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/cbf-logo-selecao-logo-brasil.png",
+        "alt": "CBF"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/arezzo-co-logo.png",
+        "alt": "Arezzo&co"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/mobly-logo.png",
+        "alt": "Mobly"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/logo-flash-degrade-2.webp",
+        "alt": "Cartão Flash"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/Eletrobras.png",
+        "alt": "Eletrobras"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/logo_anacouto.svg",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": "agencia-branding",
+    "label": "Agencia de Branding",
+    "url": "https://anacouto.com.br/agencia-de-branding/",
+    "title": "Branding que impulsiona negócios - Ana Couto",
+    "currentUrl": "https://anacouto.com.br/agencia-de-branding/",
+    "screenshot": "C:\\Users\\vini1\\OneDrive\\Documentos\\New project\\ana-couto-design-library\\screenshots\\agencia-branding.png",
+    "lines": [
+      "- heading \"Branding que impulsiona negócios\" [level=2]",
+      "- heading \"Transformamos marcas em ativos de valor. Da estratégia à execução, conectamos propósito, experiência e comunicação para gerar impacto real no negócio.\" [level=2]:",
+      "  - text: Transformamos marcas em ativos de valor.",
+      "  - text: Da estratégia à execução, conectamos propósito, experiência e comunicação para gerar impacto real no negócio.",
+      "- link \"Conheça nosso método proprietário\":",
+      "- heading \"Mais do que construir marcas, criamos valor.\" [level=2]:",
+      "  - text: Mais do que construir marcas,",
+      "  - text: criamos valor.",
+      "- paragraph: Na Ana Couto, acreditamos que o branding é um ativo estratégico, quando bem gerido, ele orienta decisões, diferencia no mercado e acelera resultados.",
+      "- paragraph",
+      "- paragraph: Nossa metodologia É, Faz e Fala garante coerência entre o que a marca é, o que faz e o que fala. Porque marca forte é aquela que entrega consistência, propósito e performance.",
+      "- link \"Quero falar sobre branding\":",
+      "  - generic: Quero falar sobre branding",
+      "- heading \"Organizações impulsionadas pela anacouto\" [level=2]",
+      "- paragraph: \"As organizações que confiam na anacouto compartilham um mesmo movimento: evoluir suas marcas para gerar valor real de negócio. Atuamos ao lado de empresas de diferentes setores e estágios, traduzindo estratégia em ação e posicionamento em performance.\"",
+      "      - img \"cropped-1_Capa.png\"",
+      "      - img \"FIA_Business_School_case_02 (1)\"",
+      "- heading \"Portfólio completo. Branding de ponta a ponta.\" [level=2]:",
+      "  - text: Branding de ponta a ponta.",
+      "- heading \"Unimos estratégia, criação e comunicação em uma jornada integrada, que vai da essência da marca à experiência do cliente.\" [level=2]",
+      "- link \"Conheça nosso método proprietário\":",
+      "- heading \"Diagnóstico e diretrizes de branding\" [level=2]",
+      "- heading \"Analisamos a marca sob a ótica estratégica — do contexto de mercado à percepção do público — para definir as diretrizes que sustentam decisões de negócio e comunicação.\" [level=2]",
+      "- heading \"Plataforma de branding\" [level=2]",
+      "- 'heading \"Construímos a base estratégica da marca: propósito, posicionamento, essência e territórios. Um guia vivo que orienta o crescimento e garante coerência em cada expressão.\" [level=2]'",
+      "- heading \"Naming\" [level=2]",
+      "- heading \"Desenvolvemos nomes que nascem da estratégia — proprietários, memoráveis e com potencial de se tornarem ativos de marca.\" [level=2]",
+      "- heading \"Design de marca\" [level=2]",
+      "- heading \"Transformamos a estratégia em forma e significado. Criamos identidades visuais proprietárias, que traduzem o DNA e o posicionamento da marca de maneira única.\" [level=2]",
+      "- heading \"Universo visual e verbal\" [level=2]",
+      "- heading \"Construímos um ecossistema expressivo que dá voz e personalidade à marca — da linguagem visual ao tom verbal — criando reconhecimento e conexão.\" [level=2]",
+      "- heading \"Toolkit de branding\" [level=2]",
+      "- heading \"Desenvolvemos ferramentas que viabilizam a gestão diária da marca, garantindo autonomia, consistência e alinhamento em todos os pontos de contato.\" [level=2]",
+      "- heading \"Gestão de Portfólio\" [level=2]",
+      "- heading \"Estruturamos portfólios de marcas, produtos e serviços de forma estratégica, ampliando clareza, sinergia e valor para o negócio e para o público.\" [level=2]",
+      "- heading \"Sua marca está preparada para o próximo ciclo de crescimento?\" [level=2]",
+      "- heading \"Grandes marcas confiam na anacouto.\" [level=2]:",
+      "  - text: Grandes marcas",
+      "- paragraph: Mais de 30 anos criando marcas que movem o mercado.",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "  - paragraph:",
+      "    - img \"Rede\"",
+      "  - paragraph:",
+      "    - img \"P&G\"",
+      "  - paragraph:",
+      "    - img \"ultragaz\"",
+      "  - paragraph:",
+      "    - img \"yelum\"",
+      "  - paragraph:",
+      "    - img \"vigor\"",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "  - paragraph:",
+      "    - img \"CBF\"",
+      "  - paragraph:",
+      "    - img \"Arezzo&co\"",
+      "  - paragraph:",
+      "    - img \"Mobly\"",
+      "  - paragraph:",
+      "    - img \"Cartão Flash\"",
+      "  - paragraph:",
+      "    - img \"Eletrobras\"",
+      "- heading \"Metodologia\" [level=2]",
+      "- heading \"É\" [level=1]",
+      "- heading \"o poder de identificar quem somos.\" [level=1]:",
+      "- heading \"FAZ\" [level=1]",
+      "- heading \"para o seu cliente se encantar e querer voltar\" [level=1]:",
+      "- heading \"FALA\" [level=1]",
+      "- heading \"para influenciar e mobilizar.\" [level=1]:",
+      "- paragraph:",
+      "  - text: branding é verbo em movimento.",
+      "- paragraph: Ana Couto — Estratégia, Branding e Comunicação",
+      "- paragraph:",
+      "- paragraph:",
+      "  - link \"E-mail\":",
+      "  - link \"Instagram\":",
+      "  - link \"Youtube\":",
+      "  - link \"Facebook\":",
+      "  - link \"LinkedIn\":",
+      "    - /url: https://www.linkedin.com/company/anacouto-ag",
+      "    - generic: LinkedIn",
+      "- paragraph:",
+      "  - link \"Política de Privacidade\":",
+      "    - /url: http://anacouto.com.br//wp-content/uploads/2024/05/ac-laje-politica-privacidade.pdf",
+      "  - link \"Ética e Compliance\":"
+    ],
+    "imgs": [
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/04/ac.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/03/CASPER-04-scaled.jpg",
+        "alt": "CASPER-04"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_01-scaled.jpg",
+        "alt": "Asaas_case_01"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2023/10/happy-eggs-w.jpg",
+        "alt": "happy-eggs-w"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/09/14-scaled.jpg",
+        "alt": "14"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/04/cropped-1_Capa.png",
+        "alt": "cropped-1_Capa.png"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/11/CASE_SITE_YELUM-4-2048x1152-1.jpg",
+        "alt": "CASE_SITE_YELUM-4-2048x1152"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/01/01.png",
+        "alt": "01"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/02/6.png",
+        "alt": "6"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/03/CASPER-04-scaled.jpg",
+        "alt": "CASPER-04"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_01-scaled.jpg",
+        "alt": "Asaas_case_01"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/09/Camponesa_CASE-FC_rev2_pranchas-12.jpg",
+        "alt": "Camponesa_CASE-FC_rev2_pranchas-12"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/04/cropped-01-1-scaled-1.png",
+        "alt": "01 (1)"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/02/cropped-02-scaled-1.jpg",
+        "alt": "02"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/02/09-2048x1152-2.jpg",
+        "alt": "09-2048x1152"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/11/FIA_Business_School_case_02-1-1.png",
+        "alt": "FIA_Business_School_case_02 (1)"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/10/Catarinense_Site-10-scaled.jpg",
+        "alt": "Catarinense_Site-10"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/09/6.gif",
+        "alt": "6"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/05/01-scaled.jpg",
+        "alt": "01"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/10/frescatto_case_10-2.png",
+        "alt": "frescatto_case_10"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/09/Camponesa_CASE-FC_rev2_pranchas-12.jpg",
+        "alt": "Camponesa_CASE-FC_rev2_pranchas-12"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2026/04/cropped-01-1-scaled-1.png",
+        "alt": "01 (1)"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/vigor-logo.png",
+        "alt": "vigor"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/rede-logo-1.png",
+        "alt": "Rede"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/PG_logo.png",
+        "alt": "P&G"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/Ultragaz_logo_2021.png",
+        "alt": "ultragaz"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/yelum-seguradora-logo-png_seeklogo-541376.png",
+        "alt": "yelum"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/vigor-logo.png",
+        "alt": "vigor"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/rede-logo-1.png",
+        "alt": "Rede"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/PG_logo.png",
+        "alt": "P&G"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/Ultragaz_logo_2021.png",
+        "alt": "ultragaz"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/yelum-seguradora-logo-png_seeklogo-541376.png",
+        "alt": "yelum"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/vigor-logo.png",
+        "alt": "vigor"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/Eletrobras.png",
+        "alt": "Eletrobras"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/cbf-logo-selecao-logo-brasil.png",
+        "alt": "CBF"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/arezzo-co-logo.png",
+        "alt": "Arezzo&co"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/mobly-logo.png",
+        "alt": "Mobly"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/logo-flash-degrade-2.webp",
+        "alt": "Cartão Flash"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/Eletrobras.png",
+        "alt": "Eletrobras"
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/07/cbf-logo-selecao-logo-brasil.png",
+        "alt": "CBF"
+      }
+    ]
+  },
+  {
+    "id": "case-talt",
+    "label": "Case TALT",
+    "url": "https://anacouto.com.br/cases/talt/",
+    "title": "Branding da Talt - Ana Couto",
+    "currentUrl": "https://anacouto.com.br/cases/talt/",
+    "screenshot": "C:\\Users\\vini1\\OneDrive\\Documentos\\New project\\ana-couto-design-library\\screenshots\\case-talt.png",
+    "lines": [
+      "- link \"Ir para o conteúdo\":",
+      "- heading \"PRONTO PARA ELEVAR O VALOR DA SUA MARCA?\" [level=2]",
+      "- link \"SOLICITE UMA PROPOSTA\":",
+      "- link:",
+      "- heading \"Talt\" [level=1]",
+      "- heading \"Reimaginar espaços com a energia brasileira\" [level=2]",
+      "  - link \"Criação\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/criacao/",
+      "  - link \"Estratégia\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/estrategia/",
+      "  - link \"Experiência\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/experiencia/",
+      "  - link \"Marca\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/marca/",
+      "- heading \"Desafio\" [level=3]",
+      "- paragraph",
+      "- paragraph: \"Nascida em Arapiraca-AL em 1991 como uma indústria tradicional de forros de PVC, a Araforros atravessou transformações no mercado e lançou uma nova categoria em 2019: o Teto Vínílico. Uma solução moderna e sustentável, conectada com o mercado de arquitetura de alto padrão e com potencial de expansão para mais categorias, o que era limitado pelo nome da marca.\"",
+      "- paragraph: Dessa forma, precisávamos unificar o legado industrial de 30 anos da Araforros com a vanguarda e o alto padrão de design da Teto Vinílico, organizando sua oferta e criando um posicionamento forte que destravasse o valor do negócio diante de especificadores, arquitetos e do consumidor. Assim, deixando de ser vista apenas como uma indústria funcional de commodities e se consolidar como uma marca de design inspiradora.",
+      "- paragraph",
+      "- heading \"ESTRATÉGIA\" [level=3]:",
+      "        - strong: ESTRATÉGIA",
+      "- paragraph:",
+      "  - text: ” passou a ser o fio condutor que alinha marca, negócio e comunicação.",
+      "- paragraph: Sua atuação vem desafiar o status quo da categoria. A marca passa a oferecer soluções que trazem novas perspectivas, permitindo que a sofisticação da textura da madeira alcance locais antes inimagináveis, simplificando processos complexos de obra. É uma entrega que une funcionalidade vibrante à estética acolhedora, onde a sustentabilidade atua como o motor da inovação, substituindo a extração natural por processos responsáveis e limpos. Formando um ecossistema colaborativo, um meio de evolução e reinvenção conjunta para arquitetos, revendedores e parceiros.",
+      "- paragraph:",
+      "  - text: \"Com uma personalidade criativa, encantadora, memorável e carismática, essa estratégia foi materializada em uma promessa clara e instigante, sintetizada na tagline:\"",
+      "- heading \"CRIAÇÃO\" [level=3]:",
+      "        - strong: CRIAÇÃO",
+      "- paragraph:",
+      "  - text: \", que significa “talento elevado às alturas”. Um nome curto e arquitetônico que desperta o sentido do tato, remetendo ao sentir o ambiente e ao revestir de sentidos do chão ao teto. Talt também carrega, além das letras dos outros nomes, a sigla “AL”, mantendo Alagoas no coração da marca como uma referência sutil e essencial à sua origem.\"",
+      "- paragraph:",
+      "  - text: O universo visual tangibiliza a sofisticação da arquitetura nacional através de uma",
+      "  - strong: marca-objeto",
+      "- paragraph:",
+      "  - text: A marca é dinamicamente revestida pelas texturas dos próprios produtos, tornando o design uma extensão direta do material físico. Acompanhada por uma tipografia arquitetônica e uma paleta de cores inspirada na pluralidade brasileira, a identidade foge de clichês para celebrar a sofisticação contemporânea, resultando em uma",
+      "  - strong: marca revestida de sentido",
+      "- paragraph:",
+      "  - text: O universo visual tangibiliza a sofisticação da arquitetura nacional através de uma",
+      "  - strong: marca-objeto",
+      "- paragraph:",
+      "  - text: A marca é dinamicamente revestida pelas texturas dos próprios produtos, tornando o design uma extensão direta do material físico. Acompanhada por uma tipografia arquitetônica e uma paleta de cores inspirada na pluralidade brasileira, a identidade foge de clichês para celebrar a sofisticação contemporânea, resultando em uma",
+      "  - strong: marca revestida de sentido",
+      "- heading \"EXPERIÊNCIA\" [level=3]:",
+      "        - strong: EXPERIÊNCIA",
+      "- paragraph: O rebranding da Talt foi lançado na Expo Revestir a partir de uma experiência imersiva que traduziu seu novo posicionamento de forma tangível. O stand foi concebido como um catálogo vivo, com a mesa de amostras como elemento central, incentivando a interação direta e a exploração sensorial do portfólio. Ativações como o presskit e a narrativa do espaço criaram um fluxo intencional de visita, ampliando o engajamento com a marca.",
+      "- paragraph: A partir desse lançamento, a experiência evoluiu para o ponto de venda, com o desenvolvimento de materiais modulares que se adaptam a diferentes formatos de revenda e reforçam o contato com o produto. As peças apoiam o vendedor e estimulam o consumidor a tocar, comparar e compreender os materiais, qualificando a decisão de compra.",
+      "- paragraph: As embalagens complementam essa jornada ao facilitar a identificação das linhas e incorporar o propósito da marca. Pensadas de forma modular para se adaptarem aos diferentes formatos dos produtos, as embalagens são reutilizáveis e funcionais. Dessa forma, contribuem para uma obra mais organizada e sustentável, transformando um elemento operacional em mais um ponto de contato estratégico.",
+      "- paragraph: Assim, a Talt constrói uma experiência consistente, que conecta encantamento, funcionalidade e propósito ao longo de toda a jornada.",
+      "- paragraph",
+      "- heading \"Ficha Técnica\" [level=3]",
+      "- heading \"Time Ana Couto\" [level=3]",
+      "- paragraph:",
+      "- paragraph: Danilo Cid – Sócio-Diretor de Criação",
+      "- paragraph: Hugo Rafael – Sócio VP de Experiência",
+      "- paragraph: Mariana Barros – Atendimento e Relacionamento estratégico",
+      "- paragraph",
+      "- paragraph:",
+      "  - strong: Estratégia",
+      "- paragraph: Thales Balbino – Estrategista",
+      "- paragraph: Gabriel Fernandes – Estrategista",
+      "- paragraph",
+      "- paragraph:",
+      "  - strong: Design, Experiência, Embalagem",
+      "- paragraph: Gabriel Martoni – Gerente de Design",
+      "- paragraph: Stefany Pauly – Designer de Produto Especialista",
+      "- paragraph: Bruna Savino – Diretora de Experiência",
+      "- paragraph: Giovanna Merlin – Design Gráfico",
+      "- paragraph: Lilian Raco – Designer (Freelancer)",
+      "- paragraph: Cecília Lombardi – Gerente Design de Serviço",
+      "- paragraph: Nathalia Bertozzi – Design de serviço",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Lucas Figueira – Conteudista",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Julia Garcia – Atendimento e Relacionamento estratégico",
+      "- paragraph: Larissa Nascimento – Especialista de relacionamento",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Lucia Rabello – Arte Finalista",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Fabio Haag Type",
+      "- heading \"Time Cliente\" [level=3]",
+      "- paragraph: Leopoldo Beserra- Diretor Presidente",
+      "- paragraph: Laila Beserra – Diretora de Marketing e Comercial",
+      "- paragraph: Julia Beserra – Diretora de Criação",
+      "- paragraph: Natany Lima – Coordenadora Administrativo",
+      "- heading \"Veja mais cases\" [level=1]",
+      "- link \"Ver todos\":",
+      "  - /url: https://anacouto.com.br/cases/",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/asaas/",
+      "  - generic: Cases",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/herbissimo/",
+      "  - generic: Cases",
+      "- link \"FALAR COM UM ESPECIALISTA\":",
+      "- paragraph:",
+      "  - link \"E-mail\":",
+      "  - link \"Instagram\":",
+      "  - link \"Youtube\":",
+      "  - link \"Facebook\":",
+      "  - link \"LinkedIn\":",
+      "    - /url: https://www.linkedin.com/company/anacouto-ag",
+      "    - generic: LinkedIn",
+      "- paragraph:",
+      "  - link \"Política de Privacidade\":",
+      "    - /url: http://anacouto.com.br//wp-content/uploads/2024/05/ac-laje-politica-privacidade.pdf",
+      "  - link \"Ética e Compliance\":"
+    ],
+    "imgs": [
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setadown.svg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/02.gif",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/04-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/03-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/07-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/08.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/10-2-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/11-1-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/12-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/13-1-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/15-1.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/16-1-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/17.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/18-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/19-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/20-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/21-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/22-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/23-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/24-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/25-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/26-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/27.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/28-1-scaled.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/29.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/logo_anacouto.svg",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": "case-asaas",
+    "label": "Case Asaas",
+    "url": "https://anacouto.com.br/cases/asaas/",
+    "title": "Branding da ASSAS - Da gestão à evolução - Ana Couto",
+    "currentUrl": "https://anacouto.com.br/cases/asaas/",
+    "screenshot": "C:\\Users\\vini1\\OneDrive\\Documentos\\New project\\ana-couto-design-library\\screenshots\\case-asaas.png",
+    "lines": [
+      "- link \"Ir para o conteúdo\":",
+      "- heading \"PRONTO PARA ELEVAR O VALOR DA SUA MARCA?\" [level=2]",
+      "- link \"SOLICITE UMA PROPOSTA\":",
+      "- link:",
+      "- heading \"ASAAS\" [level=1]",
+      "- heading \"Da gestão à evolução\" [level=2]",
+      "  - link \"Criação\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/criacao/",
+      "  - link \"Estratégia\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/estrategia/",
+      "  - link \"Marca\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/marca/",
+      "  - link \"Portfólio\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/portfolio/",
+      "- heading \"Desafio\" [level=3]",
+      "- paragraph",
+      "- paragraph: Asaas é uma fintech brasileira que surgiu com o objetivo de solucionar desafios específicos da gestão de cobranças de pequenas e médias empresas. Ao longo de 15 anos, cresceu e conquistou destaque em um cenário de rápida digitalização, mas que também trouxe fragmentação e complexidade para os empreendedores. Agora, a empresa passa por uma profunda evolução em seu modelo de negócio.",
+      "- paragraph: O desafio central do projeto foi preparar a marca para essa nova fase de expansão, saindo do lugar-comum dos produtos financeiros tradicionais. Precisávamos entender e articular sua proposta de valor dentro de um ecossistema cada vez mais complexo, onde as fronteiras entre categorias praticamente não existem mais e a competição acontece com novos e inesperados players. Somado a isso, havia o desafio de organizar as novas marcas vindas de aquisições no seu portfólio, definindo claramente a relação e o papel de cada uma junto ao Asaas.",
+      "- paragraph",
+      "- heading \"ESTRATÉGIA\" [level=3]:",
+      "        - strong: ESTRATÉGIA",
+      "- paragraph:",
+      "  - text: \"Através de uma série de entrevistas internas, com parceiros, pesquisas com empreendedores e de um mergulho no mundo da gestão financeira, identificamos uma tensão clara: o crescimento das empresas brasileiras é diretamente impactado pela imprevisibilidade. É uma luta diária entre a ambição de expandir e o ciclo constante de incertezas. Para responder a esse cenário, surgiu o propósito que guia todas as dimensões da marca:\"",
+      "- paragraph:",
+      "- paragraph:",
+      "  - text: Assim, construímos a nova proposta de valor que apresenta o Asaas como",
+      "  - text: . A marca passa a contar também com a",
+      "  - text: \", um ambiente de experiência inteligente, invisível e integrada que une, de forma fluida, as soluções proprietárias do Asaas e os serviços de parceiros. O objetivo é garantir que o gestor tenha o controle total da sua operação em um só lugar, eliminando a burocracia e facilitando a tomada de decisão. Além disso, passa a construir uma comunidade de cocriação, conectando gestores e desenvolvedores para construir soluções ativamente com a marca. Toda essa trajetória de renovação foi sintetizada na sua nova tagline:\"",
+      "- heading \"GESTÃO DE PORTFÓLIO\" [level=3]:",
+      "- paragraph: Para organizar as marcas do portfólio, facilitar a gestão e orientar sua evolução, definimos como direcional estratégico “Tudo o que Asaas toca ganha Asaas”. Dessa forma, priorizamos um modelo monolítico em que as marcas vindas de aquisições passam a ser incorporadas como soluções Asaas. Assim, criando mais sinergia, força e integração entre os produtos.",
+      "- paragraph: Também organizamos categorias e soluções em duas interfaces, a “central de controle” e a “central de desenvolvimento”, além de regrar a evolução do portfólio, orientando de forma objetiva quando criar novas submarcas e como analisar o desenvolvimento ou a aquisição de novas marcas, facilitando a gestão, inovação e priorização de iniciativas.",
+      "- heading \"PLATAFORMA CRIATIVA\" [level=3]:",
+      "        - strong: PLATAFORMA CRIATIVA",
+      "- paragraph: Evoluímos a marca para uma nova fase mais alinhada à estratégia, com um desenho mais maduro e significados mais amplos. Aprimoramos sua performance e legibilidade, eliminando ruídos e a literalidade anterior. O novo logotipo traz significados impressos nos detalhes, de forma sutil, mas eficiente. A asa está presente, mas agora em forma de detalhe tipográfico, integrada ao todo de forma mais equilibrada. A tipografia em um peso mais light traz leveza e um aspecto mais tecnológico, com formas curvas e fluidas que representam as trajetórias do negócio.",
+      "- paragraph: A Plataforma Criativa de Asaas foi construída com os pilares que querem acentuar sofisticação e modernidade tanto na expressão visual quanto verbal. Com a Trajetória Desbravadora, peças ganham gradientes fluidos combinados com traços desenhados a partir de um olhar expandido sobre o desenho do novo logo criando a sensação de apontar para o caminho. Com layouts limpos e leves, o pilar Simplifica com Leveza reflete sobre a necessidade de encontrar uma simplicidade no uso das ferramentas visuais que comunicam mais com menos. Uma ilustração gestual e calorosa aparece para inspirar a história.",
+      "- paragraph: O Ritmo da Evolução é um pilar que aprofunda a força criativa do projeto com uma narrativa fotográfica sequencial e dinâmica, que orienta visualmente o propósito de Asaas. Com um grid ritmado e progressivo, é possível dar velocidade para a história contada. Em Acelera Maturidade, encontramos a força de uma expressão verbal que aparece mais madura para acelerar a conexão com o público empreendedor acompanhada de imagens abstratas que inspiram a partir de um olhar diferenciado sobre o céu.",
+      "- paragraph: \"A voz da marca ganha mais maturidade e novas nuances a partir de uma atualização que define as expressões verbais em: Inteligência aceleradora, Maturidade confiante e Leveza que se sente.\"",
+      "- paragraph",
+      "- heading \"Ficha Técnica\" [level=3]",
+      "- heading \"Time Ana Couto\" [level=3]",
+      "- paragraph:",
+      "  - generic: Liderança Estratégica",
+      "- paragraph: Marcele Villar – Sócia-Diretora de Mídia",
+      "- paragraph:",
+      "- paragraph: Luciane Neno – Diretora de Negócios",
+      "- paragraph: Ana Beatriz Braga – Especialista de Relacionamento",
+      "- paragraph:",
+      "  - generic: Estratégia e Conteúdo",
+      "- paragraph: Amanda Cinelli – Especialista em Conteúdo",
+      "- paragraph: Thales Balbino – Estrategista",
+      "- paragraph: Yuri Buratto – Estrategista",
+      "- paragraph:",
+      "  - generic: Design",
+      "- paragraph: Fernanda Casas – Sócia e Diretora de Design",
+      "- paragraph: Igor Oliveira – Designer",
+      "- paragraph: Gabriel Catte – Designer",
+      "- paragraph:",
+      "- paragraph: Lucia Rabello – Arte Finalista",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Fabio Haag Type",
+      "- heading \"Time Cliente\" [level=3]",
+      "- paragraph: Diego Bitencourt Contezini – CEO",
+      "- paragraph: Piero Bitencourt Contezini – CEO",
+      "- paragraph: Junior Beltrão – Chief Revenue Officer",
+      "- paragraph: William Correa – Head of Marketing",
+      "- heading \"Veja mais cases\" [level=1]",
+      "- link \"Ver todos\":",
+      "  - /url: https://anacouto.com.br/cases/",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/talt/",
+      "  - generic: Cases",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/herbissimo/",
+      "  - generic: Cases",
+      "- link \"FALAR COM UM ESPECIALISTA\":",
+      "- paragraph:",
+      "  - link \"E-mail\":",
+      "  - link \"Instagram\":",
+      "  - link \"Youtube\":",
+      "  - link \"Facebook\":",
+      "  - link \"LinkedIn\":",
+      "    - /url: https://www.linkedin.com/company/anacouto-ag",
+      "    - generic: LinkedIn",
+      "- paragraph:",
+      "  - link \"Política de Privacidade\":",
+      "    - /url: http://anacouto.com.br//wp-content/uploads/2024/05/ac-laje-politica-privacidade.pdf",
+      "  - link \"Ética e Compliance\":"
+    ],
+    "imgs": [
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setadown.svg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_03-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_04-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_05-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_05_-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_07-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_08-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_09-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_10-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_11-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_12-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_13-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_14-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_15-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_16-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_17-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_18-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_19-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_20-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_21-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/Asaas_case_22-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/logo_anacouto.svg",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": "case-herbissimo",
+    "label": "Case Herbissimo",
+    "url": "https://anacouto.com.br/cases/herbissimo/",
+    "title": "Branding da Herbíssimo - Ana Couto",
+    "currentUrl": "https://anacouto.com.br/cases/herbissimo/",
+    "screenshot": "C:\\Users\\vini1\\OneDrive\\Documentos\\New project\\ana-couto-design-library\\screenshots\\case-herbissimo.png",
+    "lines": [
+      "- link \"Ir para o conteúdo\":",
+      "- heading \"PRONTO PARA ELEVAR O VALOR DA SUA MARCA?\" [level=2]",
+      "- link \"SOLICITE UMA PROPOSTA\":",
+      "- link:",
+      "- heading \"Herbíssimo\" [level=1]",
+      "- heading \"Herbíssimo. Poderosíssimo.\" [level=2]",
+      "  - link \"Embalagem\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/embalagem/",
+      "  - link \"Estratégia\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/estrategia/",
+      "  - link \"Experiência\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/experiencia/",
+      "  - link \"Marca\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/marca/",
+      "  - link \"Universo Visual e Verbal\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/universo-visual-e-verbal/",
+      "- heading \"Desafio\" [level=3]",
+      "- paragraph",
+      "- paragraph: \"Herbíssimo é líder na categoria de desodorantes em creme e a quarta maior marca de desodorantes do Brasil. Sua trajetória de sucesso foi construída a partir de uma linha de produtos icônicos: desodorantes em creme altamente eficazes, com forte apelo de custo-benefício, que conquistaram uma base fiel de consumidores e transformaram a marca em um fenômeno no TikTok.\"",
+      "- paragraph: Mas esse sucesso também trouxe um paradoxo. Herbíssimo se tornou quase um “segredo bem guardado” da internet, cultivando uma comunidade tão apaixonada que, em tom de brincadeira — mas também de proteção —, muitos consumidores pedem que a marca não ganhe visibilidade demais, com receio de que sua popularização impacte preço e acesso.",
+      "- paragraph: \"É nesse contexto que surge o principal desafio da marca: crescer, conquistar novos consumidores e ampliar sua presença no mercado sem romper o vínculo afetivo construído com sua base mais fiel. Embora já fosse uma marca profundamente amada, Herbíssimo ainda tinha sua imagem fortemente associada ao produto — excelente e reconhecido — mas sem um posicionamento de marca tão claro e evidente.\"",
+      "- paragraph: \"Além disso, era preciso preparar Herbíssimo para dar um passo além: deixar de ser percebida apenas como uma marca de desodorante em creme e evoluir para uma marca de cosméticos, capaz de sustentar um portfólio mais amplo e competir de forma mais consistente com os grandes players de beleza e higiene pessoal.\"",
+      "- paragraph: \"O desafio, portanto, estava em equilibrar escala e pertencimento: ampliar relevância, presença nas gôndolas e força de marca em um mercado cada vez mais dinâmico e competitivo, a partir de um posicionamento conectado à essência que transformou Herbíssimo em um verdadeiro objeto de culto entre seus consumidores.\"",
+      "- paragraph",
+      "- heading \"ESTRATÉGIA\" [level=3]:",
+      "        - strong: ESTRATÉGIA",
+      "- paragraph: A estratégia de rebranding de Herbíssimo foi construída para ampliar o papel da marca no mercado e na vida das pessoas. Em vez de permanecer restrita ao território do desodorante em creme, Herbíssimo passa a se posicionar como uma marca de cuidado pessoal para o corpo todo, combinando ingredientes naturais, alta performance, acessibilidade e autoestimíssima – sim, no superlativo.",
+      "- paragraph: Ancorada no propósito “Autoestimíssima que se passa no corpo”, a marca ressignifica o autocuidado como uma experiência simples, eficaz e prazerosa. Mais do que falar de autoestima de forma genérica, Herbíssimo passa a defender uma autoestima mais confiante e divertida, coerente com seu próprio nome.",
+      "- paragraph: Com uma personalidade irreverente, queridíssima, confiável e segura de si, a marca ganha um posicionamento claro e proprietário, capaz de sustentar um portfólio mais amplo e aumentar sua competitividade frente aos grandes players do setor.",
+      "- paragraph: \"O resultado é uma marca mais clara, carismática e preparada para escalar: saindo de um ícone de categoria para se afirmar como uma marca de cosméticos com linguagem própria. Essa visão ganha força na nova tagline “Herbíssimo. Poderosíssimo.”, que expressa tanto a potência dos produtos quanto a sensação que a marca entrega às pessoas: mais confiança, mais presença, mais ousadia para se cuidar e se mostrar ao mundo.\"",
+      "- heading \"CRIAÇÃO\" [level=3]:",
+      "        - strong: CRIAÇÃO",
+      "- paragraph: A marca Herbíssimo foi refinada para ganhar modernidade e performance, destacando o toque irreverente em seu desenho. A folha original se mantém como símbolo, garantindo reconhecimento e reforçando seu apelo natureba pra caramba.",
+      "- paragraph: O verde também foi mantido e potencializado, ganhando protagonismo em novas e vibrantes tonalidades, que se complementam com uma paleta alegre e versátil, capaz de cobrir toda a família de produtos.",
+      "- paragraph: As expressões criativas da marca assumem o superlativo como premissa, com ângulos inusitados, corpos com atitude e produtos poderosíssimos que refletem a autoestima bem-humorada de Herbíssimo.",
+      "- paragraph:",
+      "  - text: Com uma tipografia forte e impactante, a marca entrega uma personalidade segura de si, enquanto a iconografia ajuda a comunicar os benefícios de uma marca confiável e queridíssima.",
+      "- paragraph:",
+      "  - text: \", sua fala é engraçada e seu vocabulário desinibido, sem perder a classe, brincando com o ato de passar o desodorante sem passar do ponto. Em outro tom, com uma intenção mais criativa e inusitada, faz provocações que chacoalham a mesmice, explorando diversos idiomas, neologismos e frases superlativas. Por fim, para trazer segurança sobre a qualidade dos seus produtos e valorizar a autoestima, utiliza um jeito de falar confiante e leve.\"",
+      "- heading \"EMBALAGENS\" [level=3]:",
+      "- paragraph: \"A embalagem de Herbíssimo surge como resposta direta a um desafio estrutural: comunicar a potência de um produto poderosíssimo dentro de um formato compacto. Partimos de um cenário onde o potinho branco não se destacava na gôndola e evoluímos a partir de um aprendizado-chave: a cor já era, espontaneamente, um código de reconhecimento para os consumidores. “O meu Herbíssimo é o da tampa azul”.\"",
+      "- paragraph: Ao potencializar esse comportamento, trouxemos um banho de cor para os potinhos, com uma paleta vibrante que eleva a visibilidade, diferencia fragrâncias e organiza o portfólio sem perder a consistência da marca. O wireframe foi desenhado para uma leitura imediata, combinando ícones ilustrativos, textos educativos e um tom de voz leve.",
+      "- paragraph: Em um cenário competitivo, onde o posicionamento em gôndola nem sempre favorece a leitura frontal, a tampa passa a ser um ponto estratégico. Muitas vezes sendo o primeiro contato com o produto, ela assume protagonismo ao reforçar códigos de diferenciação e incorporar o conceito de clube secreto, com mensagens e detalhes que ampliam a conexão com a comunidade e expandem a comunicação além do rótulo tradicional.",
+      "- paragraph: Na linha Care, que carrega o claim “skincare das axilas”, essa lógica evolui para um território mais sofisticado. Sob o conceito de autoestimíssima, a diferenciação vem de uma paleta mais refinada, com uso de gradientes e uma tipografia mais protagonista, que valoriza atributos e benefícios de forma mais sensorial e cuidadosa.",
+      "- paragraph: O resultado é um sistema de embalagem que atrai, organiza e facilita a escolha, dando mais vida à marca na experiência física e potencializando códigos já reconhecidos pelos fãs.",
+      "- paragraph",
+      "- heading \"Ficha Técnica\" [level=3]",
+      "- heading \"Time Ana Couto\" [level=3]",
+      "- paragraph:",
+      "  - strong: \"Liderança Estratégica:\"",
+      "- paragraph: Ana Couto – CEO",
+      "- paragraph: Erika Pinheiro – Sócia-Diretora de Conteúdo",
+      "- paragraph:",
+      "- paragraph: Natalie Kochmann – Diretora de Relacionamento",
+      "- paragraph: Larissa Nascimento – Especialista de Relacionamento",
+      "- paragraph: Samanta Fonseca – Gerente de Relacionamento",
+      "- paragraph: Anne Ashimine – Executiva de Relacionamento",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Lídia Félix – Líder de Vendas",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "  - strong: \"Estratégia:\"",
+      "- paragraph: Isabella Herdy – Gerente de Estratégia",
+      "- paragraph: Gabriel Fernandes – Estrategista",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "  - strong: \"Design:\"",
+      "- paragraph: Danilo Cid – Sócio VP de Criação",
+      "- paragraph: Rafael Torres – Sócio-Diretor de Design",
+      "- paragraph: Luiza Martins Pereira Vaz – Designer",
+      "- paragraph: Kauan Miranda – Designer",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "  - strong: \"Experiência:\"",
+      "- paragraph: Hugo Rafael – Sócio VP de Experiência",
+      "- paragraph: Bruna Savino – Diretora de Experiência",
+      "- paragraph: Stefany Pauly – Especialista Design de Produto",
+      "- paragraph: Giovanna Merlin – Designer",
+      "- paragraph: Nathalia Bertozzi – Designer de Serviço",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Lucas Figueira – Conteúdo Sr.",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Andre Miranda – Produção Gráfica e Arte-final",
+      "- paragraph: Lucia Rabello – Produção Gráfica e Arte-final",
+      "- paragraph",
+      "- paragraph:",
+      "  - strong: \"Planejamento de Comunicação:\"",
+      "- paragraph: Luísa Moura – Gerente de Planejamento",
+      "- paragraph: Iuren Ramiro – Gerente de Planejamento",
+      "- paragraph: Tereza Torres – Assistente de Planejamento",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Marcelle Villar – Diretora de Mídia",
+      "- paragraph: Natalia Silvestre – Mídia",
+      "- paragraph: Taynara Lacerda – Mídia",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph: Bárbara Cecília – Social",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "  - strong: \"Criação:\"",
+      "- paragraph: Guilherme Fregonesi – Direção de Criação",
+      "- paragraph: Alexandre Vasquez – Redação",
+      "- paragraph:",
+      "- paragraph: Fernanda Magalhães – Direção de Arte",
+      "- paragraph: Gabriel Reis – Direção de Arte",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph: Fafá Oliveira – Produtora",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "  - text: Diana Falcão – Design Tratamento",
+      "- paragraph:",
+      "- paragraph: Eliza Matta – Produtora de Figurino",
+      "- paragraph: Manu Menezes – Produção de elenco",
+      "- paragraph: Thalita Murad – Produção de Figuração",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph: Prodigo Filmes – Pós-produção e Finalização",
+      "- paragraph: Allex Deraco – Montagem",
+      "- paragraph:",
+      "- paragraph: Phill Cunha – Finalizador",
+      "- paragraph: Fernando Lui – Marla Grading – Correção de Cor",
+      "- paragraph: Phill Cunha – Lab/Central",
+      "- paragraph",
+      "- paragraph",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph:",
+      "- paragraph: Fabio Haag Type",
+      "- paragraph",
+      "- heading \"Time Cliente\" [level=3]",
+      "- paragraph: Alberto Filizzola – CEO",
+      "- paragraph: Bruna Perussolo – Gerente de Branding, Comunicação e E-commerce",
+      "- heading \"Veja mais cases\" [level=1]",
+      "- link \"Ver todos\":",
+      "  - /url: https://anacouto.com.br/cases/",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/talt/",
+      "  - generic: Cases",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/asaas/",
+      "  - generic: Cases",
+      "- link \"FALAR COM UM ESPECIALISTA\":",
+      "- paragraph:",
+      "  - link \"E-mail\":",
+      "  - link \"Instagram\":",
+      "  - link \"Youtube\":",
+      "  - link \"Facebook\":",
+      "  - link \"LinkedIn\":",
+      "    - /url: https://www.linkedin.com/company/anacouto-ag",
+      "    - generic: LinkedIn",
+      "- paragraph:",
+      "  - link \"Política de Privacidade\":",
+      "    - /url: http://anacouto.com.br//wp-content/uploads/2024/05/ac-laje-politica-privacidade.pdf",
+      "  - link \"Ética e Compliance\":"
+    ],
+    "imgs": [
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setadown.svg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/3_Comparativo-logo-estatico.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/5_Poderosissimo-fundo-azul.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/7_1_Cores.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/8_Detalhe-potinho.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/9_KV-Natureba.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/10_1_Pins.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/11_KV-Potinho-autoestimissima.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/12_Pelucia-potinho.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/13_2_Jersey-901x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/14_KV-POV-Gigantografia.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/15_Tiktok-Outdoor.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/16_Piramide-potinhos.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/17_Antes-e-depois-potinhos.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/18_Gel.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/20_Detalhes-aeros.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/21_Familia-care.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/22_OOH-Care.png",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2026/04/23_Encerramento-potinhos-tampas.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/logo_anacouto.svg",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": "case-consul",
+    "label": "Case Consul",
+    "url": "https://anacouto.com.br/cases/consul/",
+    "title": "Consul - Ana Couto",
+    "currentUrl": "https://anacouto.com.br/cases/consul/",
+    "screenshot": "C:\\Users\\vini1\\OneDrive\\Documentos\\New project\\ana-couto-design-library\\screenshots\\case-consul.png",
+    "lines": [
+      "- link \"Ir para o conteúdo\":",
+      "- heading \"PRONTO PARA ELEVAR O VALOR DA SUA MARCA?\" [level=2]",
+      "- link \"SOLICITE UMA PROPOSTA\":",
+      "- link:",
+      "- heading \"Consul\" [level=1]",
+      "- heading \"Casa com Brasil\" [level=2]",
+      "  - link \"Criação\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/criacao/",
+      "  - link \"Estratégia\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/estrategia/",
+      "  - link \"Experiência\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/experiencia/",
+      "  - link \"Marca\":",
+      "    - /url: https://anacouto.com.br/artigos/categorias-de-cases/marca/",
+      "- heading \"Desafio\" [level=3]",
+      "- paragraph: Consul nasceu dentro das casas brasileiras. Esteve nos churrascos de domingo, nas feijoadas em família, no samba improvisado no quintal. Democratizou a primeira geladeira do país, fez parte das conquistas da classe média e cresceu junto com milhões de lares.",
+      "- paragraph:",
+      "- paragraph",
+      "- heading \"ESTRATÉGIA\" [level=3]:",
+      "        - strong: ESTRATÉGIA",
+      "- paragraph: Após uma investigação profunda — ouvindo consumidores, mergulhando na cultura brasileira e revisitando a sua história — entendemos que Consul é a marca que valoriza as conquistas, torna a casa um lugar mais fácil para o dia a dia e mais gostoso para a família. Desde a primeira geladeira fabricada no Brasil até as inovações pensadas para a praticidade e economia, Consul sempre esteve presente.",
+      "- paragraph:",
+      "  - text: \"E com esse propósito, nasce a nova promessa da marca:\"",
+      "  - strong: Consul está com você, facilitando seu corre e valorizando suas conquistas.",
+      "- paragraph: Consul conhece o brasileiro porque nasceu dentro das casas do país. É a marca que sabe do papel do eletrodoméstico na vida das pessoas e do tempo em família, do espaço para receber os amigos, da conquista em viver melhor.",
+      "- paragraph: É uma marca que fala de igual para igual, sem formalidades. Facilita e acolhe. Está sempre junto, no que der e vier. Uma personalidade bem brasileira — raiz, calorosa, criativa e responsa e que traduz a sua intimidade com os brasileiros em sua proposta de valor e experiência. Uma marca que entende as pessoas e respeita o bolso, que inova e cria produtos intuitivos pensados para os brasileiros e propõe soluções para diferentes lares, com tamanho e design que deixa a casa ainda mais bonita.",
+      "- paragraph:",
+      "  - text: \"A nova narrativa da marca traduz essa verdade:\"",
+      "- heading \"PLATAFORMA CRIATIVA\" [level=3]:",
+      "                    - strong: PLATAFORMA CRIATIVA",
+      "- paragraph: Com 75 anos de história, a Consul segue evoluindo ao lado dos brasileiros, traduzindo visualmente tudo aquilo que faz parte da nossa rotina e da nossa identidade. A plataforma criativa nasce para celebrar esse legado de confiança e proximidade, representando o espírito de um Brasil que conquista com esforço, alegria e criatividade.",
+      "- paragraph: Inspirada em ícones da nossa cultura, como as fitas do Bonfim, as serpentinas carnavalescas, as listras dos toldos e sacolas de feira e os guarda-sóis e cadeiras de praia, a identidade se constrói a partir destes elementos que atravessam gerações e continuam presentes no cotidiano do brasileiro. Cada faixa e cada cor contam histórias de um país que valoriza o que é simples, alegre e funcional.",
+      "- paragraph: As listras e as fitas compõem os elementos gráficos do visual, evoluindo desde formas mais soltas e leves até composições mais estruturadas e geométricas. As fitas representam o movimento, a fluidez e a conexão com a vida real, gestos vivos que se entrelaçam. Já as listras nascem dessa mesma lógica, traduzindo o mesmo espírito em escala e ritmo, criando fundos vibrantes e versáteis que reforçam o caráter pop e cotidiano da marca.",
+      "- paragraph: O resultado é uma estética raiz e moderna, que se reconhece no sorriso, na cor e no gesto do brasileiro.",
+      "- paragraph: \"Esse imaginário influencia também o seu jeito de falar. Consul entende o brasileiro como ninguém: são décadas em nossos lares, conhecendo de perto as lutas e belezas. Essa foi a inspiração para encontrar uma linguagem que conversasse com a diversidade de brasileiros, com consistência e carisma. Sua voz reflete calor e descontração, captando detalhes da nossa cultura que atravessam o ambiente doméstico e o comportamento das famílias. Demonstra entusiasmo ao facilitar desde as tarefas de casa até os momentos de lazer, expressando ainda grande valorização por cada conquista compartilhada. Afinal, juntos, todos podem mais.\"",
+      "- heading \"EXPERIÊNCIA\" [level=3]:",
+      "                    - strong: EXPERIÊNCIA",
+      "- paragraph: A experiência Consul nasce quando o propósito encontra as pessoas. É no ponto de venda, nos espaços físicos e nas interações com o público que a marca ganha vida, de forma próxima, acessível e autêntica.",
+      "- paragraph: Mais do que expor produtos, a experiência traduz o papel da Consul em facilitar a rotina e celebrar as pequenas conquistas. Cada elemento, do layout à cor, da mensagem à materialidade, cria um ambiente que acolhe, orienta e inspira, guiando o consumidor em uma jornada fluida de descoberta e escolha.",
+      "- paragraph: O PDV se transforma em um espaço de conexão real, onde as fitas e listras se tornam gestos de movimento e organização, as cores guiam de forma intuitiva e que facilitam a escolha, e as mensagens são expressões diretas de empatia e confiança.",
+      "- paragraph: A experiência da Consul é sobre estar presente em todos os momentos da vida dos brasileiros, acompanhando em cada passo da jornada e ajudando com soluções que fazem o dia fluir melhor.",
+      "- heading \"Ficha Técnica\" [level=3]",
+      "- heading \"Time Ana Couto\" [level=3]",
+      "- paragraph: Ana Couto – CEO",
+      "- paragraph: Danilo Cid – Sócio Dir. Exec. VP de Criação",
+      "- paragraph: Luiza Cortoni – Sócia e Diretora de Estratégia e Planejamento",
+      "- paragraph: Fernanda Casas – Sócia e Diretora de Design",
+      "- paragraph: Natalie Kochmann – Diretora de Relacionamento",
+      "- paragraph: Mariana Barros, Maria Malchiori e Larissa Nascimento – Relacionamento",
+      "- paragraph: Louise Alves – Gerente de Estratégia",
+      "- paragraph: Lucas Figueira – Conteudista e Redator",
+      "- paragraph: Agnelo Sampaio – Redator",
+      "- paragraph: Gustavo Faria – Designer",
+      "- paragraph: Kauan Miranda – Designer",
+      "- paragraph: Felipe Garcia – Designer",
+      "- paragraph: Fernando Contato – Diretor de Arte",
+      "- paragraph: André Castedo – Diretor de Arte (Freelancer)",
+      "- paragraph: Bruna Savino – Diretora de Experiência",
+      "- paragraph: Nathalia Bertozzi – Designer de Serviços",
+      "- paragraph: Gabriel Holmes – Designer de Serviços",
+      "- paragraph: Carol Alcantara – Designer de Produto",
+      "- paragraph: Victor Henrique Almeida – Designer de Produto (Freelancer)",
+      "- paragraph: André de Miranda – Arte Finalista",
+      "- heading \"Time Cliente\" [level=3]",
+      "- paragraph: Bertha Fernandes – Head de Branding e Comunicação",
+      "- paragraph: Bianca Guardia – Gerente de Marca",
+      "- paragraph: Bruno Hassuani – Analista de Marca",
+      "- heading \"Veja mais cases\" [level=1]",
+      "- link \"Ver todos\":",
+      "  - /url: https://anacouto.com.br/cases/",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/talt/",
+      "  - generic: Cases",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/cases/asaas/",
+      "  - generic: Cases",
+      "- link \"FALAR COM UM ESPECIALISTA\":",
+      "- paragraph:",
+      "  - link \"E-mail\":",
+      "  - link \"Instagram\":",
+      "  - link \"Youtube\":",
+      "  - link \"Facebook\":",
+      "  - link \"LinkedIn\":",
+      "    - /url: https://www.linkedin.com/company/anacouto-ag",
+      "    - generic: LinkedIn",
+      "- paragraph:",
+      "  - link \"Política de Privacidade\":",
+      "    - /url: http://anacouto.com.br//wp-content/uploads/2024/05/ac-laje-politica-privacidade.pdf",
+      "  - link \"Ética e Compliance\":"
+    ],
+    "imgs": [
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setadown.svg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/01-1-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/02-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/03-1024x576.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/04-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/05-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/06-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/07-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/09-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/10-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/12-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/11/13-1-1024x576.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/16-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/17-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/18-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/19-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/20-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "http://anacouto.com.br/wp-content/uploads/2025/11/21-1024x576.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/logo_anacouto.svg",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": "case-ultragaz",
+    "label": "Case Ultragaz",
+    "url": "https://anacouto.com.br/en/cases/ultragaz/",
+    "title": "Construção de força de Marca da Ultragaz - Ana Couto",
+    "currentUrl": "https://anacouto.com.br/en/cases/ultragaz/",
+    "screenshot": "C:\\Users\\vini1\\OneDrive\\Documentos\\New project\\ana-couto-design-library\\screenshots\\case-ultragaz.png",
+    "lines": [
+      "- link \"Ir para o conteúdo\":",
+      "- heading \"PRONTO PARA ELEVAR O VALOR DA SUA MARCA?\" [level=2]",
+      "- link \"SOLICITE UMA PROPOSTA\":",
+      "- link:",
+      "- heading \"ULTRAGAZ\" [level=1]",
+      "- heading \"SOMANDO ENERGIAS\" [level=2]",
+      "  - link \"Communication\":",
+      "    - /url: https://anacouto.com.br/en/artigos/categorias-de-cases/comunicacao/",
+      "  - link \"Brand\":",
+      "    - /url: https://anacouto.com.br/en/artigos/categorias-de-cases/marca/",
+      "  - link \"Posicionamento\":",
+      "    - /url: https://anacouto.com.br/en/artigos/categorias-de-cases/posicionamento/",
+      "  - link \"Universo Visual e Verbal\":",
+      "    - /url: https://anacouto.com.br/en/artigos/categorias-de-cases/universo-visual-e-verbal/",
+      "- heading \"DESAFIO\" [level=3]",
+      "- paragraph: \"Com mais de 80 anos de história e liderança em distribuição de GLP no Brasil, a Ultragaz precisava de uma evolução. Fomos da revitalização da Marca a todos os equities visuais e verbais e seus pontos de contato. Esses foram alguns dos desafios do projeto:\"",
+      "- paragraph: • Potencializar a Marca Ultragaz, respeitando sua história de 83 anos, porém ressignificando sua proposta de valor.",
+      "- paragraph: • Aumentar a percepção de valor da Marca em todo o território brasileiro.",
+      "- paragraph: • Organizar a oferta de produtos e serviços com objetivo de criar maior sinergia e facilitar a comunicação com o consumidor.",
+      "- paragraph: • Expandir a oferta de serviço digital baseada em inteligência de dados, garantindo boa relação tanto com o consumidor, quanto com a revenda.",
+      "- paragraph: • Direcionar a expansão de portfólio de soluções de GLP no mercado a granel, tangibilizando o Propósito.",
+      "- paragraph: • Estabelecer territórios de atuação da Marca a fim de garantir consistência e diferenciação frente aos players do mercado.",
+      "- paragraph: • Construir força de Marca a partir de uma única narrativa, para engajar e criar conexão emocional com seus públicos.",
+      "- heading \"ESTRATÉGIA\" [level=3]",
+      "- paragraph: Todo o processo foi conduzido de forma cocriativa com o time executivo da Ultragaz. Mão na massa. Todos na mesma sala (virtual), discutindo e lapidando a estratégia, construindo um único caminho.",
+      "- paragraph: Desde o início do diagnóstico, entendemos que a Ultragaz tinha equities importantes a serem levados em conta para o projeto.",
+      "- paragraph: A cor azul, o botijão, o caminhão e a música são alguns exemplos da força desta Marca pelo Brasil.",
+      "- paragraph: \"Para desenhar a estratégia, conversamos com executivos, clientes finais, clientes empresariais e revendedores. Essa investigação, uma das maiores pesquisas realizadas na história da empresa, nos trouxe conclusões que embasaram a construção: uma Marca forte, confiável e conhecida, que tinha a capilaridade como grande diferencial, mas com a oportunidade de se consolidar como uma Marca de energia que conversa bem tanto com consumidor final quanto clientes empresariais e revendas.\"",
+      "- paragraph: \"Também ficou evidente a importância das revendas como parceiras estratégicas para construir a proximidade desejada com o consumidor final: elas são as extensões onde a Marca não consegue chegar.\"",
+      "- paragraph: Para apoiar toda a construção, limpamos e organizamos o portfólio, colocando soluções em energia como fio condutor da oferta. Além disso, unificamos as submarcas, orientadas a construir valor para a Ultragaz como um todo.",
+      "- paragraph: Partindo do propósito já construído e consolidado internamente, “Usar a nossa energia para mudar a vida das pessoas”, e da força de sua capilaridade, construímos uma Marca com uma personalidade moderna, humana e inovadora para a Ultragaz dar seu próximo passo, ampliando o foco do gás para a energia.",
+      "- paragraph: Para isso, construímos diretrizes de experiência que fortalecem uma jornada memorável tanto para o cliente B2B como para o consumidor final e revendedores, reforçando atributos de inovação, proximidade, conveniência e praticidade.",
+      "- paragraph: Todos esses aspectos são traduzidos no novo discurso de posicionamento, que ressalta a história de relevância da Ultragaz na vida dos brasileiros e sua capacidade de evoluir, sintetizando seu novo momento com o tagline “somando energias”.",
+      "- heading \"CRIAÇÃO\" [level=3]",
+      "- paragraph: Para a Marca e sua identidade visual, o principal objetivo era construir a empresa de energia com atributos de modernidade e humana, sem perder equities importantes, como a cor azul.",
+      "- paragraph: Com a tipografia de caixa baixa, trazemos a proximidade, junto com traços de personalidade que tornam a Marca moderna e diferenciada no mercado.",
+      "- paragraph: As ondas que partem da letra G simbolizam a transição para matriz energética e inspiram potência e fluidez ao mesmo tempo. A paleta de cor preserva a história de Ultragaz, trazendo o azul como cor predominante, e novos tons de ciano e verde reforça sustentabilidade e novas energias. A forma do U como recurso do universo reforça o nome Ultragaz. Quando usada como pattern, traduz a presença e capilaridade da marca. Quando usada sozinha, pode ser um recurso de acolhimento, destaque, máscara ou grafismo.",
+      "- paragraph: O Universo Verbal definido dá consistência à nova personalidade da Marca, com tons de voz que enfatizam praticidade, entusiasmo, otimismo e proximidade. Com sua forma de falar, a Ultragaz cria conexão e confiança, apresenta soluções e se coloca como aberta, usando termos familiares e destacando que tudo se faz no coletivo.Texto",
+      "- heading \"COMUNICAÇÃO\" [level=3]:",
+      "  - strong: COMUNICAÇÃO",
+      "- paragraph: O primeiro passo para o lançamento da nova Marca e posicionamento foi mapear todos os públicos que Ultragaz se relaciona e definir uma única narrativa que apresentasse esse novo momento da Ultragaz.",
+      "- paragraph: Para dar vida ao propósito, definimos os territórios de atuação que guiarão toda a comunicação da Ultragaz.",
+      "- paragraph: A partir dessa definição, fomos entender o contexto de mundo e os principais movimentos de comunicação da categoria de GLP e de energia para trazer novas respostas, com uma melhor experiência e mais conveniência. Diante de uma categoria que comunica com pouca diferenciação, identificamos uma oportunidade para a Ultragaz de liderar um movimento de transformação que conectasse o seu negócio à vida das pessoas.",
+      "- paragraph: \"Assim, definimos os principais diferenciais da Ultragaz: uma Marca brasileira e democrática, com DNA de inovação e escuta ativa para atender clientes e parceiros, sempre com compromisso ambiental, social e de governança.\"",
+      "- paragraph: O conceito da campanha precisava responder a esses diferenciais e ressignificar o termo ‘energia’, lugar comum da categoria, apresentando a Ultragaz como uma Marca que acredita no poder da colaboração para evoluir e melhorar a vida de todos.",
+      "- paragraph: Em um processo cocriativo junto com as agências parceiras da Ultragaz e após dois creative challenges (encontros virtuais de desafios criativos), chegamos ao conceito “Vamos energizar”, apresentando o novo momento da Ultragaz e fazendo um convite a todos os públicos da Marca, como uma corrente de energia em que todos saem energizados. Para tangibilizar o conceito, a campanha traz personagens reais que vão de consumidores, revendedores e colaboradores até parceiros e fornecedores da Ultragaz, reforçando a amplitude do portfólio de soluções para suas casas e seus negócios.",
+      "- paragraph",
+      "- heading \"Ficha Técnica\" [level=3]",
+      "- heading \"Time Ana Couto\" [level=3]",
+      "- paragraph: –",
+      "- heading \"Veja mais cases\" [level=1]",
+      "- link \"Ver todos\":",
+      "  - /url: https://anacouto.com.br/cases/",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/en/cases/talt/",
+      "  - generic: Cases",
+      "- link \"Cases\":",
+      "  - /url: https://anacouto.com.br/en/cases/asaas/",
+      "  - generic: Cases",
+      "- link \"FALAR COM UM ESPECIALISTA\":",
+      "- paragraph:",
+      "  - link \"E-mail\":",
+      "  - link \"Instagram\":",
+      "  - link \"Youtube\":",
+      "  - link \"Facebook\":",
+      "  - link \"LinkedIn\":",
+      "    - /url: https://www.linkedin.com/company/anacouto-ag",
+      "    - generic: LinkedIn",
+      "- paragraph:",
+      "  - link \"Privacy Policy\":",
+      "    - /url: http://anacouto.com.br//wp-content/uploads/2024/05/ac-laje-politica-privacidade.pdf",
+      "  - link \"Ethics and Compliance\":"
+    ],
+    "imgs": [
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2025/07/AC-300x40.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/menu.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setaup.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/setadown.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2021/05/image-1.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2021/05/image-2.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2021/05/image-3.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2021/05/image-4.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2021/05/image-5.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2021/05/image-6.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2021/05/image-7.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2021/05/image-8.png",
+        "alt": ""
+      },
+      {
+        "src": "https://anacouto.com.br/wp-content/uploads/2024/05/logo_anacouto.svg",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": "valometry-home",
+    "label": "Valometry",
+    "url": "https://valometry.com.br/",
+    "title": "Valometry",
+    "currentUrl": "https://valometry.com.br/",
+    "screenshot": "C:\\Users\\vini1\\OneDrive\\Documentos\\New project\\ana-couto-design-library\\screenshots\\valometry-home.png",
+    "lines": [
+      "- link \"Ir para o conteúdo\":",
+      "- link:",
+      "  - /url: https://valometry.com.br",
+      "- button \"Alternar menu\":",
+      "- heading \"A revolução dos dados na sua gestão de branding.\" [level=1]",
+      "- heading \"Com Valometry, mergulhe fundo nos dados de branding para desvendar os insights que podem transformar seu negócio.\" [level=2]",
+      "- heading \"A ferramenta de gestão contínua do branding que te ajuda a priorizar ações que impactam seus resultados.\" [level=2]",
+      "- paragraph: Feita para líderes de organizações e profissionais de marketing que desejam tomar decisões baseadas em dados para garantir os melhores retornos das suas iniciativas de marca, negócio e comunicação.",
+      "- link \"fale conosco\":",
+      "  - /url: https://valometry.com.br/fale-conosco/",
+      "- heading \"Por que o Valometry?\" [level=2]:",
+      "  - text: Valometry?",
+      "- paragraph:",
+      "  - text: Em um mercado cada vez mais competitivo, o poder de uma marca forte não pode ser subestimado. Valometry é a solução para líderes e profissionais de marketing que buscam não apenas entender, mas maximizar o potencial de suas estratégias de branding.",
+      "  - text: Nossa ferramenta oferece uma metodologia proprietária para a análise de branding, combinando dados, tecnologia e insights dos consumidores.",
+      "- paragraph: Evolua a gestão de valor da sua organização.",
+      "- link \"conheça mais\":",
+      "  - /url: https://valometry.com.br/fale-conosco/",
+      "- heading \"Com o Valometry você pode:\" [level=2]",
+      "  - generic: Mensurar o impacto real, com dados, da sua marca.",
+      "  - generic: Analisar dados de branding de uma maneira intuitiva.",
+      "  - generic: Otimizar sua estratégia de branding para melhores resultados.",
+      "- heading \"Nossos serviços\" [level=2]",
+      "  - generic: BVS (Branding Value Score) - descubra o poder do seu branding",
+      "  - generic: Disaster Check para lançamento de marcas, produtos e campanhas",
+      "- heading \"Nossos Clientes\" [level=2]",
+      "- generic: Conheça a experiência de quem já confia no Valometry",
+      "  - img \"mantiqueira\"",
+      "  - img \"estrela bet\"",
+      "  - img \"brastemp\"",
+      "  - img \"sem parar\"",
+      "  - img \"Havaianas\"",
+      "  - img \"Ultragaz\"",
+      "  - img \"mantiqueira\"",
+      "- button \"Slide anterior\":",
+      "- button \"Próximo slide\":",
+      "- link \"veja nossos cases de sucesso\":",
+      "  - /url: https://valometry.com.br/cases-de-sucesso/",
+      "  - generic: veja nossos cases de sucesso",
+      "- heading \"Como funciona?\" [level=2]:",
+      "- text: Entenda como o Valometry",
+      "- link \"quero testar na minha empresa\":",
+      "- heading \"Recursos em destaque\" [level=2]",
+      "- generic: Confira os recursos exclusivos do Valometry",
+      "    - tab \"Branding Value Score (BVS)\" [selected]:",
+      "      - text: Branding Value",
+      "    - tab \"Desempenho da sua empresa nas Ondas de Valor\":",
+      "      - text: Ondas de Valor",
+      "  - tabpanel \"Branding Value Score (BVS)\":",
+      "    - paragraph: Indicador exclusivo, que acompanha a força de seu branding e a compara com a categoria.",
+      "- heading \"Para quem é o Valometry?\" [level=2]:",
+      "  - text: Valometry?",
+      "- paragraph: Gestores de marketing",
+      "- paragraph: Um jeito fácil de entender o que precisa ser priorizado em marca, negócio e comunicação para ter melhores resultados.",
+      "- paragraph: Líderes de empresas (CEO, CMOs e CFOs)",
+      "- paragraph: Visão integrada para quem deseja medir e analisar o valor das estratégias de branding que estão utilizando .",
+      "- paragraph: Agências",
+      "- heading \"Conheça o Valometry e inicie a revolução dos dados na sua gestão de valor.\" [level=2]",
+      "- paragraph: Quer saber mais?",
+      "  - link \"Escolha seu país\":",
+      "  - button \"Escolha seu país\"",
+      "  - textbox \"Qual o seu principal desafio?*\":",
+      "    - /placeholder: Qual o seu principal desafio? *",
+      "  - button \"Enviar\"",
+      "  - paragraph: Estou ciente de que forneço meus dados pessoais aos canais de comunicação da Ana Couto, com a finalidade de buscar soluções inovadoras para minha empresa ou para mais informações sobre cursos e projetos oferecidos. Tais dados serão tratados nos termos da Política de Privacidade do Grupo Ana Couto e da Lei nº 13.709/2018 (“Lei Geral de Proteção de Dados”).",
+      "    - link \"home\":",
+      "      - /url: https://valometry.com.br/",
+      "    - link \"sobre o valometry\":",
+      "      - /url: https://valometry.com.br/sobre/",
+      "    - link \"recursos em destaque\":",
+      "      - /url: https://valometry.com.br/recursos/",
+      "    - link \"cases de sucesso\":",
+      "      - /url: https://valometry.com.br/cases-de-sucesso/",
+      "    - link \"entrar\":",
+      "      - /url: https://plataforma.valometry.app/",
+      "    - link \"fale conosco\":",
+      "      - /url: https://valometry.com.br/fale-conosco/",
+      "  - link \"E-mail\":",
+      "  - link \"Instagram\":",
+      "    - /url: https://www.instagram.com/valometry/",
+      "  - link \"LinkedIn\":",
+      "    - /url: https://www.linkedin.com/company/valometry/",
+      "    - generic: LinkedIn",
+      "  - link \"Política de Privacidade\":",
+      "    - /url: http://anacouto.com.br//wp-content/uploads/2024/05/ac-laje-politica-privacidade.pdf",
+      "  - link \"Ética e Compliance\":"
+    ],
+    "imgs": [
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/logo-valometry-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/ilustracao-01.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/ilustracao-02.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/ultragaz.png",
+        "alt": "Ultragaz"
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2025/04/logomantiqueira-_1_-e1744213542569.png",
+        "alt": "mantiqueira"
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2025/04/ESTRELA-e1744213334866.png",
+        "alt": "estrela bet"
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2025/04/brastemp-logo-e1744213280452.png",
+        "alt": "brastemp"
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2025/04/sem-parar-logo-png_seeklogo-369391-e1744213049399.png",
+        "alt": "sem parar"
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/havaianas.png",
+        "alt": "Havaianas"
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/ultragaz.png",
+        "alt": "Ultragaz"
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2025/04/logomantiqueira-_1_-e1744213542569.png",
+        "alt": "mantiqueira"
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2026/01/valometry-steps2-1024x678.png",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/icone-bvs.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/icone-desempenho-do-branding.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/icone-funil-de-conversao.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/icone-importancia-de-atributos.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/icone-gestores.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/icone-lideres.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/icone-agencias.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://dk9suync0k2va.cloudfront.net/js/rd/stable/flags/4x3/br.svg?t=1560538149",
+        "alt": null
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/logo-valometry-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://valometry.com.br/wp-content/uploads/2024/07/logo-anacouto.svg",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": "laje-branding-aplicado",
+    "label": "LAJE Branding Aplicado",
+    "url": "https://laje-ac.com.br/branding-aplicado-4-2/",
+    "title": "Curso Branding Aplicado - LAJE e Ana Couto",
+    "currentUrl": "https://laje-ac.com.br/branding-aplicado-4-2/",
+    "screenshot": "C:\\Users\\vini1\\OneDrive\\Documentos\\New project\\ana-couto-design-library\\screenshots\\laje-branding-aplicado.png",
+    "lines": [
+      "- link \"Ir para o conteúdo\":",
+      "- button \"Menu Toggle\":",
+      "- link \"Entrar\":",
+      "  - /url: https://laje-9f8ec0.circle.so/feed?utm_source=google&utm_medium=campanha&utm_campaign=venda+cmm&utm_term=anuncio&utm_content=2&gclid=CjwKCAjwtcHPBhADEiwAWo3sJuDKqw-z4A1zisjq5910mGnybz8yEHCUFoTk4LoD3ZgQv9SRXXlcrxoCE6YQAvD_BwE",
+      "- heading \"VAGAS LIMITADAS PARA ESSA TURMA\" [level=2]",
+      "- heading \"Torne-se um especialista de Branding em 8 semanas.\" [level=2]:",
+      "  - text: especialista de Branding em",
+      "- heading \"Em 8 semanas, você vai dominar a estratégia por trás de marcas como Havaianas, Ambev e Elo, e sair com um projeto real no portfólio.\" [level=2]",
+      "- link \"Quero ser especialista\":",
+      "- heading \"Um intensivo prático, com resultado.\" [level=2]",
+      "- heading \"O Branding Aplicado é um curso 100% prático que vai te mostrar como marcas relevantes são construídas, e te colocar na linha de frente desse processo. Você vai aplicar o método É, Faz e Fala, criado por Ana Couto, em um desafio real de branding para uma empresa. Nada de só assistir, você participa, resolve, entrega.\" [level=2]:",
+      "  - text: O Branding Aplicado é um curso 100% prático que vai te mostrar como marcas relevantes são construídas, e te colocar na linha de frente desse processo.",
+      "  - text: Você vai aplicar o método É, Faz e Fala, criado por Ana Couto, em um desafio real de branding para uma empresa. Nada de só assistir, você participa, resolve, entrega.",
+      "- paragraph: Aprenda com os líderes que criam marcas icônicas",
+      "- paragraph: Atue em grupo, como numa agência real",
+      "- paragraph: Resolva o desafio de branding de uma empresa de verdade",
+      "- paragraph:",
+      "  - text: Saia com um case completo",
+      "- heading \"Seja um profissional de branding completo\" [level=2]",
+      "- heading \"Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva • Frameworks Aplicáveis • Mentoria Exclusiva •\" [level=2]",
+      "- heading \"Quem vai estar com você nessa\" [level=2]",
+      "- heading \"Crie um portfólio proprietário com um case real, aplicando o método anacouto do início ao fim\" [level=2]",
+      "- heading \"Você vai colocar em prática tudo o que aprender. Junto com seu grupo, vai receber um desafio de branding real de uma empresa e criar a solução completa, da estratégia à comunicação. Com feedbacks ao longo do processo e apresentação final para o cliente. Esse projeto vira um case no seu portfólio. Um diferencial no seu currículo. E, em muitos casos, uma virada na sua carreira.\" [level=2]:",
+      "  - text: Você vai colocar em prática tudo o que aprender. Junto com seu grupo, vai receber um desafio de branding real de uma empresa e criar a solução completa, da estratégia à comunicação.",
+      "  - text: Esse projeto vira um case no seu portfólio. Um diferencial no seu currículo. E, em muitos casos, uma virada na sua carreira.",
+      "- heading \"Conteúdo do Curso\" [level=2]",
+      "- 'heading \"Módulo 1: Estratégia\" [level=2]'",
+      "- paragraph:",
+      "  - generic: Decodificador de valor da marca",
+      "  - text: (evolução, negócio e comunicação)",
+      "- paragraph",
+      "- paragraph:",
+      "  - generic: Plataforma de Branding da marca",
+      "  - text: (propósito, personalidade, proposta de valor e posicionamento)",
+      "- 'heading \"Módulo 2: Criação\" [level=2]'",
+      "- paragraph:",
+      "  - generic: Universo visual da marca",
+      "  - text: (diretrizes visuais, logotipo, identidade gráfica e aplicações)",
+      "- paragraph",
+      "- paragraph:",
+      "  - generic: Universo verbal da marca",
+      "  - text: (tom de voz, vocabulário, personalidade e onepage da marca)",
+      "- 'heading \"Módulo 3: Experiência\" [level=2]'",
+      "- paragraph:",
+      "- paragraph",
+      "- paragraph:",
+      "  - text: (pontos de encantamento e construção de experiência de marca)",
+      "- heading \"Programação completa\" [level=2]:",
+      "  - link \"Escolha seu país\":",
+      "  - button \"Escolha seu país\"",
+      "    - option \"TELECOMUNICAÇÕES\"",
+      "  - checkbox \"Eu concordo em receber comunicações.\"",
+      "  - text: Eu concordo em receber comunicações.",
+      "  - paragraph: A nossa empresa está comprometida a proteger e respeitar sua privacidade, seus dados são usados apenas para fins de marketing.",
+      "  - button \"Baixar Material\"",
+      "  - paragraph: Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.",
+      "- heading \"É FAZ &FALA\" [level=2]:",
+      "  - text: A Marca É",
+      "  - text: Definimos a proposta de valor e a jornada e experiência para fidelizar seus clientes.",
+      "  - text: A Comunicação Fala",
+      "  - text: Definimos como você FALA. Comunicamos os diferenciais da sua marca para engajar e conquistar o público.",
+      "- heading \"Cases feitos pelos alunos\" [level=2]",
+      "      - img \"Sem título-3-04\"",
+      "- heading \"Somos suspeitos para falar... mas nossos assinantes não\" [level=2]:",
+      "- heading \"Veja como nossa assinatura acelerou carreiras de criativos, estrategistas e empreendedores de todo o Brasil.\" [level=2]:",
+      "  - text: estrategistas e empreendedores de todo o Brasil.",
+      "- heading \"A LAJE é uma plataforma de educação em branding.\" [level=2]",
+      "- paragraph:",
+      "  - generic: Nossa missão é impulsionar o valor de pessoas e organizações — conectando aprendizado, comunidade e mercado.",
+      "- link \"Entre no Ecossistema LAJE\":",
+      "  - generic: Entre no Ecossistema LAJE",
+      "- heading \"Perguntas Frequentes\" [level=2]",
+      "- generic \"Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys\":",
+      "  - region \"O curso é 100% online? Sim! O Branding Aplicado acontece totalmente online, com uma combinação de aulas gravadas e encontros ao vivo pelo Zoom. Assim, você aprende no seu ritmo e também troca com especialistas e colegas em tempo real.\":",
+      "    - heading \"Sim! O Branding Aplicado acontece totalmente online, com uma combinação de aulas gravadas e encontros ao vivo pelo Zoom. Assim, você aprende no seu ritmo e também troca com especialistas e colegas em tempo real.\" [level=2]",
+      "  - generic \"Preciso ter experiência prévia com branding?\":",
+      "    - generic: Preciso ter experiência prévia com branding?",
+      "- heading \"Cursos\" [level=2]",
+      "- heading \"Assinatura Chief Branding Officer Branding Aplicado\" [level=2]:",
+      "  - text: Chief Branding Officer",
+      "  - text: Branding Aplicado",
+      "- heading \"Suporte\" [level=2]",
+      "- heading \"Perguntas Frequentes Política de privacidade Termos de Uso\" [level=2]:",
+      "- heading \"Conecte-se\" [level=2]",
+      "  - link \"Instagram\":",
+      "    - /url: https://www.instagram.com/laje.ac/?utm_source=google&utm_medium=campanha&utm_campaign=venda+cmm&utm_term=anuncio&utm_content=2&gclid=CjwKCAjwtcHPBhADEiwAWo3sJuDKqw-z4A1zisjq5910mGnybz8yEHCUFoTk4LoD3ZgQv9SRXXlcrxoCE6YQAvD_BwE",
+      "  - link \"Ti-linkedin\":",
+      "    - /url: https://www.linkedin.com/school/lajeac/posts/?feedView=all&utm_source=google&utm_medium=campanha&utm_campaign=venda+cmm&utm_term=anuncio&utm_content=2&gclid=CjwKCAjwtcHPBhADEiwAWo3sJuDKqw-z4A1zisjq5910mGnybz8yEHCUFoTk4LoD3ZgQv9SRXXlcrxoCE6YQAvD_BwE",
+      "    - generic: Ti-linkedin",
+      "  - link \"Ri-mail-line\":",
+      "    - /url: mailto:%20sac@laje-ac.com.br",
+      "- heading \"vendas@laje-ac.com.br\" [level=2]:",
+      "  - link \"vendas@laje-ac.com.br\":",
+      "    - /url: mailto:%20vendas@laje-ac.com.br",
+      "- heading \"sac@laje-ac.com.br\" [level=2]:",
+      "  - link \"sac@laje-ac.com.br\":",
+      "    - /url: mailto:%20sac@laje-ac.com.br",
+      "- link \"Whatsapp\":",
+      "  - /url: https://wa.me/5511911376265?text=Ol%C3%A1%2C+quero+saber+mais+sobre+a+Laje&utm_source=google&utm_medium=campanha&utm_campaign=venda+cmm&utm_term=anuncio&utm_content=2&gclid=CjwKCAjwtcHPBhADEiwAWo3sJuDKqw-z4A1zisjq5910mGnybz8yEHCUFoTk4LoD3ZgQv9SRXXlcrxoCE6YQAvD_BwE",
+      "- heading \"© 2026 Laje. Todos os direitos reservados.\" [level=2]",
+      "- heading \"Ana Couto AC Company\" [level=2]"
+    ],
+    "imgs": [
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/06/Logo-Laje-30.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/06/Logo-Laje-30.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Group2.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Laje-4-1024x175.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Group2.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Fundo-BA-6-1-1024x1015.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Laje-4-1024x175.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/BE-1024x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Laje-card2.png",
+        "alt": ""
+      },
+      {
+        "src": "https://dk9suync0k2va.cloudfront.net/js/rd/stable/flags/4x3/br.svg?t=1560538149",
+        "alt": null
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Sem-titulo-3-05.png",
+        "alt": "Sem título-3-05"
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Sem-titulo-3_Prancheta-1.png",
+        "alt": "Sem título-3_Prancheta 1"
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Sem-titulo-3-02.png",
+        "alt": "Sem título-3-02"
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Sem-titulo-3-03.png",
+        "alt": "Sem título-3-03"
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Sem-titulo-3-04.png",
+        "alt": "Sem título-3-04"
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Sem-titulo-3-05.png",
+        "alt": "Sem título-3-05"
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Sem-titulo-3_Prancheta-1.png",
+        "alt": "Sem título-3_Prancheta 1"
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2-02-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2_Prancheta-1-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2-03-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2-04-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2-05-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2-02-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2_Prancheta-1-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2-03-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2-04-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Depoimentos2-05-626x1024.png",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/DSC00137-scaled.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://laje-ac.com.br/wp-content/uploads/2025/07/Logo2.png",
+        "alt": ""
+      }
+    ]
+  }
+]
