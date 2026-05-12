@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="900" viewBox="0 0 2400 900" role="img" aria-labelledby="title desc">
+  <title id="title">A Última Ideia Wordmark</title>
+  <desc id="desc">Wordmark for A Última Ideia using a condensed editorial sans style, off-white lettering, and a small red rupture mark.</desc>
+  <rect width="2400" height="900" fill="#090909"/>
+  <g transform="translate(170 342)">
+    <text
+      x="0"
+      y="0"
+      fill="#F7F3EA"
+      font-family="'Arial Narrow', 'Arial', sans-serif"
+      font-size="214"
+      font-weight="700"
+      letter-spacing="-3"
+      dominant-baseline="text-before-edge">A ÚLTIMA</text>
+    <text
+      x="0"
+      y="206"
+      fill="#F7F3EA"
+      font-family="'Arial Narrow', 'Arial', sans-serif"
+      font-size="214"
+      font-weight="700"
+      letter-spacing="-3"
+      dominant-baseline="text-before-edge">IDEIA</text>
+    <rect x="648" y="405" width="286" height="18" fill="#D71920"/>
+  </g>
+</svg>
